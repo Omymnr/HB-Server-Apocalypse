@@ -90,6 +90,9 @@
     <ClInclude Include="Renderer\DX11Renderer.h" />
     <ClInclude Include="Renderer\SpriteBatcher.h" />
     <ClInclude Include="Renderer\TextureManager.h" />
+    <ClInclude Include="Renderer\RectanglePacker.h" />
+    <ClInclude Include="Renderer\TextureAtlas.h" />
+    <ClInclude Include="Renderer\TextureAtlasManager.h" />
     <ClInclude Include="GameMonitor.h" />
     <ClInclude Include="GlobalDef.h" />
     <ClInclude Include="Item.h" />
@@ -127,6 +130,9 @@
     <ClCompile Include="Renderer\DX11Renderer.cpp" />
     <ClCompile Include="Renderer\SpriteBatcher.cpp" />
     <ClCompile Include="Renderer\TextureManager.cpp" />
+    <ClCompile Include="Renderer\RectanglePacker.cpp" />
+    <ClCompile Include="Renderer\TextureAtlas.cpp" />
+    <ClCompile Include="Renderer\TextureAtlasManager.cpp" />
     <ClCompile Include="GameMonitor.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="ItemName.cpp" />

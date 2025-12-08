@@ -9,6 +9,9 @@ d:\HB-Server-Apocalypse\Client\Game.cpp;d:\HB-Server-Apocalypse\Client\Release\G
 d:\HB-Server-Apocalypse\Client\Renderer\DX11Renderer.cpp;d:\HB-Server-Apocalypse\Client\Release\DX11Renderer.obj
 d:\HB-Server-Apocalypse\Client\Renderer\SpriteBatcher.cpp;d:\HB-Server-Apocalypse\Client\Release\SpriteBatcher.obj
 d:\HB-Server-Apocalypse\Client\Renderer\TextureManager.cpp;d:\HB-Server-Apocalypse\Client\Release\TextureManager.obj
+d:\HB-Server-Apocalypse\Client\Renderer\RectanglePacker.cpp;d:\HB-Server-Apocalypse\Client\Release\RectanglePacker.obj
+d:\HB-Server-Apocalypse\Client\Renderer\TextureAtlas.cpp;d:\HB-Server-Apocalypse\Client\Release\TextureAtlas.obj
+d:\HB-Server-Apocalypse\Client\Renderer\TextureAtlasManager.cpp;d:\HB-Server-Apocalypse\Client\Release\TextureAtlasManager.obj
 d:\HB-Server-Apocalypse\Client\GameMonitor.cpp;d:\HB-Server-Apocalypse\Client\Release\GameMonitor.obj
 d:\HB-Server-Apocalypse\Client\Item.cpp;d:\HB-Server-Apocalypse\Client\Release\Item.obj
 d:\HB-Server-Apocalypse\Client\ItemName.cpp;d:\HB-Server-Apocalypse\Client\Release\ItemName.obj
