@@ -7932,10 +7932,19 @@ void CGame::PutString_SprFont(int iX, int iY, char * pStr, short sR, short sG, s
 	iXpos = iX;
 	for (iCnt = 0; iCnt < strlen(cTmpStr); iCnt++) {
 		if ((cTmpStr[iCnt] >= 33) && (cTmpStr[iCnt] <= 122)) {
-			m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos+1, iY, cTmpStr[iCnt] - 33, sR+11, sG+7, sB+6, dwTime);
+			// Triple black shadow for maximum contrast
+			m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos+1, iY,   cTmpStr[iCnt] - 33, 0, 0, 0, dwTime);
+			m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos,   iY+1, cTmpStr[iCnt] - 33, 0, 0, 0, dwTime);
+			m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos+1, iY+1, cTmpStr[iCnt] - 33, 0, 0, 0, dwTime);
 			if ((sR == 0) && (sG == 0) && (sB == 0))
 				 m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteFast(iXpos, iY, cTmpStr[iCnt] - 33, dwTime);
-			else m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos, iY, cTmpStr[iCnt] - 33, sR, sG, sB, dwTime);
+			else {
+				bool isWhiteText = (sR + sG + sB > 600);
+				if (isWhiteText)
+					m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos, iY, cTmpStr[iCnt] - 33, 255, 255, 255, dwTime);
+				else
+					m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos, iY, cTmpStr[iCnt] - 33, sR, sG, sB, dwTime);
+			}
 			 iXpos += __cSpace[cTmpStr[iCnt] - 33];
 		}
 		else iXpos += 5;
@@ -7961,7 +7970,13 @@ void CGame::PutString_SprFont2(int iX, int iY, char * pStr, short sR, short sG, 
 			m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteFast(iXpos+1, iY+1, cTmpStr[iCnt] - 33, dwTime);
 			if ((sR == 0) && (sG == 0) && (sB == 0))
 				 m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteFast(iXpos, iY, cTmpStr[iCnt] - 33, dwTime);
-			else m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos, iY, cTmpStr[iCnt] - 33, iR, iG, iB, dwTime);
+			else {
+				bool isWhiteText = (iR + iG + iB > 600);
+				if (isWhiteText)
+					m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos, iY, cTmpStr[iCnt] - 33, 255, 255, 255, dwTime);
+				else
+					m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos, iY, cTmpStr[iCnt] - 33, iR, iG, iB, dwTime);
+			}
 			 iXpos += __cSpace[cTmpStr[iCnt] - 33];
 		}
 		else iXpos += 5;
