@@ -140,8 +140,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam,
     return DefWindowProc(hWnd, message, wParam, lParam);
 
   case WM_SETCURSOR:
-    SetCursor(0);
-    return true;
+    // Hardware cursor enabled - let Windows manage the cursor
+    // This allows cursor to update at monitor refresh rate (144Hz+)
+    // instead of being tied to game framerate
+    return DefWindowProc(hWnd, message, wParam, lParam);
 
   case WM_DESTROY:
     OnDestroy();

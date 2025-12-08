@@ -93,6 +93,9 @@
     <ClInclude Include="Renderer\RectanglePacker.h" />
     <ClInclude Include="Renderer\TextureAtlas.h" />
     <ClInclude Include="Renderer\TextureAtlasManager.h" />
+    <ClInclude Include="Renderer\AtlasHelper.h" />
+    <ClInclude Include="HardwareCursor.h" />
+    <ClInclude Include="GameCursorIntegration.h" />
     <ClInclude Include="GameMonitor.h" />
     <ClInclude Include="GlobalDef.h" />
     <ClInclude Include="Item.h" />
@@ -133,6 +136,9 @@
     <ClCompile Include="Renderer\RectanglePacker.cpp" />
     <ClCompile Include="Renderer\TextureAtlas.cpp" />
     <ClCompile Include="Renderer\TextureAtlasManager.cpp" />
+    <ClCompile Include="Renderer\AtlasHelper.cpp" />
+    <ClCompile Include="HardwareCursor.cpp" />
+    <ClCompile Include="GameCursorIntegration.cpp" />
     <ClCompile Include="GameMonitor.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="ItemName.cpp" />

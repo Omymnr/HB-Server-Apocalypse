@@ -4,6 +4,8 @@
 
 
 #include "Game.h"
+#include "GameCursorIntegration.h"
+#include "GameCursorMacro.h"
 
 #include <fstream>
 void LogDebug(const char* fmt, ...) {
@@ -569,7 +571,10 @@ CGame::CGame()
 }
 
 CGame::~CGame()
-{}
+{
+	// Cleanup hardware cursor system
+	CleanupGameHardwareCursor();
+}
 
 bool CGame::bInit(HWND hWnd, HINSTANCE hInst, char * pCmdLine)
 {int iIndex;

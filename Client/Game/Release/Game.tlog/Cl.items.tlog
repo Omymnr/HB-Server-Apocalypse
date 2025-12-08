@@ -12,6 +12,9 @@ d:\HB-Server-Apocalypse\Client\Renderer\TextureManager.cpp;d:\HB-Server-Apocalyp
 d:\HB-Server-Apocalypse\Client\Renderer\RectanglePacker.cpp;d:\HB-Server-Apocalypse\Client\Release\RectanglePacker.obj
 d:\HB-Server-Apocalypse\Client\Renderer\TextureAtlas.cpp;d:\HB-Server-Apocalypse\Client\Release\TextureAtlas.obj
 d:\HB-Server-Apocalypse\Client\Renderer\TextureAtlasManager.cpp;d:\HB-Server-Apocalypse\Client\Release\TextureAtlasManager.obj
+d:\HB-Server-Apocalypse\Client\Renderer\AtlasHelper.cpp;d:\HB-Server-Apocalypse\Client\Release\AtlasHelper.obj
+d:\HB-Server-Apocalypse\Client\HardwareCursor.cpp;d:\HB-Server-Apocalypse\Client\Release\HardwareCursor.obj
+d:\HB-Server-Apocalypse\Client\GameCursorIntegration.cpp;d:\HB-Server-Apocalypse\Client\Release\GameCursorIntegration.obj
 d:\HB-Server-Apocalypse\Client\GameMonitor.cpp;d:\HB-Server-Apocalypse\Client\Release\GameMonitor.obj
 d:\HB-Server-Apocalypse\Client\Item.cpp;d:\HB-Server-Apocalypse\Client\Release\Item.obj
 d:\HB-Server-Apocalypse\Client\ItemName.cpp;d:\HB-Server-Apocalypse\Client\Release\ItemName.obj
