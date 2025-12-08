@@ -1,0 +1,2 @@
+C:\Users\suare\Desktop\Server Limpio\Client\CxImage\Release\CxImage.lib
+C:\Users\suare\Desktop\Server Limpio - copia\Client\CxImage\Release\CxImage.lib

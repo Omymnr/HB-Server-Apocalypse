@@ -1,0 +1,2 @@
+﻿  DXC_ddraw.cpp
+LINK : fatal error LNK1181: no se puede abrir el archivo de entrada 'jpeg\release\Jpeg.lib'

@@ -1,0 +1,2 @@
+C:\Users\suare\Desktop\Server Limpio\Client\jpeg\Release\jpeg.lib
+C:\Users\suare\Desktop\Server Limpio - copia\Client\jpeg\Release\jpeg.lib

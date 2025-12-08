@@ -1,0 +1,13 @@
+﻿  Jdatasrc.c
+  Jdcoefct.c
+  Jidctint.c
+  Jidctred.c
+  Jmemmgr.c
+  Jmemnobs.c
+C:\Users\suare\Desktop\Server Limpio - copia\Client\jpeg\Jmemmgr.c(1106,19): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\suare\Desktop\Server Limpio - copia\Client\jpeg\Jmemmgr.c(1109,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Jquant1.c
+  Jquant2.c
+  Jutils.c
+  Generando código...
+  jpeg.vcxproj -> C:\Users\suare\Desktop\Server Limpio - copia\Client\jpeg\Release\jpeg.lib
