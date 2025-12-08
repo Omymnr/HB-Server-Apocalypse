@@ -86,7 +86,10 @@
     <ClInclude Include="DXC_dsound.h" />
     <ClInclude Include="DynamicObjectID.h" />
     <ClInclude Include="Effect.h" />
-    <ClInclude Include="Game.h" />
+        <ClInclude Include="Game.h" />
+    <ClInclude Include="Renderer\DX11Renderer.h" />
+    <ClInclude Include="Renderer\SpriteBatcher.h" />
+    <ClInclude Include="Renderer\TextureManager.h" />
     <ClInclude Include="GameMonitor.h" />
     <ClInclude Include="GlobalDef.h" />
     <ClInclude Include="Item.h" />
@@ -120,7 +123,10 @@
     <ClCompile Include="DXC_dinput.cpp" />
     <ClCompile Include="DXC_dsound.cpp" />
     <ClCompile Include="Effect.cpp" />
-    <ClCompile Include="Game.cpp" />
+        <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Renderer\DX11Renderer.cpp" />
+    <ClCompile Include="Renderer\SpriteBatcher.cpp" />
+    <ClCompile Include="Renderer\TextureManager.cpp" />
     <ClCompile Include="GameMonitor.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="ItemName.cpp" />

@@ -1,38 +1,41 @@
-c:\users\suare\desktop\server limpio - copia\client\release\vc143.pdb
-c:\users\suare\desktop\server limpio - copia\client\release\soundbuffer.obj
-c:\users\suare\desktop\server limpio - copia\client\release\skill.obj
-c:\users\suare\desktop\server limpio - copia\client\release\mydib.obj
-c:\users\suare\desktop\server limpio - copia\client\release\msg.obj
-c:\users\suare\desktop\server limpio - copia\client\release\mouseinterface.obj
-c:\users\suare\desktop\server limpio - copia\client\release\mobcounter.obj
-c:\users\suare\desktop\server limpio - copia\client\release\misc.obj
-c:\users\suare\desktop\server limpio - copia\client\release\mapdata.obj
-c:\users\suare\desktop\server limpio - copia\client\release\magic.obj
-c:\users\suare\desktop\server limpio - copia\client\release\itemname.obj
-c:\users\suare\desktop\server limpio - copia\client\release\item.obj
-c:\users\suare\desktop\server limpio - copia\client\release\gamemonitor.obj
-c:\users\suare\desktop\server limpio - copia\client\release\game.obj
-c:\users\suare\desktop\server limpio - copia\client\release\effect.obj
-c:\users\suare\desktop\server limpio - copia\client\release\dxc_dsound.obj
-c:\users\suare\desktop\server limpio - copia\client\release\dxc_dinput.obj
-c:\users\suare\desktop\server limpio - copia\client\release\dxc_ddraw.obj
-c:\users\suare\desktop\server limpio - copia\client\release\curse.obj
-c:\users\suare\desktop\server limpio - copia\client\release\charinfo.obj
-c:\users\suare\desktop\server limpio - copia\client\release\builditem.obj
-c:\users\suare\desktop\server limpio - copia\client\release\ywsound.obj
-c:\users\suare\desktop\server limpio - copia\client\release\xsocket.obj
-c:\users\suare\desktop\server limpio - copia\client\release\wmain.obj
-c:\users\suare\desktop\server limpio - copia\client\release\tilespr.obj
-c:\users\suare\desktop\server limpio - copia\client\release\tile.obj
-c:\users\suare\desktop\server limpio - copia\client\release\strtok.obj
-c:\users\suare\desktop\server limpio - copia\client\release\sprite.obj
-c:\users\suare\desktop\server limpio - copia\client\game\release\resource.res
-c:\users\suare\desktop\server limpio - copia\client\game\release\game.tlog\cl.command.1.tlog
-c:\users\suare\desktop\server limpio - copia\client\game\release\game.tlog\cl.read.1.tlog
-c:\users\suare\desktop\server limpio - copia\client\game\release\game.tlog\cl.write.1.tlog
-c:\users\suare\desktop\server limpio - copia\client\game\release\game.tlog\link.command.1.tlog
-c:\users\suare\desktop\server limpio - copia\client\game\release\game.tlog\link.read.1.tlog
-c:\users\suare\desktop\server limpio - copia\client\game\release\game.tlog\link.write.1.tlog
-c:\users\suare\desktop\server limpio - copia\client\game\release\game.tlog\rc.command.1.tlog
-c:\users\suare\desktop\server limpio - copia\client\game\release\game.tlog\rc.read.1.tlog
-c:\users\suare\desktop\server limpio - copia\client\game\release\game.tlog\rc.write.1.tlog
+d:\hb-server-apocalypse\client\release\vc143.pdb
+d:\hb-server-apocalypse\client\release\msg.obj
+d:\hb-server-apocalypse\client\release\mouseinterface.obj
+d:\hb-server-apocalypse\client\release\mobcounter.obj
+d:\hb-server-apocalypse\client\release\misc.obj
+d:\hb-server-apocalypse\client\release\mapdata.obj
+d:\hb-server-apocalypse\client\release\magic.obj
+d:\hb-server-apocalypse\client\release\itemname.obj
+d:\hb-server-apocalypse\client\release\item.obj
+d:\hb-server-apocalypse\client\release\gamemonitor.obj
+d:\hb-server-apocalypse\client\release\texturemanager.obj
+d:\hb-server-apocalypse\client\release\spritebatcher.obj
+d:\hb-server-apocalypse\client\release\dx11renderer.obj
+d:\hb-server-apocalypse\client\release\game.obj
+d:\hb-server-apocalypse\client\release\effect.obj
+d:\hb-server-apocalypse\client\release\dxc_dsound.obj
+d:\hb-server-apocalypse\client\release\dxc_dinput.obj
+d:\hb-server-apocalypse\client\release\dxc_ddraw.obj
+d:\hb-server-apocalypse\client\release\curse.obj
+d:\hb-server-apocalypse\client\release\charinfo.obj
+d:\hb-server-apocalypse\client\release\builditem.obj
+d:\hb-server-apocalypse\client\release\ywsound.obj
+d:\hb-server-apocalypse\client\release\xsocket.obj
+d:\hb-server-apocalypse\client\release\wmain.obj
+d:\hb-server-apocalypse\client\release\tilespr.obj
+d:\hb-server-apocalypse\client\release\tile.obj
+d:\hb-server-apocalypse\client\release\strtok.obj
+d:\hb-server-apocalypse\client\release\sprite.obj
+d:\hb-server-apocalypse\client\release\soundbuffer.obj
+d:\hb-server-apocalypse\client\release\skill.obj
+d:\hb-server-apocalypse\client\release\mydib.obj
+d:\hb-server-apocalypse\client\game\release\resource.res
+d:\hb-server-apocalypse\client\game\release\game.tlog\cl.command.1.tlog
+d:\hb-server-apocalypse\client\game\release\game.tlog\cl.read.1.tlog
+d:\hb-server-apocalypse\client\game\release\game.tlog\cl.write.1.tlog
+d:\hb-server-apocalypse\client\game\release\game.tlog\link.command.1.tlog
+d:\hb-server-apocalypse\client\game\release\game.tlog\link.read.1.tlog
+d:\hb-server-apocalypse\client\game\release\game.tlog\link.write.1.tlog
+d:\hb-server-apocalypse\client\game\release\game.tlog\rc.command.1.tlog
+d:\hb-server-apocalypse\client\game\release\game.tlog\rc.read.1.tlog
+d:\hb-server-apocalypse\client\game\release\game.tlog\rc.write.1.tlog

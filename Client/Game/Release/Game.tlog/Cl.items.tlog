@@ -1,27 +1,30 @@
-C:\Users\suare\Desktop\Server Limpio - copia\Client\BuildItem.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\BuildItem.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\CharInfo.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\CharInfo.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Curse.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Curse.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\DXC_ddraw.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\DXC_ddraw.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\DXC_dinput.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\DXC_dinput.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\DXC_dsound.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\DXC_dsound.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Effect.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Effect.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Game.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Game.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\GameMonitor.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\GameMonitor.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Item.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Item.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\ItemName.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\ItemName.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Magic.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Magic.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\MapData.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\MapData.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Misc.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Misc.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\MobCounter.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\MobCounter.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\MouseInterface.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\MouseInterface.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Msg.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Msg.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Mydib.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Mydib.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Skill.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Skill.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\SoundBuffer.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\SoundBuffer.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Sprite.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Sprite.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\StrTok.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\StrTok.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Tile.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Tile.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\TileSpr.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\TileSpr.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\Wmain.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\Wmain.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\XSocket.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\XSocket.obj
-C:\Users\suare\Desktop\Server Limpio - copia\Client\YWSound.cpp;C:\Users\suare\Desktop\Server Limpio - copia\Client\Release\YWSound.obj
+d:\HB-Server-Apocalypse\Client\BuildItem.cpp;d:\HB-Server-Apocalypse\Client\Release\BuildItem.obj
+d:\HB-Server-Apocalypse\Client\CharInfo.cpp;d:\HB-Server-Apocalypse\Client\Release\CharInfo.obj
+d:\HB-Server-Apocalypse\Client\Curse.cpp;d:\HB-Server-Apocalypse\Client\Release\Curse.obj
+d:\HB-Server-Apocalypse\Client\DXC_ddraw.cpp;d:\HB-Server-Apocalypse\Client\Release\DXC_ddraw.obj
+d:\HB-Server-Apocalypse\Client\DXC_dinput.cpp;d:\HB-Server-Apocalypse\Client\Release\DXC_dinput.obj
+d:\HB-Server-Apocalypse\Client\DXC_dsound.cpp;d:\HB-Server-Apocalypse\Client\Release\DXC_dsound.obj
+d:\HB-Server-Apocalypse\Client\Effect.cpp;d:\HB-Server-Apocalypse\Client\Release\Effect.obj
+d:\HB-Server-Apocalypse\Client\Game.cpp;d:\HB-Server-Apocalypse\Client\Release\Game.obj
+d:\HB-Server-Apocalypse\Client\Renderer\DX11Renderer.cpp;d:\HB-Server-Apocalypse\Client\Release\DX11Renderer.obj
+d:\HB-Server-Apocalypse\Client\Renderer\SpriteBatcher.cpp;d:\HB-Server-Apocalypse\Client\Release\SpriteBatcher.obj
+d:\HB-Server-Apocalypse\Client\Renderer\TextureManager.cpp;d:\HB-Server-Apocalypse\Client\Release\TextureManager.obj
+d:\HB-Server-Apocalypse\Client\GameMonitor.cpp;d:\HB-Server-Apocalypse\Client\Release\GameMonitor.obj
+d:\HB-Server-Apocalypse\Client\Item.cpp;d:\HB-Server-Apocalypse\Client\Release\Item.obj
+d:\HB-Server-Apocalypse\Client\ItemName.cpp;d:\HB-Server-Apocalypse\Client\Release\ItemName.obj
+d:\HB-Server-Apocalypse\Client\Magic.cpp;d:\HB-Server-Apocalypse\Client\Release\Magic.obj
+d:\HB-Server-Apocalypse\Client\MapData.cpp;d:\HB-Server-Apocalypse\Client\Release\MapData.obj
+d:\HB-Server-Apocalypse\Client\Misc.cpp;d:\HB-Server-Apocalypse\Client\Release\Misc.obj
+d:\HB-Server-Apocalypse\Client\MobCounter.cpp;d:\HB-Server-Apocalypse\Client\Release\MobCounter.obj
+d:\HB-Server-Apocalypse\Client\MouseInterface.cpp;d:\HB-Server-Apocalypse\Client\Release\MouseInterface.obj
+d:\HB-Server-Apocalypse\Client\Msg.cpp;d:\HB-Server-Apocalypse\Client\Release\Msg.obj
+d:\HB-Server-Apocalypse\Client\Mydib.cpp;d:\HB-Server-Apocalypse\Client\Release\Mydib.obj
+d:\HB-Server-Apocalypse\Client\Skill.cpp;d:\HB-Server-Apocalypse\Client\Release\Skill.obj
+d:\HB-Server-Apocalypse\Client\SoundBuffer.cpp;d:\HB-Server-Apocalypse\Client\Release\SoundBuffer.obj
+d:\HB-Server-Apocalypse\Client\Sprite.cpp;d:\HB-Server-Apocalypse\Client\Release\Sprite.obj
+d:\HB-Server-Apocalypse\Client\StrTok.cpp;d:\HB-Server-Apocalypse\Client\Release\StrTok.obj
+d:\HB-Server-Apocalypse\Client\Tile.cpp;d:\HB-Server-Apocalypse\Client\Release\Tile.obj
+d:\HB-Server-Apocalypse\Client\TileSpr.cpp;d:\HB-Server-Apocalypse\Client\Release\TileSpr.obj
+d:\HB-Server-Apocalypse\Client\Wmain.cpp;d:\HB-Server-Apocalypse\Client\Release\Wmain.obj
+d:\HB-Server-Apocalypse\Client\XSocket.cpp;d:\HB-Server-Apocalypse\Client\Release\XSocket.obj
+d:\HB-Server-Apocalypse\Client\YWSound.cpp;d:\HB-Server-Apocalypse\Client\Release\YWSound.obj

@@ -1,42 +1,55 @@
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jpeg.pdb
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdatasrc.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdatadst.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdapistd.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdapimin.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jctrans.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcsample.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcprepct.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcphuff.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcparam.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcomapi.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcmaster.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcmarker.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcmainct.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcinit.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jchuff.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcdctmgr.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jccolor.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jccoefct.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcapistd.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jcapimin.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jidctint.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jidctfst.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jidctflt.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jfdctint.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jfdctfst.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jfdctflt.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jerror.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdtrans.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdsample.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdpostct.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdphuff.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdmerge.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdmaster.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdmarker.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdmainct.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdinput.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jdhuff.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jddctmgr.obj
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jpeg.tlog\cl.command.1.tlog
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jpeg.tlog\cl.read.1.tlog
-c:\users\suare\desktop\server limpio - copia\client\jpeg\release\jpeg.tlog\cl.write.1.tlog
+d:\hb-server-apocalypse\client\jpeg\release\jpeg.pdb
+d:\hb-server-apocalypse\client\jpeg\release\jdatasrc.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdatadst.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdapistd.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdapimin.obj
+d:\hb-server-apocalypse\client\jpeg\release\jctrans.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcsample.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcprepct.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcphuff.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcparam.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcomapi.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcmaster.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcmarker.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcmainct.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcinit.obj
+d:\hb-server-apocalypse\client\jpeg\release\jchuff.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcdctmgr.obj
+d:\hb-server-apocalypse\client\jpeg\release\jccolor.obj
+d:\hb-server-apocalypse\client\jpeg\release\jccoefct.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcapistd.obj
+d:\hb-server-apocalypse\client\jpeg\release\jcapimin.obj
+d:\hb-server-apocalypse\client\jpeg\release\jidctint.obj
+d:\hb-server-apocalypse\client\jpeg\release\jidctfst.obj
+d:\hb-server-apocalypse\client\jpeg\release\jidctflt.obj
+d:\hb-server-apocalypse\client\jpeg\release\jfdctint.obj
+d:\hb-server-apocalypse\client\jpeg\release\jfdctfst.obj
+d:\hb-server-apocalypse\client\jpeg\release\jfdctflt.obj
+d:\hb-server-apocalypse\client\jpeg\release\jerror.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdtrans.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdsample.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdpostct.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdphuff.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdmerge.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdmaster.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdmarker.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdmainct.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdinput.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdhuff.obj
+d:\hb-server-apocalypse\client\jpeg\release\jddctmgr.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdcolor.obj
+d:\hb-server-apocalypse\client\jpeg\release\jdcoefct.obj
+d:\hb-server-apocalypse\client\jpeg\release\jutils.obj
+d:\hb-server-apocalypse\client\jpeg\release\jquant2.obj
+d:\hb-server-apocalypse\client\jpeg\release\jquant1.obj
+d:\hb-server-apocalypse\client\jpeg\release\jmemnobs.obj
+d:\hb-server-apocalypse\client\jpeg\release\jmemmgr.obj
+d:\hb-server-apocalypse\client\jpeg\release\jidctred.obj
+d:\hb-server-apocalypse\client\jpeg\release\jpeg.lib
+d:\hb-server-apocalypse\client\jpeg\release\jpeg.tlog\cl.command.1.tlog
+d:\hb-server-apocalypse\client\jpeg\release\jpeg.tlog\cl.items.tlog
+d:\hb-server-apocalypse\client\jpeg\release\jpeg.tlog\cl.read.1.tlog
+d:\hb-server-apocalypse\client\jpeg\release\jpeg.tlog\cl.write.1.tlog
+d:\hb-server-apocalypse\client\jpeg\release\jpeg.tlog\lib-link.write.1.tlog
+d:\hb-server-apocalypse\client\jpeg\release\jpeg.tlog\lib.command.1.tlog
+d:\hb-server-apocalypse\client\jpeg\release\jpeg.tlog\lib.read.1.tlog

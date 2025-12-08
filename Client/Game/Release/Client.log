@@ -1,2 +1,158 @@
-﻿  DXC_ddraw.cpp
-LINK : fatal error LNK1181: no se puede abrir el archivo de entrada 'jpeg\release\Jpeg.lib'
+﻿  BuildItem.cpp
+  CharInfo.cpp
+  Curse.cpp
+  DXC_ddraw.cpp
+  DXC_dinput.cpp
+  DXC_dsound.cpp
+  Effect.cpp
+  Game.cpp
+D:\HB-Server-Apocalypse\Client\Game.cpp(647,2): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(648,10): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(649,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(649,39): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(650,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(651,5): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(651,43): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(1591,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(1622,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(1855,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(2563,30): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(2565,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(3246,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(3246,17): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(3354,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(3354,19): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(3354,36): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(3355,5): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(3357,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(3358,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(3358,25): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(3359,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(3360,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(4141,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(4141,17): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(4416,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(4417,31): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(4437,38): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(4543,36): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(7531,39): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(14277,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14277,17): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14286,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14286,19): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14286,36): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14287,5): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14289,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14290,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14290,25): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14291,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14292,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(14565,54): warning C4805: '!=': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(16387,31): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(16421,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(17417,67): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(17547,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(17555,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(17563,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(17571,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(17581,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(17589,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(19561,103): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(19564,48): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(19788,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(19788,17): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(20232,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(20232,19): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(20232,36): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(20233,5): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(20235,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(20236,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(20236,25): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(20237,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(20238,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(20251,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(20257,58): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(20824,36): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(21058,56): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(21064,56): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(23425,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23425,17): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23457,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23457,17): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23480,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23480,19): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23480,36): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23481,5): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23483,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23484,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23484,25): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23485,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23486,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23523,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23523,17): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23542,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23542,19): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23542,36): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23543,5): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23545,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23546,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23546,25): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23547,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23548,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23570,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23570,17): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23582,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23582,19): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23582,36): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23583,5): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23585,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23586,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23586,25): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23587,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23588,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23610,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(23610,17): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24181,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24181,19): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24181,36): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24182,5): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24184,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24185,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24185,25): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24186,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24187,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24357,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24357,19): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24357,36): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24358,5): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24360,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24361,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24361,25): error C2065: 'm_TextureManager': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24362,5): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24363,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24463,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24463,17): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24791,5): error C2065: 'm_Renderer': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24791,19): error C2065: 'm_SpriteBatch': identificador no declarado
+D:\HB-Server-Apocalypse\Client\Game.cpp(24791,19): error C1003: el recuento de errores supera 100; se detiene la compilación
+  GameMonitor.cpp
+  Item.cpp
+  ItemName.cpp
+  Magic.cpp
+  MapData.cpp
+  Misc.cpp
+  MobCounter.cpp
+  MouseInterface.cpp
+  Msg.cpp
+  Mydib.cpp
+  Skill.cpp
+  SoundBuffer.cpp
+  Compilando...
+  Sprite.cpp
+  StrTok.cpp
+  Tile.cpp
+  TileSpr.cpp
+  Wmain.cpp
+D:\HB-Server-Apocalypse\Client\Wmain.cpp(202,23): warning C4477: 'sprintf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'HINSTANCE'
+  XSocket.cpp
+  YWSound.cpp

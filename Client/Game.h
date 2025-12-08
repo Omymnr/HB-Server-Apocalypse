@@ -31,6 +31,9 @@ using namespace std;
 
 #include "GlobalDef.h"
 #include "DXC_ddraw.h"
+#include "Renderer/DX11Renderer.h"
+#include "Renderer/SpriteBatcher.h"
+#include "Renderer/TextureManager.h"
 #include "DXC_dinput.h"
 #include "YWSound.h"
 #include "SoundBuffer.h"
@@ -830,6 +833,9 @@ public:
 	class CSoundBuffer *	m_pESound[DEF_MAXSOUNDEFFECTS];
 	class CSoundBuffer *    m_pBGM;
 	class DXC_ddraw  m_DDraw;
+    DX11Renderer* m_Renderer;
+    SpriteBatcher* m_SpriteBatch;
+    TextureManager* m_TextureManager;
 	class DXC_dinput m_DInput;
 	class CMisc      m_Misc;
 	class CSprite  * m_pSprite[DEF_MAXSPRITES];
