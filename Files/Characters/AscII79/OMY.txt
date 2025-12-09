@@ -1,6 +1,6 @@
 [FILE-DATE]
 
-file-saved-date: 2025 12 8 15 5
+file-saved-date: 2025 12 9 16 19
 
 [NAME-ACCOUNT]
 
@@ -15,22 +15,22 @@ character-guild-name = NONE
 character-guild-GUID = -1
 character-guild-rank = -1
 character-loc-map = arefarm
-character-loc-x   = 125
-character-loc-y   = 184
+character-loc-x   = 123
+character-loc-y   = 205
 
-character-HP       = 179
-character-MP       = 105
-character-SP       = 238
-character-LEVEL    = 40
+character-HP       = 182
+character-MP       = 107
+character-SP       = 240
+character-LEVEL    = 41
 character-RATING   = 0
 character-STR      = 80
 character-INT      = 10
 character-VIT      = 20
-character-DEX      = 57
+character-DEX      = 60
 character-MAG      = 10
 character-CHARISMA = 10
 character-LUCK     = 10
-character-EXP      = 91992
+character-EXP      = 101303
 character-LU_Pool  = 3
 character-EK-Count = 0
 character-PK-Count = 0
@@ -60,7 +60,7 @@ character-contribution = 0
 character-war-contribution = 0
 character-quest-completed = 0
 special-event-id = 0
-super-attack-left = 4
+super-attack-left = 2
 reserved-fightzone-id = 0 0 0
 special-ability-time = 0
 locked-map-name = NONE
@@ -68,7 +68,7 @@ locked-map-time = 0
 crusade-job = 0
 crusade-GUID = 0
 construct-point = 0
-dead-penalty-time = 1124199643
+dead-penalty-time = 1124198764
 party-id = 0
 gizon-item-upgade-left = 0
 
@@ -81,7 +81,7 @@ appr-color = 1610612736
 
 [ITEMLIST]
 
-character-item = Gold                 2104 0 0 0 0 0 0 0 0 0 0
+character-item = Gold                 2279 0 0 0 0 0 0 0 0 0 0
 character-item = ShortSword           1 2 4614 31368 12 7 0 0 0 406 3538944
 character-item = TargeShield          1 2 5939 24077 12 0 0 0 0 500 8532736
 character-item = LightAxe             1 2 14854 15350 12 7 0 0 0 500 3211264
@@ -92,7 +92,7 @@ character-item = BigGreenPotion       1 0 0 0 0 0 0 0 0 1 0
 character-item = BigGreenPotion       1 0 0 0 0 0 0 0 0 1 0
 character-item = Dagger               1 2 14815 14679 12 7 0 0 0 300 3473408
 character-item = ShortSword           1 2 18285 25643 12 4 0 0 0 412 2368256
-character-item = Sabre                1 2 2338 14604 12 6 0 0 0 658 7405568
+character-item = Sabre                1 2 2338 14604 12 6 0 0 0 641 7405568
 character-item = RecallScroll         1 0 0 0 0 0 0 0 0 1 0
 character-item = RecallScroll         1 0 0 0 0 0 0 0 0 1 0
 character-item = RecallScroll         1 0 0 0 0 0 0 0 0 1 0
@@ -118,8 +118,8 @@ character-item = Gradius              1 2 20928 18549 12 5 0 0 0 500 1376256
 
 //------------------012345678901234567890123456789012345678901234567890
 magic-mastery     = 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-skill-mastery     = 0 0 0 0 20 0 0 20 27 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-skill-SSN     = 503349250 -1660779774 -838326528 1107349000 -1039547895 1913275136 1140881674 -166923364 26 -2013134592 251658496 -1509307384 -1475762423 -1425430007 -1324765431 -1173769207 -1106658039 -150159095 50395148 603980800 503325696 16801280 50369024 1476404224 16813056 2080374784 16777472 33573890 1325533184 20226 -1476220926 -1241120512 33601030 -871838712 -1542913280 67158281 -1307921910 -1274404352 587248650 -133368052 16786432 1442971904 117441024 1929532930 2013396992 503349250 -1660779774 -838326528 1107349000 -1039547895 1913275136 1140881674 -166923508 16796672 -2013134592 251658496 -1509307384 -1475762423 -1425430007 -1324765431 
+skill-mastery     = 0 0 0 0 20 0 0 20 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+skill-SSN     = 503349250 -1660779774 -838326528 1107349000 -1039547895 1913275136 1140881674 -166923364 19 -2013134592 251658496 -1509307384 -1475762423 -1425430007 -1324765431 -1173769207 -1106658039 -150159095 50395148 603980800 503325696 16801280 50369024 1476404224 16813056 2080374784 16777472 33573890 1325533184 20226 -1476220926 -1241120512 33601030 -871838712 -1542913280 67158281 -1307921910 -1274404352 587248650 -133368052 16786432 1442971904 117441024 1929532930 2013396992 503349250 -1660779774 -838326528 1107349000 -1039547895 1913275136 1140881674 -166923508 16796672 -2013134592 251658496 -1509307384 -1475762423 -1425430007 -1324765431 
 [ITEM-EQUIP-STATUS]
 
 item-equip-status = 00100000000100000000000000000000000000000000000000

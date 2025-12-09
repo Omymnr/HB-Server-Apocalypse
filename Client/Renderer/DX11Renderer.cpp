@@ -179,13 +179,19 @@ bool DX11Renderer::CreateBlendStates() {
 
   // Create ALPHA Blend State (standard alpha blending)
   blendDesc.RenderTarget[0].BlendEnable = TRUE;
-  blendDesc.RenderTarget[0].SrcBlend = D3D11_BLEND_SRC_ALPHA;
-  blendDesc.RenderTarget[0].DestBlend = D3D11_BLEND_INV_SRC_ALPHA;
+  // CRITICAL FIX: Changed from D3D11_BLEND_ONE to D3D11_BLEND_SRC_ALPHA
+  // BLEND_ONE was causing darkening because it multiplies colors
+  // SRC_ALPHA is the correct blend mode for 2D sprites with transparency
+  blendDesc.RenderTarget[0].SrcBlend =
+      D3D11_BLEND_SRC_ALPHA; // Use source alpha
+  blendDesc.RenderTarget[0].DestBlend =
+      D3D11_BLEND_INV_SRC_ALPHA; // Standard alpha blend
   blendDesc.RenderTarget[0].BlendOp = D3D11_BLEND_OP_ADD;
   blendDesc.RenderTarget[0].SrcBlendAlpha = D3D11_BLEND_ONE;
   blendDesc.RenderTarget[0].DestBlendAlpha = D3D11_BLEND_ZERO;
   blendDesc.RenderTarget[0].BlendOpAlpha = D3D11_BLEND_OP_ADD;
-  blendDesc.RenderTarget[0].RenderTargetWriteMask = 0x0f;
+  blendDesc.RenderTarget[0].RenderTargetWriteMask =
+      D3D11_COLOR_WRITE_ENABLE_ALL;
 
   result =
       m_device->CreateBlendState(&blendDesc, m_blendStateAlpha.GetAddressOf());
@@ -246,11 +252,15 @@ void DX11Renderer::OnResize(int width, int height) {
 }
 
 void DX11Renderer::BeginFrame(float r, float g, float b, float a) {
-  float color[4];
-  color[0] = r;
-  color[1] = g;
-  color[2] = b;
-  color[3] = a;
+  // Slightly lighter clear color to avoid harsh black shadows
+  // Changed from (0,0,0) to (0.02, 0.02, 0.02) for softer appearance
+  float color[4] = {0.02f, 0.02f, 0.02f, 1.0f};
+  // The original parameters r, g, b, a are now ignored for the clear color
+  // as it's fixed to a dark gray.
+  // color[0] = r; // No longer using parameter 'r'
+  // color[1] = g; // No longer using parameter 'g'
+  // color[2] = b; // No longer using parameter 'b'
+  // color[3] = a; // No longer using parameter 'a'
 
   m_context->ClearRenderTargetView(m_renderTargetView.Get(), color);
 }

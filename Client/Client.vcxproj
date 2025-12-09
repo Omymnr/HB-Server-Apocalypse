@@ -96,6 +96,8 @@
     <ClInclude Include="Renderer\AtlasHelper.h" />
     <ClInclude Include="HardwareCursor.h" />
     <ClInclude Include="GameCursorIntegration.h" />
+    <ClInclude Include="ResolutionConfig.h" />
+    <ClInclude Include="UIAnchors.h" />
     <ClInclude Include="GameMonitor.h" />
     <ClInclude Include="GlobalDef.h" />
     <ClInclude Include="Item.h" />
@@ -139,6 +141,7 @@
     <ClCompile Include="Renderer\AtlasHelper.cpp" />
     <ClCompile Include="HardwareCursor.cpp" />
     <ClCompile Include="GameCursorIntegration.cpp" />
+    <ClCompile Include="ResolutionConfig.cpp" />
     <ClCompile Include="GameMonitor.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="ItemName.cpp" />

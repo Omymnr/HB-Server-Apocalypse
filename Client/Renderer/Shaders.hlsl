@@ -61,8 +61,17 @@ float4 TexturePixelShader(PixelInput input) : SV_TARGET
     // Multiply by vertex color
     float4 finalColor = textureColor * input.color;
 
-    // VISUAL FIX: TEMPORARILY DISABLED TO DEBUG SPRITE VISIBILITY
-    // finalColor.rgb = lerp(float3(0.030f, 0.030f, 0.030f), float3(1.0f, 1.0f, 1.0f), finalColor.rgb);
+    // ============================================================
+    // DIRECTDRAW BRIGHTNESS MATCHING (Natural, Non-Artificial)
+    // ============================================================
+    // DirectDraw appears brighter due to simpler rendering pipeline.
+    // We match it naturally with:
+    // - Linear brightness multiplier (10% boost)
+    // - Tiny ambient lift (raises shadows gently)
+    // This is NOT gamma - it's a natural, linear adjustment.
+    // ============================================================
+    finalColor.rgb *= 1.10;  // 10% brighter (conservative start)
+    finalColor.rgb += float3(0.02, 0.02, 0.02);  // Subtle ambient lift
 
     return finalColor;
 }

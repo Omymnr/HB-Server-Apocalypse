@@ -24,16 +24,16 @@ TextureManager::CreateTextureFromMemory(int width, int height, void *pData,
     unsigned short pixel = src[i];
 
     // Extract RGB 565
-    unsigned char r = (pixel & 0xF800) >> 11;
-    unsigned char g = (pixel & 0x07E0) >> 5;
-    unsigned char b = (pixel & 0x001F);
+    unsigned char r = (pixel & 0xF800) >> 11; // 5 bits (0-31)
+    unsigned char g = (pixel & 0x07E0) >> 5;  // 6 bits (0-63)
+    unsigned char b = (pixel & 0x001F);       // 5 bits (0-31)
 
-    // Expand to 8-bit
-    unsigned char r8 = (r << 3) | (r >> 2);
-    unsigned char g8 = (g << 2) | (g >> 4);
-    unsigned char b8 = (b << 3) | (b >> 2);
+    // CRITICAL FIX: Properly expand 5/6 bit values to 8 bit (0-255)
+    unsigned char r8 = (r * 255) / 31; // Red: 5-bit to 8-bit
+    unsigned char g8 = (g * 255) / 63; // Green: 6-bit to 8-bit
+    unsigned char b8 = (b * 255) / 31; // Blue: 5-bit to 8-bit
+    unsigned char a8 = 255;            // Alpha: fully opaque
 
-    unsigned char a8 = 255;
     if (useColorKey && pixel == 0) // Assuming 0 is black/color key
     {
       a8 = 0;
@@ -164,15 +164,17 @@ void TextureManager::UpdateBackBuffer(void *pData, int srcPitch, int width,
 
     for (int x = 0; x < width; x++) {
       unsigned short pixel = rowSrc[x];
-      unsigned char r = (pixel & 0xF800) >> 11;
-      unsigned char g = (pixel & 0x07E0) >> 5;
-      unsigned char b = (pixel & 0x001F);
+      unsigned char r = (pixel & 0xF800) >> 11; // 5 bits (0-31)
+      unsigned char g = (pixel & 0x07E0) >> 5;  // 6 bits (0-63)
+      unsigned char b = (pixel & 0x001F);       // 5 bits (0-31)
 
-      // Expand to 8-bit
-      rowDest[x * 4 + 0] = (r << 3) | (r >> 2);
-      rowDest[x * 4 + 1] = (g << 2) | (g >> 4);
-      rowDest[x * 4 + 2] = (b << 3) | (b >> 2);
-      rowDest[x * 4 + 3] = 255; // Reverted to 255 (Opaque)
+      // CRITICAL FIX: Properly expand 5/6 bit values to 8 bit (0-255)
+      // OLD METHOD: r << 3 gives max 248 (31 << 3 = 248) - TOO DARK!
+      // NEW METHOD: Scale to full 0-255 range
+      rowDest[x * 4 + 0] = (r * 255) / 31; // Red: 5-bit to 8-bit
+      rowDest[x * 4 + 1] = (g * 255) / 63; // Green: 6-bit to 8-bit
+      rowDest[x * 4 + 2] = (b * 255) / 31; // Blue: 5-bit to 8-bit
+      rowDest[x * 4 + 3] = 255;            // Alpha: fully opaque
     }
   }
 

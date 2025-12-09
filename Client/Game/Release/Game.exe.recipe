@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>d:\HB-Server-Apocalypse\Client\Release\Game.exe</FullPath>
+      <FullPath>D:\HB-Server-Apocalypse\Client\Release\Game.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

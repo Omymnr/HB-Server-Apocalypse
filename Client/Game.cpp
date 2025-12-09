@@ -713,7 +713,7 @@ bool CGame::bInit(HWND hWnd, HINSTANCE hInst, char * pCmdLine)
 	m_cPlayerTurn = 0;
 // Snoopy: fixed here
 	m_cDialogBoxOrder[60] = 29;
-	m_cDialogBoxOrder[59] = 30; // 29¹ø GaugePannel
+	m_cDialogBoxOrder[59] = 30; // 29ï¿½ï¿½ GaugePannel
 
 	m_cMenuDir    = 4;
 	m_cMenuDirCnt = 0;
@@ -3539,7 +3539,7 @@ void CGame::UpdateScreen_OnLoading(bool bActive)
 		break;
 	case 4:
 		{	MakeTileSpr( "maptiles1", 0, 32, true);
-			m_hPakFile = CreateFile("sprites\\structures1.pak", GENERIC_READ, 0, 0, OPEN_EXISTING, 0, 0); //¾È¾²´Â Å¸ÀÏ ·Îµù ¾ÈÇÑ´Ù.2002.09.06»óÇÏ
+			m_hPakFile = CreateFile("sprites\\structures1.pak", GENERIC_READ, 0, 0, OPEN_EXISTING, 0, 0); //ï¿½È¾ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ ï¿½Îµï¿½ ï¿½ï¿½ï¿½Ñ´ï¿½.2002.09.06ï¿½ï¿½ï¿½ï¿½
 			if( m_hPakFile != INVALID_HANDLE_VALUE ) {
 				m_pTileSpr[1 + 50] = new class CSprite(m_hPakFile, &m_DDraw, "structures1",  1, true);
 				m_pTileSpr[5 + 50] = new class CSprite(m_hPakFile, &m_DDraw, "structures1",  5, true);
@@ -3697,8 +3697,8 @@ void CGame::UpdateScreen_OnLoading(bool bActive)
 			MakeSprite( "Ant",		  DEF_SPRID_MOB   + 7*8*6, 40, true);//  Giant-Ant (Type: 16)
 			MakeSprite( "Scp",		  DEF_SPRID_MOB   + 7*8*7, 40, true);//  Scorpion (Type: 17)
 			MakeSprite( "Zom",		  DEF_SPRID_MOB   + 7*8*8, 40, true);//  Zombie (Type: 18)
-			MakeSprite( "Gandlf",	  DEF_SPRID_MOB   + 7*8*9,  8, true);// Gandalf ¸ (Type: 19)
-			MakeSprite( "Howard",	  DEF_SPRID_MOB   + 7*8*10, 8, true);// Howard º¸°ü¼Ò ÁÖÀÎ (Type: 20)
+			MakeSprite( "Gandlf",	  DEF_SPRID_MOB   + 7*8*9,  8, true);// Gandalf ï¿½ (Type: 19)
+			MakeSprite( "Howard",	  DEF_SPRID_MOB   + 7*8*10, 8, true);// Howard ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (Type: 20)
 			MakeSprite( "Guard",	  DEF_SPRID_MOB   + 7*8*11, 40, true);// Guard (Type: 21)
 			MakeSprite( "Amp",		  DEF_SPRID_MOB   + 7*8*12, 40, true);// Amphis (Type: 22)
 			MakeSprite( "Cla",		  DEF_SPRID_MOB   + 7*8*13, 40, true);// Clay-Golem (Type: 23)
@@ -4124,7 +4124,7 @@ void CGame::UpdateScreen_OnLoading(bool bActive)
 			MakeEffectSpr( "effect4", 19, 5, false);
 			m_hPakFile = CreateFile("sprites\\effect5.pak", GENERIC_READ, 0, 0, OPEN_EXISTING, 0, 0);
 			if( m_hPakFile != INVALID_HANDLE_VALUE )
-			{	for (i = 0; i <= 6; i++) // Because effectn°0 is EnergySphere
+			{	for (i = 0; i <= 6; i++) // Because effectnï¿½0 is EnergySphere
 					m_pEffectSpr[i+ 24] = new class CSprite(m_hPakFile, &m_DDraw, "effect5", i+1, false);
 				CloseHandle(m_hPakFile);
 			}
@@ -4375,7 +4375,7 @@ bool CGame::_bCheckDlgBoxClick(short msX, short msY)
 			case 40:
 				DlgBoxClick_Slates(msX, msY);
 				break;
-// Snoopy: Boite de dialogue de confirmation d'échange
+// Snoopy: Boite de dialogue de confirmation d'ï¿½change
 			case 41:
 				DlgBoxClick_ConfirmExchange(msX, msY);
 				break;
@@ -5041,7 +5041,7 @@ void CGame::InitGameSettings()
 
 void CGame::_GetHairColorRGB(int iColorType, int * pR, int * pG, int * pB)
 {	switch (iColorType) {
-	case 0: // rouge foncé
+	case 0: // rouge foncï¿½
 		*pR = 14; *pG = -5; *pB = -5; break;
 	case 1: // Orange
 		*pR = 20; *pG = 0; *pB = 0; break;
@@ -5051,7 +5051,7 @@ void CGame::_GetHairColorRGB(int iColorType, int * pR, int * pG, int * pB)
 		*pR = 0; *pG = 10; *pB = 0; break;
 	case 4: // Bleu flashy
 		*pR = 0; *pG = 0; *pB = 22; break;
-	case 5: // Bleu foncé
+	case 5: // Bleu foncï¿½
 		*pR = -5; *pG = -5; *pB = 15; break;
 	case 6: //Mauve
 		*pR = 15; *pG = -5; *pB = 16; break;
@@ -5152,7 +5152,7 @@ void CGame::DlgBoxClick_GuildMenu(short msX, short msY)
 
 	case 9:
 		if ((msX >= sX + 30) && (msX <= sX + 30 + DEF_BTNSZX) && (msY >= sY + DEF_BTNPOSY) && (msY <= sY + DEF_BTNPOSY + DEF_BTNSZY))
-		{	// Purchase¹
+		{	// Purchaseï¿½
 			ZeroMemory(cTemp, sizeof(cTemp));
 			strcpy(cTemp,"GuildAdmissionTicket");
 			bSendCommand(MSGID_COMMAND_COMMON, DEF_COMMONTYPE_REQ_PURCHASEITEM, 0, 1, 0, 0, cTemp);
@@ -5306,10 +5306,10 @@ void CGame::InitPlayerCharacteristics(char * pData)
 	m_iSP = *ip;
 	cp += 4;
 	ip   = (int *)cp;
-	m_iAC = *ip;		//â m_iDefenseRatio
+	m_iAC = *ip;		//ï¿½ m_iDefenseRatio
 	cp += 4;
 	ip   = (int *)cp;
-	m_iTHAC0 = *ip;    //» m_iHitRatio
+	m_iTHAC0 = *ip;    //ï¿½ m_iHitRatio
 	cp += 4;
 	ip   = (int *)cp;
 	m_iLevel = *ip;
@@ -5739,7 +5739,7 @@ void CGame::bAddNewEffect(short sType, int sX, int sY, int dX, int dY, char cSta
 			m_pEffectList[i]->m_dwFrameTime = 10;
 			break;
 
-		case 2:	// Flêche qui vole
+		case 2:	// Flï¿½che qui vole
 			m_pEffectList[i]->m_mX     = sX*32;
 			m_pEffectList[i]->m_mY     = sY*32 - _iAttackerHeight[iV1];
 			m_pEffectList[i]->m_iErr   = 0;
@@ -6322,7 +6322,7 @@ void CGame::bAddNewEffect(short sType, int sX, int sY, int dX, int dY, char cSta
 			m_pEffectList[i]->m_dwFrameTime = 40;
 			break;
 
-		case 80: // Snoopy: rajoué, implémenté en dernier ds la v351
+		case 80: // Snoopy: rajouï¿½, implï¿½mentï¿½ en dernier ds la v351
 			m_pEffectList[i]->m_mX     = sX;
 			m_pEffectList[i]->m_mY     = sY;
 			m_pEffectList[i]->m_iV1    = 20;
@@ -6639,7 +6639,7 @@ void CGame::bAddNewEffect(short sType, int sX, int sY, int dX, int dY, char cSta
 			PlaySound('E', 1, sDist, lPan);
 			break;
 
-		case 244: // Snoopy: déplacé pour nvx sorts: Aura du casteur de Mass MagicMissile
+		case 244: // Snoopy: dï¿½placï¿½ pour nvx sorts: Aura du casteur de Mass MagicMissile
 		//case 184: // effet sur le caster pour MassMM
 			m_pEffectList[i]->m_cMaxFrame   = 29;
 			m_pEffectList[i]->m_dwFrameTime = 80;
@@ -7227,7 +7227,7 @@ void CGame::DrawEffects()
 			if (cTempFrame < 0) break;
 			dX  = (m_pEffectList[i]->m_mX)  - m_sViewPointX;
 			dY  = (m_pEffectList[i]->m_mY)  - m_sViewPointY;
-			m_pEffectSpr[91]->PutSpriteFast(dX, dY, cTempFrame, dwTime); //Nbe d'arguments modifiés ds la 351....
+			m_pEffectSpr[91]->PutSpriteFast(dX, dY, cTempFrame, dwTime); //Nbe d'arguments modifiï¿½s ds la 351....
 			m_pEffectSpr[92]->PutTransSprite(dX, dY, cTempFrame, dwTime);
 			break;
 
@@ -7466,7 +7466,7 @@ void CGame::DrawEffects()
 			else m_pEffectSpr[94]->PutTransSpriteRGB(dX, dY + 40, m_pEffectList[i]->m_cFrame, iDvalue, iDvalue, iDvalue, dwTime);
 			break;
 
-		case 244: // Snoopy: déplacé pour nvx sorts: Aura du casteur de Mass MagicMissile
+		case 244: // Snoopy: dï¿½placï¿½ pour nvx sorts: Aura du casteur de Mass MagicMissile
 		//case 184: // Aura du casteur de Mass MagicMissile
 			cTempFrame = m_pEffectList[i]->m_cFrame;
 			if (cTempFrame < 0) break;
@@ -7953,12 +7953,12 @@ void CGame::PutString_SprFont(int iX, int iY, char * pStr, short sR, short sG, s
 
 void CGame::PutString_SprFont2(int iX, int iY, char * pStr, short sR, short sG, short sB)
 {
- int iXpos, iR, iG, iB;
+ int iXpos;
  DWORD iCnt;
  DWORD dwTime = G_dwGlobalTime;
  char  cTmpStr[200];
 
-	m_DDraw.ColorTransferRGB(RGB(sR, sG, sB), &iR, &iG, &iB);
+	// REMOVED ColorTransferRGB - was degrading text colors
 
 	ZeroMemory(cTmpStr, sizeof(cTmpStr));
 	strcpy(cTmpStr, pStr);
@@ -7971,11 +7971,11 @@ void CGame::PutString_SprFont2(int iX, int iY, char * pStr, short sR, short sG, 
 			if ((sR == 0) && (sG == 0) && (sB == 0))
 				 m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteFast(iXpos, iY, cTmpStr[iCnt] - 33, dwTime);
 			else {
-				bool isWhiteText = (iR + iG + iB > 600);
+				bool isWhiteText = (sR + sG + sB > 600);
 				if (isWhiteText)
 					m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos, iY, cTmpStr[iCnt] - 33, 255, 255, 255, dwTime);
 				else
-					m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos, iY, cTmpStr[iCnt] - 33, iR, iG, iB, dwTime);
+					m_pSprite[DEF_SPRID_INTERFACE_FONT1]->PutSpriteRGB(iXpos, iY, cTmpStr[iCnt] - 33, sR, sG, sB, dwTime);
 			}
 			 iXpos += __cSpace[cTmpStr[iCnt] - 33];
 		}
@@ -15595,7 +15595,7 @@ bool CGame::bEffectFrameCounter()
 			case 195:
 			case 242: // Mage hero effect
 			case 243: // War hero effect
-			case 244: // Snoopy: déplacé pour nvx sorts: Aura du casteur de Mass MagicMissile
+			case 244: // Snoopy: dï¿½placï¿½ pour nvx sorts: Aura du casteur de Mass MagicMissile
 				if (m_pEffectList[i]->m_cFrame > m_pEffectList[i]->m_cMaxFrame)
 				{	delete m_pEffectList[i];
 					m_pEffectList[i] = 0;
@@ -17026,7 +17026,7 @@ void CGame::EnableDialogBox(int iBoxID, int cType, int sV1, int sV2, char * pStr
 		}
 		break;
 
-	case 17: // demande quantité
+	case 17: // demande quantitï¿½
 		if (m_bIsDialogEnabled[17] == false)
 		{	m_stDialogBoxInfo[iBoxID].cMode = 1;
 			m_stDialogBoxInfo[17].sView	= cType;
@@ -18284,7 +18284,12 @@ void CGame::DrawNewDialogBox(char cType, int sX, int sY, int iFrame, bool bIsNoC
 	if (m_pSprite[cType] == 0) return;
 	if (bIsNoColorKey == false)
 	{	if (bIsTrans == true)
-			 m_pSprite[cType]->PutTransSprite2(sX, sY, iFrame, dwTime);
+		{
+			if (cType == DEF_SPRID_INTERFACE_ND_LOADING)
+				m_pSprite[cType]->PutTransSpriteRGB(sX, sY, iFrame, 65535, 65535, 65535, dwTime);
+			else
+				m_pSprite[cType]->PutTransSprite2(sX, sY, iFrame, dwTime);
+		}
 		else m_pSprite[cType]->PutSpriteFast(sX, sY, iFrame, dwTime);
 	}
 	else m_pSprite[cType]->PutSpriteFastNoColorKey(sX, sY, iFrame, dwTime);
@@ -19331,7 +19336,7 @@ void CGame::DlgBoxClick_SellList(short msX, short msY)
 
 			PlaySound('E', 14, 5);
 
-			// ÀçÁ¤·Ä
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			for (x = 0; x < DEF_MAXSELLLIST-1; x++)
 			if (m_stSellItemList[x].iIndex == -1) {
 				m_stSellItemList[x].iIndex  = m_stSellItemList[x+1].iIndex;
@@ -19899,7 +19904,7 @@ void CGame::DrawChatMsgBox(short sX, short sY, int iChatIndex, bool bIsPreDC)
 		break;
 	case 20:
 		rgb = RGB(255,255,20);
-		// ¸Þ½ÃÁö Ç¥½Ã¿¡ µô·¹ÀÌ°¡ °É¸°´Ù.
+		// ï¿½Þ½ï¿½ï¿½ï¿½ Ç¥ï¿½Ã¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ì°ï¿½ ï¿½É¸ï¿½ï¿½ï¿½.
 		if ((m_dwCurTime - dwTime) < 650) return;
 		else dwTime += 650;
 		break;
@@ -20683,7 +20688,7 @@ void CGame::DlgBoxClick_CityhallMenu(short msX, short msY)
 		break;
 
 	case 3:	//
-	case 4:	// OK°
+	case 4:	// OKï¿½
 		if ((msX >= sX + DEF_RBTNPOSX) && (msX <= sX + DEF_RBTNPOSX + DEF_BTNSZX) && (msY > sY + DEF_BTNPOSY) && (msY < sY + DEF_BTNPOSY + DEF_BTNSZY)) {
 			// No Click
 			m_stDialogBoxInfo[13].cMode = 0;
@@ -20992,7 +20997,7 @@ void CGame::DlgBoxClick_MagicShop(short msX, short msY)
 			if ((msX >= sX + iAdjX + 44) && (msX <= sX + iAdjX + 135 + 44) && (msY >= sY + iAdjY + 70 + iYloc +35) && (msY <= sY + iAdjY + 70 + 14 + iYloc +35)) {
 				if (m_cMagicMastery[iCPivot + i] == 0)
 				{	bSendCommand(MSGID_COMMAND_COMMON, DEF_COMMONTYPE_REQ_STUDYMAGIC, 0, 0, 0, 0, m_pMagicCfgList[iCPivot + i]->m_cName);
-					//bSendCommand(MSGID_COMMAND_COMMON, DEF_COMMONTYPE_REQ_STUDYMAGIC, 0, iCPivot + i, 0, 0, 0); //2002.02.07 »óÇÏ º¯°æ ¹è¿ì°í½ÍÀº ¸ÅÁ÷³×ÀÓ¿¡¼­ ¸¶¹ý¹øÈ£·Î º¯°æ..
+					//bSendCommand(MSGID_COMMAND_COMMON, DEF_COMMONTYPE_REQ_STUDYMAGIC, 0, iCPivot + i, 0, 0, 0); //2002.02.07 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½..
 					PlaySound('E', 14, 5);
 				}
 				return;
@@ -21196,7 +21201,7 @@ void CGame::DlgBoxClick_15AgeMsg(short msX, short msY)
 }
 
 
-void CGame::DlgBoxClick_WarningMsg(short msX, short msY)// Á¤Áø±¤.
+void CGame::DlgBoxClick_WarningMsg(short msX, short msY)// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 {	short sX, sY;
 	sX = m_stDialogBoxInfo[6].sX;
 	sY = m_stDialogBoxInfo[6].sY;
@@ -21987,7 +21992,7 @@ void CGame::bItemDrop_ExchangeDialog(short msX, short msY)
 		ZeroMemory(m_stDialogBoxInfo[17].cStr, sizeof(m_stDialogBoxInfo[17].cStr));
 		EnableDialogBox(17, cItemID, m_pItemList[cItemID]->m_dwCount, 0);
 		return;
-	}else // hum? déjà on affiche? , bon je désactive, ca devrait plutôt s'afficher lors du retour du serveur.
+	}else // hum? dï¿½jï¿½ on affiche? , bon je dï¿½sactive, ca devrait plutï¿½t s'afficher lors du retour du serveur.
 	{	/*m_stDialogBoxInfo[27].sV1 = m_pItemList[cItemID]->m_sSprite;
 		m_stDialogBoxInfo[27].sV2 = m_pItemList[cItemID]->m_sSpriteFrame;
 		m_stDialogBoxInfo[27].sV3 = 1;
@@ -22017,8 +22022,8 @@ void CGame::DlgBoxClick_Exchange(short msX, short msY)
 		if ((msX >= sX + 220) && (msX <= sX + 220 + DEF_BTNSZX) && (msY >= sY + 310) && (msY <= sY + 310 + DEF_BTNSZY)) // Exchange
 		{	if ( (m_stDialogBoxExchangeInfo[0].sV1 != -1) && (m_stDialogBoxExchangeInfo[4].sV1 != -1))
 			{	/*bSendCommand(MSGID_COMMAND_COMMON, DEF_COMMONTYPE_CONFIRMEXCHANGEITEM, 0
-					, m_stDialogBoxExchangeInfo[0].sV1 // ItemID; inutilisé par serveur
-					, m_stDialogBoxExchangeInfo[0].sV3 // Amount; inutilisé par serveur
+					, m_stDialogBoxExchangeInfo[0].sV1 // ItemID; inutilisï¿½ par serveur
+					, m_stDialogBoxExchangeInfo[0].sV3 // Amount; inutilisï¿½ par serveur
 					, 0, 0);	*/
 				PlaySound('E', 14, 5);
 				m_stDialogBoxInfo[27].cMode = 2;
@@ -22064,8 +22069,8 @@ void CGame::DlgBoxClick_ConfirmExchange(short msX, short msY)
 		if ((msX >= sX + 30) && (msX <= sX + 30 + DEF_BTNSZX) && (msY >= sY + 55) && (msY <= sY + 55 + DEF_BTNSZY))
 		{	if ( (m_stDialogBoxExchangeInfo[0].sV1 != -1) && (m_stDialogBoxExchangeInfo[4].sV1 != -1))
 			{	bSendCommand(MSGID_COMMAND_COMMON, DEF_COMMONTYPE_CONFIRMEXCHANGEITEM, 0
-					, m_stDialogBoxExchangeInfo[0].sV1 // ItemID; inutilisé par serveur
-					, m_stDialogBoxExchangeInfo[0].sV3 // Amount; inutilisé par serveur
+					, m_stDialogBoxExchangeInfo[0].sV1 // ItemID; inutilisï¿½ par serveur
+					, m_stDialogBoxExchangeInfo[0].sV3 // Amount; inutilisï¿½ par serveur
 					, 0, 0);
 				PlaySound('E', 14, 5);
 				m_stDialogBoxInfo[27].cMode = 2;
@@ -22249,7 +22254,7 @@ CBIS_STEP3:;
 			}	}	}
 
 CBIS_STEP4:;
-		    // Element4 °Ë»ç
+		    // Element4 ï¿½Ë»ï¿½
 			ZeroMemory(cTempName, sizeof(cTempName));
 			memcpy(cTempName, m_pBuildItemList[i]->m_cElementName4, 20);
 			iCount = m_pBuildItemList[i]->m_iElementCount[4];
@@ -22815,7 +22820,7 @@ void CGame::DrawDialogBox_Map()
 			szY = 200;
 			break;
 
-		case 4: // aresden ¸
+		case 4: // aresden ï¿½
 			if (m_bDialogTrans)
 				 m_pSprite[DEF_SPRID_INTERFACE_NEWMAPS3]->PutTransSprite2(sX, sY, 0, dwTime);
 			else m_pSprite[DEF_SPRID_INTERFACE_NEWMAPS3]->PutSpriteFast(sX, sY, 0, dwTime);
@@ -22825,7 +22830,7 @@ void CGame::DrawDialogBox_Map()
 			szY = 220;
 			break;
 
-		case 5: // elvine ¸
+		case 5: // elvine ï¿½
 			if (m_bDialogTrans)
 				 m_pSprite[DEF_SPRID_INTERFACE_NEWMAPS3]->PutTransSprite2(sX, sY, 1, dwTime);
 			else m_pSprite[DEF_SPRID_INTERFACE_NEWMAPS3]->PutSpriteFast(sX, sY, 1, dwTime);
@@ -26302,7 +26307,7 @@ m_DDraw.ClearBackB4();
 		else if (cTotalChar < 4)
 		{
 			PutAlignedString(98 + SCREENX, 357 + SCREENX, 275 + 15 + SCREENY, UPDATE_SCREEN_ON_SELECT_CHARACTER19);//"
-			PutAlignedString(98 + SCREENX, 357 + SCREENX, 290 + 15 + SCREENY, UPDATE_SCREEN_ON_SELECT_CHARACTER20);//"Play¹
+			PutAlignedString(98 + SCREENX, 357 + SCREENX, 290 + 15 + SCREENY, UPDATE_SCREEN_ON_SELECT_CHARACTER20);//"Playï¿½
 			PutAlignedString(98 + SCREENX, 357 + SCREENX, 305 + 15 + SCREENY, UPDATE_SCREEN_ON_SELECT_CHARACTER21);//"
 			PutAlignedString(98 + SCREENX, 357 + SCREENX, 320 + 15 + SCREENY, UPDATE_SCREEN_ON_SELECT_CHARACTER22);//"
 			PutAlignedString(98 + SCREENX, 357 + SCREENX, 335 + 15 + SCREENY, UPDATE_SCREEN_ON_SELECT_CHARACTER23);//"Delete Character
@@ -26473,7 +26478,7 @@ m_DDraw.ClearBackB4();
 
 	m_DDraw.DrawShadowBox(0, 0, 799, 599);
 	DrawNewDialogBox(DEF_SPRID_INTERFACE_ND_GAME4, 162 + SCREENX,125 + SCREENY,2);
-	PutString_SprFont(172 + 44 -17 + SCREENX, 190 + SCREENY, "Connected. Waiting for response...", 7,0,0);
+	PutString_SprFont(172 + 44 -17 + SCREENX, 190 + SCREENY, "Connected. Waiting for response...", 47,219,9);
 
 	if ((dwTime - m_dwTime) > 7000)
 	{	PutAlignedString(180 + SCREENX, 463 + SCREENX, 195+30 + SCREENY, UPDATE_SCREEN_ON_WATING_RESPONSE1);
@@ -26982,7 +26987,7 @@ void CGame::NotifyMsgHandler(char * pData)
 		m_bUsingSlate = false;
 		break;
 
-	// MJ Stats Change - Diuuude: Erreur, ici il s'agit de sorts et skills, le serveur comme la v351 sont aussi bugués !
+	// MJ Stats Change - Diuuude: Erreur, ici il s'agit de sorts et skills, le serveur comme la v351 sont aussi buguï¿½s !
 	case DEF_NOTIFY_STATECHANGE_SUCCESS:	// 0x0BB5
 		cp = (char *)(pData	+ DEF_INDEX2_MSGTYPE + 2);
 		for (i = 0; i < DEF_MAXMAGICTYPE; i++)
@@ -28686,7 +28691,7 @@ m_DDraw.ClearBackB4();
 
 	case 'I': //
 		PutString_SprFont(172 + 68 + SCREENX, 165 + SCREENY, "Not Enough Point!", 7, 0, 0);
-		PutAlignedString(198 + SCREENX, 453 + SCREENX, 210 + SCREENY, "ÂI¼Æ¨Ï¥Î´Á­­¤wµ²§ô, ½Ð¦ÜGD2S.gamania.com©µªø¨Ï¥Î´Á­­");
+		PutAlignedString(198 + SCREENX, 453 + SCREENX, 210 + SCREENY, "ï¿½Iï¿½Æ¨Ï¥Î´ï¿½ï¿½ï¿½ï¿½wï¿½ï¿½ï¿½ï¿½, ï¿½Ð¦ï¿½GD2S.gamania.comï¿½ï¿½ï¿½ï¿½ï¿½Ï¥Î´ï¿½ï¿½ï¿½");
 
 		break;
 
@@ -31288,7 +31293,7 @@ m_DDraw.ClearBackB4();
 								break;
 
 							case 1000: // Trade stackable items
-								// hum, déjà affiché? , j'attends le retour et je désactive!
+								// hum, dï¿½jï¿½ affichï¿½? , j'attends le retour et je dï¿½sactive!
 								/*m_stDialogBoxInfo[27].sV1 = m_pItemList[m_stDialogBoxInfo[17].sV4]->m_sSprite;
 								m_stDialogBoxInfo[27].sV2 = m_pItemList[m_stDialogBoxInfo[17].sV4]->m_sSpriteFrame;
 								m_stDialogBoxInfo[27].sV3 = iAmount;
@@ -31475,7 +31480,7 @@ m_DDraw.ClearBackB4();
 			iLoc += 15;
 		}
 		if ( (m_pItemList[m_stMCursor.sSelectedObjectID]->m_sLevelLimit != 0) && ((m_pItemList[m_stMCursor.sSelectedObjectID]->m_dwAttribute & 0x00000001) == 0) )
-		{	wsprintf(G_cTxt, "%s: %d", DRAW_DIALOGBOX_SHOP24, m_pItemList[m_stMCursor.sSelectedObjectID]->m_sLevelLimit);//"·¹º§ Á¦ÇÑ: %d"
+		{	wsprintf(G_cTxt, "%s: %d", DRAW_DIALOGBOX_SHOP24, m_pItemList[m_stMCursor.sSelectedObjectID]->m_sLevelLimit);//"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: %d"
 			PutString(msX, msY +25 +iLoc, G_cTxt, RGB(150,150,150), false, 1);
 			iLoc += 15;
 		}
@@ -32192,7 +32197,7 @@ CP_SKIPMOUSEBUTTONSTATUS:;
 						m_cCommand = DEF_OBJECTATTACK;
 						m_sCommX = m_sMCX;
 						m_sCommY = m_sMCY;
-					}else // Pas au corp à corp
+					}else // Pas au corp ï¿½ corp
 					{	switch (_iGetWeaponSkillType()) {
 						case 6: // Bow
 							m_cCommand = DEF_OBJECTATTACK;
@@ -32437,7 +32442,7 @@ CP_SKIPMOUSEBUTTONSTATUS:;
 				{	m_pMapData->bGetOwner(m_sMCX, m_sMCY, cName, &sObjectType, &iObjectStatus, &m_wCommObjectID);
 					if (sObjectType >= 10 || ((sObjectType >= 1) && (sObjectType <= 6)))
 					{	switch (sObjectType) { 	// CLEROTH - NPC TALK
-						case 15: // ShopKeeper-W°
+						case 15: // ShopKeeper-Wï¿½
 							/*switch (cName[0]) {
 							case '1':*/
 								EnableDialogBox(20, 5, 11, 1);
@@ -37130,7 +37135,7 @@ void CGame::DrawDialogBox_SkillDlg(short msX, short msY, short msZ, char cLB)
 		PutString(sX + iAdjX + 44 +10 +60, sY + iAdjY + 55, cTemp, RGB(255,255,255));
 
 		wsprintf(cTemp,  DRAW_DIALOGBOX_SKILLDLG7 // "Skill level: %d/%d"
-			, m_pDispBuildItemList[m_stDialogBoxInfo[26].cStr[0]]->m_iSkillLimit, m_pDispBuildItemList[m_stDialogBoxInfo[26].cStr[0]]->m_iMaxSkill);//"½ºÅ³ ¼öÁØ: %d/%d"
+			, m_pDispBuildItemList[m_stDialogBoxInfo[26].cStr[0]]->m_iSkillLimit, m_pDispBuildItemList[m_stDialogBoxInfo[26].cStr[0]]->m_iMaxSkill);//"ï¿½ï¿½Å³ ï¿½ï¿½ï¿½ï¿½: %d/%d"
 		PutString(sX + iAdjX + 44 +10 +60, sY + iAdjY + 55 +2*15, cTemp, RGB(45,25,25));
 		PutString(sX + iAdjX + 44 +10 +60, sY + iAdjY + 55 +3*15 +5, DRAW_DIALOGBOX_SKILLDLG8, RGB(45,25,25));//"Ingredients Needed:"
 
@@ -40140,11 +40145,11 @@ void CGame::NotifyMsg_MP(char * pData)
 	m_iMP = (int)*dwp;
 	if (abs(m_iMP - iPrevMP) < 10) return;
 	if (m_iMP > iPrevMP)
-	{	wsprintf(cTxt, NOTIFYMSG_MP_UP, m_iMP - iPrevMP);//"MP°
+	{	wsprintf(cTxt, NOTIFYMSG_MP_UP, m_iMP - iPrevMP);//"MPï¿½
 		AddEventList(cTxt, 10);
 		PlaySound('E', 21, 0);
 	}else
-	{	wsprintf(cTxt, NOTIFYMSG_MP_DOWN, iPrevMP - m_iMP);//"MP°
+	{	wsprintf(cTxt, NOTIFYMSG_MP_DOWN, iPrevMP - m_iMP);//"MPï¿½
 		AddEventList(cTxt, 10);
 	}
 }
@@ -40319,7 +40324,7 @@ void CGame::NotifyMsg_QuestReward(char *pData)
 		m_pMsgTextList2[iIndex] = new class CMsg(0, "  ", 0);
 		iIndex++;
 		ZeroMemory(cTxt, sizeof(cTxt));
-		if (memcmp(cRewardName, "°æÇèÄ¡", 6) == 0)
+		if (memcmp(cRewardName, "ï¿½ï¿½ï¿½ï¿½Ä¡", 6) == 0)
 		{	if (iAmount > 0) wsprintf(cTxt, NOTIFYMSG_QUEST_REWARD1, iAmount);
 		}else
 		{	wsprintf(cTxt, NOTIFYMSG_QUEST_REWARD2, iAmount, cRewardName);
@@ -41399,7 +41404,7 @@ void CGame::DrawDialogBox_Commander(int msX, int msY) // Snoopy: Fixed for 351
 			{	if (m_iConstructionPoint >= 3000)
 				{	m_pSprite[DEF_SPRID_INTERFACE_ND_CRUSADE]->PutSpriteFast(sX +20, sY +220, 11, dwTime);
 				}
-				PutString2(msX +20, msY +35, DRAW_DIALOGBOX_COMMANDER16, 255,255,255);//"¹(Battle Golem)"
+				PutString2(msX +20, msY +35, DRAW_DIALOGBOX_COMMANDER16, 255,255,255);//"ï¿½(Battle Golem)"
 				PutString2(msX +20, msY +50, DRAW_DIALOGBOX_COMMANDER17, 255,255,255);//"3000"
 			}else if ((msX >= sX +20 +50) && (msX <= sX +20 +50 +45) && (msY >= sY +220) && (msY <= sY +220 +50))
 			{	if (m_iConstructionPoint >= 2000)
@@ -41444,7 +41449,7 @@ void CGame::DrawDialogBox_Commander(int msX, int msY) // Snoopy: Fixed for 351
 			{	if (m_iConstructionPoint >= 2000)
 				{	m_pSprite[DEF_SPRID_INTERFACE_ND_CRUSADE]->PutSpriteFast(sX +20 +50, sY +220, 13, dwTime);
 				}
-				PutString2(msX +20, msY +35, DRAW_DIALOGBOX_COMMANDER30, 255,255,255);//"°(God's Hand Knight)"
+				PutString2(msX +20, msY +35, DRAW_DIALOGBOX_COMMANDER30, 255,255,255);//"ï¿½(God's Hand Knight)"
 				PutString2(msX +20, msY +50, DRAW_DIALOGBOX_COMMANDER31, 255,255,255);//"2000"
 			}else if ((msX >= sX +20 +100) && (msX <= sX +20 +100 +45) && (msY >= sY +220) && (msY <= sY +220 +50))
 			{	if (m_iConstructionPoint >= 1000)
@@ -45220,3 +45225,6 @@ void CGame::DlgBoxClick_RepairAll(short msX, short msY)
 				DisableDialogBox(52);
 		}
 }
+
+
+
