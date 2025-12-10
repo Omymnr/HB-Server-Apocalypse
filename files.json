@@ -1,0 +1,3597 @@
+﻿[
+    {
+        "Path":  "Helbreath/HelbreathLauncher.exe",
+        "Size":  67212379,
+        "Hash":  "049e33d7727c32b29dd760a31dce3ab9af90c85463e385d525c43da20a44f112"
+    },
+    {
+        "Path":  "Helbreath/Game.exe",
+        "Size":  931328,
+        "Hash":  "f762df96a57018c7b56b1ff4dc7486d58227c747c27e5b58ca714baf793ea59f"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/badword.txt",
+        "Size":  151,
+        "Hash":  "cd1dc6d6ddee4e2623f4a6276f18e142a96c2348f1a876a3706ea1c9c9d8b5de"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/BItemcfg.txt",
+        "Size":  10896,
+        "Hash":  "fe131a04f1446a7f369fe4e81014af4123c1de6d69ba1865fb160faf0d8c9242"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/CItemcfg.txt",
+        "Size":  3771,
+        "Hash":  "f623d4bca37095c74f0166fb3e507347fe34c990ab71760712a099235f9c621f"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents0.txt",
+        "Size":  3334,
+        "Hash":  "7ff8471d141bb894ac06fcc75b6f5e657f07b52d71fb08e891e44555fdefc8f0"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents1.txt",
+        "Size":  10153,
+        "Hash":  "074899c4e5234aad4174c9c2edaae428060b9b3cc3a3a6decd29036623448dd1"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents10.txt",
+        "Size":  10677,
+        "Hash":  "48e503867df1120f8134bbce0a515efc74b647448928c77ed3992d1fdc6c76b4"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents1000.txt",
+        "Size":  1409,
+        "Hash":  "74a329fce8bae5e4f2e7280d9f8b71f65e58b39bc23859a011bd472337c7c40c"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents121.txt",
+        "Size":  81,
+        "Hash":  "d35ee9f6802a6182d174c3c10d783dc445c97b0c063df8fe87e8ea8839bf0a65"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents122.txt",
+        "Size":  7,
+        "Hash":  "6d7b9efd5e0333ab4828a8efabf2e2bc9b64d1dbbfb9b2058bd4ea586a8cc7ef"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents123.txt",
+        "Size":  25,
+        "Hash":  "f0c6e77e365e7a6e0007b05381bd467ff10a1518d129a88fb7e3246bdbb8c5de"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents124.txt",
+        "Size":  215,
+        "Hash":  "9241b4266d4bbe310f4d81c6dd2663b75de239248c47b7376038dcf9da903653"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents134.txt",
+        "Size":  90,
+        "Hash":  "b745d60e0c30456000a9723f3e91a28aee9764bb7dd50770c635637013f43367"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents144.txt",
+        "Size":  173,
+        "Hash":  "b7cfba9634373fb9d9bc1e298f7941abb8c7f963ddf3acbcca659b538f85f08e"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents15.txt",
+        "Size":  105,
+        "Hash":  "f5e9ff41839c07e39ba39de7b9a87dae8575e99d271751cba823098f0b767c6f"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents151.txt",
+        "Size":  171,
+        "Hash":  "28c862b234c2bbf3afdac9352b7e7cc2ad15e4633db1be14d1551549cb41d519"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents152.txt",
+        "Size":  103,
+        "Hash":  "e7c5da2ae16377bd9a08d103a18342ada728f6ab8a59fbc7dd458b562c2906e9"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents153.txt",
+        "Size":  245,
+        "Hash":  "7a5af8937354d40c8b85ecca64792b579e2b70a1a8f90fb5176b01dfb92e09d7"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents154.txt",
+        "Size":  131,
+        "Hash":  "7ad49788b2ea662000a07a042e65d098a83a327e3e8299e26d5ac8df77c490a8"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents155.txt",
+        "Size":  196,
+        "Hash":  "afaa24be5a218dd53b1727f0714315933caba07c6e23f12a19cf42e310d00603"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents156.txt",
+        "Size":  328,
+        "Hash":  "79ae91e9bc09ad760b3116706e546e98445c86590cc08e86e3b0e22994048952"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents171.txt",
+        "Size":  7,
+        "Hash":  "a65b95ab81be655cd03f793cc41fe9df85bcf4397e7e4a7bc49b9d90fe4245e1"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents182.txt",
+        "Size":  5,
+        "Hash":  "df4d4b02de4c4fc19047c9c3a5a3764b522093a88aaaa737b270940626e62e64"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents2.txt",
+        "Size":  15258,
+        "Hash":  "f5a184dec477fd0800600ba4ea1a7c3959a8c07c101936c0f124b1a01fdfd150"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents20.txt",
+        "Size":  17,
+        "Hash":  "5289e48d107b80fedd9009c3881381302304452096254071ae896238a3754b7f"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents21.txt",
+        "Size":  176,
+        "Hash":  "cfd2c60d883c7075804db0b2508e3ded004620aa51e54bd9aa2c20826bb0a96a"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/Contents217.txt",
+        "Size":  250,
+        "Hash":  "655fcb7e741e80c2f59ccb1409da1a49e4f0e140ecdf701f35a839c54155d4e8"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/Contents218.txt",
+        "Size":  157,
+        "Hash":  "641b86f955d1dfe59d96ce096bd6f19527b56b5673b106d7d504fcd59a5677a2"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/Contents219.txt",
+        "Size":  187,
+        "Hash":  "454ef8abad253253dd586f198821fee515c0aaf9ff8f94ef67c0075972fb777c"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents220.txt",
+        "Size":  148,
+        "Hash":  "85c1610fbe9b8f44bb8bbc6aa1a4fed83991d3cc8440b360b48061a901c94f86"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents221.txt",
+        "Size":  36,
+        "Hash":  "0eaa101cfce1ef16b8faf7b9af4e881a4e1f8bbd6c7e4cf6aa70fb569000401e"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents222.txt",
+        "Size":  35,
+        "Hash":  "e35430f0e2cd2472741575828ef37326ee98e4a4ee2ae45d0602f3064cc10bd9"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents223.txt",
+        "Size":  205,
+        "Hash":  "504361a3ee171e7a11489dd9a45123df0251075f197638c343740a1867895c45"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents224.txt",
+        "Size":  162,
+        "Hash":  "eedcc3d5c6b56ad950a63af143007754e4ac069a96ee05df38014ca2d3d42a00"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents225.txt",
+        "Size":  163,
+        "Hash":  "4c87bcb32ccfc7d4606e6e6afae11a03fcc72646e926b3a2145f788580e92a17"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents226.txt",
+        "Size":  656,
+        "Hash":  "27c5f52d0409ebeb4bb0fd348c41021ecaeb160d1a94b13126fe5ef871d1a183"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents27.txt",
+        "Size":  123,
+        "Hash":  "4d02b4534ff6e711854ab66fbfc1d5e98774223b432c5540f616bfb77ecba263"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents500.txt",
+        "Size":  466,
+        "Hash":  "e7d36ca8643030e784e1944cd320240817e295e66fd3b59c0d4a79a37dfa6bd6"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents800.txt",
+        "Size":  337,
+        "Hash":  "14cea8ccbad8008f883f94e8a02eb09b5be1cf575c4970dba6438954dee655fe"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents801.txt",
+        "Size":  3893,
+        "Hash":  "241ec758199692d1415e3492445003ed33c537e717690b47cef00e3f46c9639b"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents802.txt",
+        "Size":  3894,
+        "Hash":  "55f53c95b79f96e0a5c59c3f67559d73624ca99ea4bf3e50816312b03f238ec0"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents803.txt",
+        "Size":  456,
+        "Hash":  "c8d597ec8e8dc4a8470e0d78c81d225cfc1053c9891b3a460fa60fbb3e2f855f"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents804.txt",
+        "Size":  578,
+        "Hash":  "527b7c5b2037f6022892f4700109bf9cd735868bbe12a9e719ea29315fadc5ec"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents805.txt",
+        "Size":  1394,
+        "Hash":  "b45d76342f9fd06fe2d163a8881127d85f7eb97192414b78e1d034202cffea08"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents806.txt",
+        "Size":  1288,
+        "Hash":  "bede10e05ff1a100e41393ded96d0447cb4efc5a9a31541c1a4c56de5a369556"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents807.txt",
+        "Size":  554,
+        "Hash":  "674bfd35b8bd8d0c5df3d9a2b30b3c5dcb0e7f2cbeddfa43a6fbe6103f6fcb61"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents808.txt",
+        "Size":  708,
+        "Hash":  "32a25ca0df7328d7cbe8218e0e4456c05eb64b0a6d0cacb08a4e7138fc575588"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents809.txt",
+        "Size":  309,
+        "Hash":  "3b61e7799dc930cafed3daa0d65ddd47df5b0ab06ae3358010e082af3a909950"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents810.txt",
+        "Size":  322,
+        "Hash":  "d7f98f554fedfa62fc3fe94997f2d6e598aa63c2375b3b72737329516af8b765"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents811.txt",
+        "Size":  667,
+        "Hash":  "8a896d9cb06d7aac5db8d729bdfa855293a9406ed0df4adc2a449c9a90a123f0"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents812.txt",
+        "Size":  531,
+        "Hash":  "ca040a9ac29e63404546c8d696be7c299126541e4d0368c211c1835f2b6b4ae4"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents813.txt",
+        "Size":  1758,
+        "Hash":  "c8850c73f6c38f76d0b87aaec24b9c8289af47dc66d73ceff8761a7968ddaff1"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents900.txt",
+        "Size":  2280,
+        "Hash":  "58cb8711330d72a8993464a0b488fc8ef2e2e0f4e8db2e56b670d0cf48c3f503"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents901.txt",
+        "Size":  898,
+        "Hash":  "d6f339cd9f8b919ae015655adfc92bf5f33e2b01362830383d293d3ee5181d41"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents902.txt",
+        "Size":  2573,
+        "Hash":  "45ca98c2d9abb302dde414e029a1602e85c9b5fd27636f76a29077bb58100d74"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents903.txt",
+        "Size":  1316,
+        "Hash":  "12ba5f1b1a13302668554f28fe76346f82a54038b0568cddcef1887aa778dd2d"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents904.txt",
+        "Size":  802,
+        "Hash":  "04049b7cde1e2cf2b659e354453e7203496bbf44c72982bb0c278c262cb354bf"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents905.txt",
+        "Size":  3010,
+        "Hash":  "4022f8b4f7efbdba07463092e9e1a6a0326727b96531771e624a3b2654114e38"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents906.txt",
+        "Size":  915,
+        "Hash":  "8ed0f3492f1921bd989cc45669903c5732f55661e4265780dadbedab52f8afce"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents907.txt",
+        "Size":  1231,
+        "Hash":  "543fce2a2808236c5d17422726cd8c412965f9a6e5c28630e2e030735e5505d4"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents908.txt",
+        "Size":  981,
+        "Hash":  "28eda4f99ef5461fb1c7e73a1609c9017a9896a018846c341e3cf9b2aec54e26"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents909.txt",
+        "Size":  3497,
+        "Hash":  "201024536d90c3247abcbd92e7b7e1e8267a3a2469aa915bd0cacbcfac56e03b"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents910.txt",
+        "Size":  673,
+        "Hash":  "5539772ed25dd2427f369ee178ba94a71843b25717a5f35e635d71ba89ed4816"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents911.txt",
+        "Size":  2897,
+        "Hash":  "5dc76a21032a93a0065b7e368f078a7893f445b2206ad87f9b8e953d975298a8"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/contents912.txt",
+        "Size":  2065,
+        "Hash":  "9a8c54656e747de0a2821235bf52195ad4ea37b3b8709548d7d52087882b42e2"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/Curse.txt",
+        "Size":  1290,
+        "Hash":  "cc9cc2d3c472e9da11dcd7d19323bedb88ade334369d0386cfaf6e31f38a7db7"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/GameMsgList.txt",
+        "Size":  3060,
+        "Hash":  "5b6b57418e2d958a0b1be0e8bc8d2ff7c230a326065c4cb4a7dd7883af5cd6bb"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/ItemName.cfg",
+        "Size":  24074,
+        "Hash":  "67964335128e7cdc0d9faf30832115952eec9c760cad3780d97560afbace48dd"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/MAGICCFG.TXT",
+        "Size":  4651,
+        "Hash":  "fadb53b8a14472477834696576d47b3a321d124a564c61b037c54a4c4b9d4d6c"
+    },
+    {
+        "Path":  "Helbreath/CONTENTS/SKILLCFG.TXT",
+        "Size":  792,
+        "Hash":  "0405687bc131a4647b3896a56f1f1a0e2f67d538ab633eca417b20a42343d88c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/ABS.pak",
+        "Size":  1967756,
+        "Hash":  "29e3c718deb0ad824da9925215d4e5a038ec61986587f8bd565d8c09d6bfed1e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/ACannon.pak",
+        "Size":  7069356,
+        "Hash":  "87696377c0d7acd62148fa796edbabc3ce8782d2c58920f286d6fad2cc978cf4"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Amp.pak",
+        "Size":  341228,
+        "Hash":  "17283c0c6d6fc68ca5aabb08822f418b7f496645f02548def6655682c3b4801e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Ant.pak",
+        "Size":  166280,
+        "Hash":  "a6a32135f6bb0d5c111b80eacdffa3676026e77809934d09d34a7976c86647af"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Babarian.pak",
+        "Size":  4090588,
+        "Hash":  "19d4fc468d18f364d97f97389a04edd5aedd38c5a2c06654799fa31c9b31f8f2"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Barlog.pak",
+        "Size":  4960008,
+        "Hash":  "c2b04e28666a0de60ffa5a300a2955fdff89a29c47e0d88586d34d5a96bb56d0"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Beholder.pak",
+        "Size":  2673356,
+        "Hash":  "cda13259fbaf01293bcf106f3af0df3e83a02c41ddaea17b3ef12ece99d4dd49"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/BG.pak",
+        "Size":  2996492,
+        "Hash":  "d0edc2d820aa9fe28d536f5a259c4c5019d5bf3b3adf704ccc8c886650017e2c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Bm.pak",
+        "Size":  1453932,
+        "Hash":  "8762aac9fd24bb0d439d811e1f878bceb41edad1be5187ed6f89f0bbe117cbe8"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Bunny.pak",
+        "Size":  252472,
+        "Hash":  "d81aef02adf0939f3c440c3cc6572cf8de597dfe69bfaf834ef68c30827a231d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Bw.pak",
+        "Size":  1150048,
+        "Hash":  "d8561663648de1545f73f6e45b1edeb05ebedf1e223201ba369c9de31a204e7f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/CanPlant.pak",
+        "Size":  1335228,
+        "Hash":  "c6ee8f854c6cec57847f19171610814bdf27a7ec4bd017a70eed186ce3a5fda4"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Cat.pak",
+        "Size":  428140,
+        "Hash":  "9cfa63b2101ff30ce6e6e0ac9db9a373c10a94fb4a25ff8f391842d9f6016f31"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Catapult.pak",
+        "Size":  1241460,
+        "Hash":  "22fd40af041b62f1f9a7eeba4534726264c11fa3e7791aaaa389d5dffbcb5669"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/CBTurret.pak",
+        "Size":  6113004,
+        "Hash":  "639602d3045c61949a3b66e3212d9469e3420ab1c3ffdd87325ee885be9f0461"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Centaurus.pak",
+        "Size":  3105932,
+        "Hash":  "506937a37596d46739575e9a07584221dc8674fa19248caf302adb5701e3215b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Cla.pak",
+        "Size":  592532,
+        "Hash":  "c67635c5c51683d80d3dff80897ce449867361635b09be42a6171a5a85aca5b5"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Clawturtle.pak",
+        "Size":  3092404,
+        "Hash":  "c88c52e9ea31e3fc54fe89b05051a53ef4af7e216bd9a2266604da931c73a8a0"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Crop.pak",
+        "Size":  670664,
+        "Hash":  "2a9cbed2297c575043e5d91ecbcd994d330df7453ba620f511518fbd26fef517"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/CruEffect1.pak",
+        "Size":  3765232,
+        "Hash":  "d54772d3c5f46b398b87ab3f54577211327fd868ead785b54196a9c1c1234dea"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/CruObj1.pak",
+        "Size":  477716,
+        "Hash":  "b5b121a7b0bc63f11b7cf8837562052153c2b26b2943f880748e3774f54dadf1"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Cyc.pak",
+        "Size":  2191760,
+        "Hash":  "fcfb54e12bf58489716cfaed37113f6f2a9582d56c8e35e94b1a893f990468b0"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/DarkElf.pak",
+        "Size":  1292900,
+        "Hash":  "cc124109584146a574377574abd4fdbc27dfefc70ba4e9f30b23239a8d2c269b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/DarkKnight.pak",
+        "Size":  3705340,
+        "Hash":  "7477d48572b7e963cf7ef7f61deb7c219ac0e49066190287eec205dbdfbcd8f8"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Demon.pak",
+        "Size":  3582460,
+        "Hash":  "36946b92c3ee5e78910413a1c13207150f877f6cd869c42c9af7d03008d9bfe5"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Detector.pak",
+        "Size":  641080,
+        "Hash":  "a0c643ea33f44286cc58cec0ec22066e6ba66f1b74b58ad0d935b7d7bb26997b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Devlin.pak",
+        "Size":  161412,
+        "Hash":  "40621ffdfa9aa54d335d8ec6cc4e9eb312efe92d41a8bcf761ffa581034313fb"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/DialogText.pak",
+        "Size":  672840,
+        "Hash":  "7016008c931ca6f82288c3f4575eadb5305a2ae962a6306237f0f5e98476c020"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/DireBoar.pak",
+        "Size":  2050116,
+        "Hash":  "4381770244aeb2270385c9accc1f454a43471653c096a9fe73c3066bfd0a8cff"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/dummy.pak",
+        "Size":  244264,
+        "Hash":  "4f15be138e2e15e65bba9828949c744d52c10bb46b9f1e77426e4596cfdb0e9d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/EFFECT.PAK",
+        "Size":  1623346,
+        "Hash":  "942f5b2fafa5ea74904b3694022d8573c890f7ece6bfbe0ac1c877235b8c5055"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/effect10.pak",
+        "Size":  554516,
+        "Hash":  "75070a02dafe6b0c97e0076c9c9d5f57a8fee0b4daf588edb3d144b0e26b3ad0"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Effect11.pak",
+        "Size":  7546240,
+        "Hash":  "2e84aa2edb720f6fc2506409a338e0e07669dfc694b8ff23d7e8faef24382061"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/effect11s.pak",
+        "Size":  1347004,
+        "Hash":  "a5d5f736795b3b160037ca9566d2bf95b0b752a9b95acbbf845e0dfab07ba147"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Effect12.pak",
+        "Size":  529272,
+        "Hash":  "43caccfd3bef74266b5f13951230901010d506a71e25a177112879e7f5c97cce"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Effect13.pak",
+        "Size":  3039056,
+        "Hash":  "4eb6a6ef9c275d6242f8c0ac1f239d6d799fec227de2523cf85d2dba3a437a9a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/EFFECT2.PAK",
+        "Size":  451206,
+        "Hash":  "5757d6b7b604394512a9f01926971490f3283543d8773adc283e33029d8b4837"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/EFFECT3.PAK",
+        "Size":  2235796,
+        "Hash":  "4c3dcd90daac3418e252507408bba643d8a98b3d85dc648d946d46ef18c3a1e3"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/effect4.pak",
+        "Size":  1398346,
+        "Hash":  "1d1c64389294ab6978178086a54fc91bdec01a2a980824e2c6bb7db0b5a2da9c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/effect5.pak",
+        "Size":  2111002,
+        "Hash":  "176172fe971842c6b1b64bcb5ce40ea79f7819c09944f3444e44a8910fadfb06"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/effect6.pak",
+        "Size":  1649692,
+        "Hash":  "cf828a16439c6282a5a85bb47a07c21a80bd01fb29f14280eb90e1c86d7de0d8"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Effect7.pak",
+        "Size":  2104244,
+        "Hash":  "0c920bda63fb11fed35ac055aa5f2af6cda35e5dbadc5c82505c32b11f596ac8"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Effect8.pak",
+        "Size":  2031608,
+        "Hash":  "4f986f09f16857eaccf8c2ae9d1618c45e75c8cf92e9103715266fa729964b31"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/effect9.pak",
+        "Size":  1909178,
+        "Hash":  "b7c411e9934d80bdf5af7bf75fc31114ac0a0b19fee02467dc4927b6dfac95ef"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/ElfMaster.pak",
+        "Size":  2372604,
+        "Hash":  "e7f4cf0b895773458291dd8a8f4466c6527171d189036ff4e244974a225e25ff"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/ESG.pak",
+        "Size":  272824,
+        "Hash":  "80559cb6c69f21759abfb79030786834c1742f5c6e525cd1ba896d8b7d0abc74"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Ettin.pak",
+        "Size":  3247908,
+        "Hash":  "d56c77e3e82985cff6cf7436bd9aa02826e1b4c791c733c35fa0e2899deebff5"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/FireWyvern.pak",
+        "Size":  13779288,
+        "Hash":  "e8fe8d43de150f1948c1c1e80f20a40fa435400c821b13228ad049d0aeab5ac2"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/frost.pak",
+        "Size":  1853384,
+        "Hash":  "24151ea19733a63f688a09b99843571033170d047159931a11ea08977b56910e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/gagoyle.pak",
+        "Size":  6699280,
+        "Hash":  "0ad9c60927e727ced71a0f7faa3f8d91a2b77e89bc0a30beac6ba1b2e7456feb"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Gail.pak",
+        "Size":  144720,
+        "Hash":  "9921484b83f06c89b640344785c719b2258985345aa9a9c3fd83abb25c98ac29"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GameDialog.pak",
+        "Size":  4023442,
+        "Hash":  "7d9c4b9323298f97633c83b18638bdc47f599ff88590ed3a4d261ce038526518"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GameDialog2.pak",
+        "Size":  4150186,
+        "Hash":  "210875e66f1f392bbb17faed4c8dbaaace30938640c441b25d8ca0c8c5c1ad28"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Gandlf.pak",
+        "Size":  166232,
+        "Hash":  "ed2175f65a5695ca0f125cc4ece809d712e8d93f3b224c26d48e377e463a5739"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Gate.pak",
+        "Size":  5809676,
+        "Hash":  "1bb15169d84b8a3a0fdfb2b07b4cfb7d924696a07b7a41ed6cecf13ce19535fc"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GHK.pak",
+        "Size":  1368208,
+        "Hash":  "ea641b0b05e5d0c463ec151d7285d036ca9e771a01554ecf130b0e5a3e94d9ae"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GHKABS.pak",
+        "Size":  2605984,
+        "Hash":  "df43eeb5047fdae2738c7754cccf4468b08f4da2ac8ef66c04b545c2838fda7d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GiantCrayfish.pak",
+        "Size":  2840784,
+        "Hash":  "964aabd52de905eafd00253c86e729e7215c8b14ddc620e61d504900b79319a1"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GiantFrog.pak",
+        "Size":  1688664,
+        "Hash":  "8741d15e753c9226e3718ba3f51ab987a299dd2ea2b5fc36e2eb7739ec053402"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GiantLizard.pak",
+        "Size":  4265768,
+        "Hash":  "2670dd1c44695bdee5f3cf5f1928a310579f0b485f96a408599c07d7382a1e2a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GiantPlant.pak",
+        "Size":  2590108,
+        "Hash":  "93d3f03608890fccd987c9e61764ea41e2a35ceb66ed39f235c3bc84c55f4757"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GMG.pak",
+        "Size":  545464,
+        "Hash":  "670f68e4a8e06360953f43982f5ea8649ee9a971e2d346089670040044f29941"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GOL.PAK",
+        "Size":  928984,
+        "Hash":  "959999da1b31715d70d87b0f7f8f48db7f82bfd92e26170c6bc3e414dbac6757"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GT-Arrow.pak",
+        "Size":  923604,
+        "Hash":  "b7a5fa83539ac8244e287fc82c506b657a59832527d8d7ee66f87a3393c3fe90"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/GT-Cannon.pak",
+        "Size":  700696,
+        "Hash":  "dd0ba709680eca97ef4552c671a31b3452578c5340da8420a943d11edf25ea5a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Guard.pak",
+        "Size":  687668,
+        "Hash":  "e3339462f92e81d567609041338397837d2e788b4a2d985e0aa8e787aeda09c2"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/HBTank.pak",
+        "Size":  4892036,
+        "Hash":  "c2d636c96c136bd8625315d4364a3a5d02a556087a8b964cf167a0a9ddd43588"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Helb.pak",
+        "Size":  745132,
+        "Hash":  "0e8dbb5147923ba6b152893b754081870ee8d2fe6d0522aa9012de47017f77f1"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Hellclaw.pak",
+        "Size":  4073284,
+        "Hash":  "0074a1409edc5ab5c3e4bd624b597464f79554e5002875235ecb7794e275fcdc"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Howard.pak",
+        "Size":  167976,
+        "Hash":  "aec898d30f3c1b1df2f9616063ca6d72258510a999381270bbc2a9ea953ca347"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/IceGolem.pak",
+        "Size":  2433048,
+        "Hash":  "9529e24bd61862332defaae778737ba569fc78a5d22f8fa46bb18d2ad55eb4ad"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/interface.pak",
+        "Size":  56492,
+        "Hash":  "3923c597ed6a72932b125d5c64ebac6475cdffda5400e64da4f33aeebab666c8"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/interface2.pak",
+        "Size":  473440,
+        "Hash":  "b58b2bacbfc37fc0c168c1d30590f59dbbd515125d33834948910b8e1fa2f256"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/item-dynamic.pak",
+        "Size":  69660,
+        "Hash":  "6e96321d55a007de0140af7adaaa945251126706f5ebdc7fac648aa3f81bc347"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/item-equipM.pak",
+        "Size":  1777198,
+        "Hash":  "4ea6e21c4d1aa67853864bf59ecd17ef30ee66314794e4c1d863b416f86977dd"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/item-equipW.pak",
+        "Size":  1529554,
+        "Hash":  "c70ee2d0247b3c4f0448f8fab9bd4b68767892df230903aaf762a3ac0967541b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/item-ground.pak",
+        "Size":  874234,
+        "Hash":  "864c0d4a50ee39b17de5d9431eeb5687b1b344bcdf3251327d44e70508997123"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/item-pack.pak",
+        "Size":  2432574,
+        "Hash":  "f4b5f7fc1791b2231d8ba28e31f4fda221c5c008371c26e8c41973bb127b6138"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Kennedy.pak",
+        "Size":  144720,
+        "Hash":  "9921484b83f06c89b640344785c719b2258985345aa9a9c3fd83abb25c98ac29"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Liche.pak",
+        "Size":  1628616,
+        "Hash":  "2c6684cba6348480ee031434fe4ddaca11fbb8c6039ed2d240542daa738ff1ca"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/LoginDialog.pak",
+        "Size":  482752,
+        "Hash":  "f33274c70b028727e92b6b217d4806cd2a7579228f833eb921ab6161ac3bd018"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/LWB.pak",
+        "Size":  3924324,
+        "Hash":  "13ff2a786701c927888f8936bc5a445ba7248f5141ecddc7c173b8dc24709974"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/ManaCollector.pak",
+        "Size":  593688,
+        "Hash":  "c164552f902587c751d0e245dbe74c4e5134a73e921af136dc7c6a5a68b1c9ce"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/ManaStone.pak",
+        "Size":  332344,
+        "Hash":  "fbd373f3a4e5f00e4177f85da685bc48fbd8b66095f2269221f85e476e9ddec9"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/maptiles1.pak",
+        "Size":  9983768,
+        "Hash":  "eb543559222079b8ba6ab8ce3185827f0d63f069d627d4281b6efcea7db728f9"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/maptiles2.pak",
+        "Size":  4679904,
+        "Hash":  "1a1048974a9e715483f5471060c210dbafdc3d473bb10677e3fba405e69baf3b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/maptiles353-361.pak",
+        "Size":  2807952,
+        "Hash":  "f2079d665d1ac7c9de943bee57f862d9adc1f744e97ff61703a79bf99690e0f2"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/maptiles4.pak",
+        "Size":  3119944,
+        "Hash":  "fd607ced9ce187a65fbf53cd8c4c57a8ecaa65238c702ccb45014ced9db020fe"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/maptiles5.pak",
+        "Size":  5927872,
+        "Hash":  "6336efdc81b45ddbfe3bcf2d5046f7725d7f52177cf252a5fac79a1036cdad37"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/maptiles6.pak",
+        "Size":  1247992,
+        "Hash":  "26015a41cf7c73fbfcb09e97bed74270056a9dc764644d972e687e938ebcff9a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MasterMageOrc.pak",
+        "Size":  2771308,
+        "Hash":  "5df51be0986f50193034c753a3b7d59b2ee8eaffb9bc137ebb6d1f2c235d43ce"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MAxe1.pak",
+        "Size":  272948,
+        "Hash":  "4d9b5558d63f256c28f685959af085bd0dcd81acc12ec0b9a154a1390cf1ec61"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MAxe2.pak",
+        "Size":  336772,
+        "Hash":  "4e8d2690e59c8e519cb1e885d988daa8776f36b6441c4e57b72e874265004d28"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MAxe3.pak",
+        "Size":  247864,
+        "Hash":  "f09b1769a8d1a9806bb11ffd8c479b50c4dbd67fcaaf506462041ca109afb25e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MAxe4.pak",
+        "Size":  246368,
+        "Hash":  "f2eb8108c4618935782b5e948fbe33503c0c895729fe8720f509b1bda398dfce"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MAxe5.pak",
+        "Size":  361696,
+        "Hash":  "7833fce7d146a9ed57b072c306924f11f28176a695565ab2d22398f5802d8746"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MAxe6.pak",
+        "Size":  411276,
+        "Hash":  "b8242fdc301a530c3189e0597099ca74c27f72754c7dd7fcb0576b7c1bd299d7"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MBabHammer.pak",
+        "Size":  592072,
+        "Hash":  "8120900a27b6f90983ad1a62f4260eab750bc9e20bcfa4b30c2bfa51100a9158"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MBerserkWand.pak",
+        "Size":  478012,
+        "Hash":  "b5f7891680ac31292bce152ab4df0a3ae9b92fb638be4ca45989719d8b373318"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MBHammer.pak",
+        "Size":  520540,
+        "Hash":  "f1f02d4c68f402c81a6bbfe46ae5cfd8c43497e93172799df9144f08565f0bb3"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mbo.pak",
+        "Size":  855768,
+        "Hash":  "c56dea94cc6650c0b71dcf1acc389b97904190cf58b40108940049d0d471bbc0"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MBShadowSword.pak",
+        "Size":  545720,
+        "Hash":  "b3fa0a5f0c98453179eb9937106129c362cc39d63fcc9e18f8d7ea6a4d0fc48a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/McGaffin.pak",
+        "Size":  122712,
+        "Hash":  "0890b4a2c336e8766fbc4506fc9e3cc31624b545e735da81d43ad87011f62c51"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MCHoses.pak",
+        "Size":  858040,
+        "Hash":  "7b413af531e682da8693ccfa2e2b1c769b44bf84501ff2c7d9387b5abbdaa67a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MCMail.pak",
+        "Size":  923468,
+        "Hash":  "6a27c5585113b881083ba9fb7ea777baf983805276a7f4fd72549d80c7266c9f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MDarkExec.pak",
+        "Size":  505644,
+        "Hash":  "98dbee0d3d71277b3136852c28933f5436af0634859c2ec9c6d2b748e432f13b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MDebastator.pak",
+        "Size":  602148,
+        "Hash":  "54af083e00fe04c0619dea250805b9f1ca9fcf90a2570ead6f4c94f9652c95ce"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MDirectBow.pak",
+        "Size":  963152,
+        "Hash":  "89e0327df08065b641c023a9820b54b4e9822a1671f7e2d27c4c6a25f73fba25"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MFireBow.pak",
+        "Size":  1352912,
+        "Hash":  "31ada7bd224d4f1acc2f3c158aff8e532e176c8a481228e7eecdf393569d0ca9"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHammer.pak",
+        "Size":  458828,
+        "Hash":  "4f57f2b1b64f7b715551e05f9b5e95a5f0af405aa9aecb7594aa660af830890b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHauberk.pak",
+        "Size":  781524,
+        "Hash":  "9130605497ecc11d13e6ea0735e07c5eff05eba76cc01f7c595c7a764a8c271b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHCap1.pak",
+        "Size":  263312,
+        "Hash":  "3011a95e77bbc106b1d061107434316228fa945ae06d3d3bc893b020ee865f11"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHCap2.pak",
+        "Size":  263312,
+        "Hash":  "3f0fae3c70d961e680569a9ee20e2ae5ef816146ab0d54b2268ab58a10d748a5"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHelm1.pak",
+        "Size":  124016,
+        "Hash":  "64c153782b630c447e8685294d77eae9d35feed3f17fe579749fb21f9f373188"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHelm2.pak",
+        "Size":  128376,
+        "Hash":  "9e471a0cd57b75f0ee21c6e0cf216609d5609e1e9ba2f4ef4222021b9f2c55b3"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHelm3.pak",
+        "Size":  273220,
+        "Hash":  "309744e8a1eadfbf9beab67680260e275305f4e54c8df8365617468946742b8a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHelm4.pak",
+        "Size":  90056,
+        "Hash":  "963dbd2be6158e852963e5a574d209e2d6442db40a10ef2c8f543b7eebb91e01"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHHauberk1.pak",
+        "Size":  1750776,
+        "Hash":  "e41b3ab5a5af4717e907698f2a5cdc16b29f139080955e61e427e60843485958"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHHauberk2.pak",
+        "Size":  1750776,
+        "Hash":  "0598559caf11e9a2d3f220596ea62f0b3cb35cdb54ce854b14f8b2ca3583ea25"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHHelm1.pak",
+        "Size":  312596,
+        "Hash":  "3b6d8990c22be22abb3903adda9b1ce22c3723cfd36555de3f26530e90c2a39d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHHelm2.pak",
+        "Size":  312596,
+        "Hash":  "e7ad3655ac52402de192064901aacfbdd3ea1ab36c267449e628fefc2f0c5188"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHLeggings1.pak",
+        "Size":  2559508,
+        "Hash":  "072960007f25c4af3e55780ab30031ba8a93afad7313617365345a75e46c3f1d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHLeggings2.pak",
+        "Size":  2559508,
+        "Hash":  "3606aefefc535678de013473d18786517066cb631aa90ee29771a434cfac506f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mhoe.pak",
+        "Size":  115460,
+        "Hash":  "bc44c3b3fd56f1b7a7a09523b3292e010d5ec2f4e37f2f52fd4ff6652f6968a7"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHPMail1.pak",
+        "Size":  2289724,
+        "Hash":  "03aab652a214b6c9792873d382a3c1d1d5c44454ca9c8cb7a1bc6f3e959454d1"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHPMail2.pak",
+        "Size":  2291812,
+        "Hash":  "90e6573371befebccf76dd13a13579fb1e9eca19c61c275601aefc53f6175af9"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mhr.pak",
+        "Size":  590684,
+        "Hash":  "77f52b2d3ae7f19667c72be58a9e30a28dc5c29787c8910eb1c449d4139dba0b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHRobe1.pak",
+        "Size":  5124540,
+        "Hash":  "e266f6d5d7d1169c0cba2a073db6352f514d06aad84f8bc1a950ad0f79f004bf"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHRobe2.pak",
+        "Size":  5124540,
+        "Hash":  "11fd604af34033a3ec7d2e20d76f1d181eb8b94c6dd8ae002bd2fcc8c8571d6f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MHTrouser.pak",
+        "Size":  275828,
+        "Hash":  "d697e51250de39738b83b3f85a5bd3fe9621f56116f087eac84b611ad323cdf3"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Minotaurs.pak",
+        "Size":  1702668,
+        "Hash":  "950252834cb0e666754f0234aedf9cc7c7b7e87cf659f938fd104a92d4d31995"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MKlonessAstock.pak",
+        "Size":  494180,
+        "Hash":  "7b71c5989bca5ba03126d2c67a8366a83fe272478e3c14868be25e37cff712d7"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MKlonessAxe.pak",
+        "Size":  467768,
+        "Hash":  "555e2d2a8acaf8fb2fe9470dffb72e16dab16a445d6ff803145784a0c92ebd23"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MKlonessBlade.pak",
+        "Size":  574748,
+        "Hash":  "8398c544eea5b334432c7bb2d3fba415f3b891795b4295b6b9d5a369459d2ebb"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MKlonessWand.pak",
+        "Size":  560252,
+        "Hash":  "ea587339555d6505b0f69194f1ebd2e71a3c32c6c13274b88aa3c59165554988"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MLarmor.pak",
+        "Size":  507360,
+        "Hash":  "7a81e2be056e3d5806b27ae231cc6e6fb025e6b50ac8c0c30395b2bae816319d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MLBoots.pak",
+        "Size":  1739328,
+        "Hash":  "9498339211d07c9076f8fd4c577be6ea59e2a244eac0f925a6a73b7ef1aa237e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MLeggings.pak",
+        "Size":  852620,
+        "Hash":  "d38c0e30e7874ea535891cead5d5111fcaa7a212828f4d5ddd6bf5d824263ada"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MLightBlade.pak",
+        "Size":  589736,
+        "Hash":  "0db7d177cec930b37cdbb2f59a9398dedea4461f7dae80a5ba0fce935dc63da1"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mmantle01.pak",
+        "Size":  1132240,
+        "Hash":  "69a4cfa5d061f5da4e32eebed0943b93fbe954973c1a80e2972eb7f72e9e6774"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mmantle02.pak",
+        "Size":  1133592,
+        "Hash":  "fb467b7d40d14b24837c27425388b1e103f5bb4cbcf36cddd0ab13713396d189"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mmantle03.pak",
+        "Size":  1133524,
+        "Hash":  "182b357412c20efd0c6db8bf8ed59be76da945a2d86679b1394ce9f5e223ca0a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mmantle04.pak",
+        "Size":  4878384,
+        "Hash":  "fa48e514796b0e565e762477c9b2240504bc9b523e1b333c5a337ef944348b73"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mmantle05.pak",
+        "Size":  4878384,
+        "Hash":  "a7c1424d5f237edff0bbcc92d40e85156de7739a94aa2dc948c65892dfc851f8"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mmantle06.pak",
+        "Size":  4878384,
+        "Hash":  "cff71156869793a692c19b8b7d84138717f409c140e02ea2f7c359fa4f2e466c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/monster.pak",
+        "Size":  236594,
+        "Hash":  "53295642c3299bc602d42e0c1e388f70dfe1f2c15013ec92f9126b1df865a02e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MPickAxe1.pak",
+        "Size":  305684,
+        "Hash":  "58e4406bb00cbd8c3c6589c66c7d21b458e8397e5ce069efd694c8dcd6be2738"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MPMail.pak",
+        "Size":  670460,
+        "Hash":  "d1d414044d837eca7efe4bfdb698e29211edbd72b63ad24421231c0cf3921e61"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mpt.pak",
+        "Size":  862460,
+        "Hash":  "d8714841068ac8b7a9635c3824c3d6d7efc411212d9277e276b6fe4366c5853f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MPTWK.PAK",
+        "Size":  14200,
+        "Hash":  "49813a6d8ce521004613c8eff5331dcd28d0d43dbcc6f14f01deb8783104b6ea"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MReMagicWand.pak",
+        "Size":  558612,
+        "Hash":  "445d6d4d3aabbb746d95aaa11d97ba56ada84e3a9b356abb4a58ba27c09efe50"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mrobe1.pak",
+        "Size":  1560096,
+        "Hash":  "7661896b9d4ffa41a878064b41dd263a28a74e6232b4f00331b236a1635a3170"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MSanta.pak",
+        "Size":  1594588,
+        "Hash":  "13c86f56e58acd6be2db405e4d7b550805e606c79c56c9f7184329b20270f92b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Msh.pak",
+        "Size":  2237648,
+        "Hash":  "31d16be75924602f291d11e07760b545608daa3ef874052801d9e380e662316b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MShirt.pak",
+        "Size":  612508,
+        "Hash":  "e008f476569cd7e21cb338efc073583f2585a34cd931028f0d26372d9cba379d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MShoes.pak",
+        "Size":  1083560,
+        "Hash":  "e8c6442ab134e630388d3ebf83e591ff7132c045727583c6025213da7a573dad"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MSMail.pak",
+        "Size":  609916,
+        "Hash":  "58e44793f06a0514754463273c19c65bb709b87ff7a4ec88c1c16468dd55e71e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MStaff1.pak",
+        "Size":  522504,
+        "Hash":  "25fea644ba80b34328025f8b80965f601436c1f8892e741f67b4722f7ed18918"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MStaff2.pak",
+        "Size":  925040,
+        "Hash":  "e4487366d49bd7bd8cc3985c38cd7be36577a84ca15866b7d78b967caa0a38fb"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MStaff3.pak",
+        "Size":  673672,
+        "Hash":  "b258958b168a37b21344101b675072698d93de509de7613a802f1069bb59b0c3"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MStormBringer.pak",
+        "Size":  440020,
+        "Hash":  "26c8e576e4dcec1aa22cad12f97fd0f017ec2105ec42e55b3649dde17c97a92c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Msw.pak",
+        "Size":  4737588,
+        "Hash":  "e560d9332ce37ea11ff0d917634c5cd92df91b7f19a59197eb6b896c78879f1a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Msw2.pak",
+        "Size":  528344,
+        "Hash":  "92cd6da987edc0a722a4de1632ca47aeb652bd78a15ab9f337b8a761153cb920"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Msw3.pak",
+        "Size":  606212,
+        "Hash":  "b68e2e9e408a64a905226b0f23c7f848a60df561dcc0455bfb14f63c89ff1204"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Mswx.pak",
+        "Size":  379332,
+        "Hash":  "5d53192ee9a242818cc6d8e03993eb435c698f2f070271a3e46f91061cc1cee0"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MTGiant.pak",
+        "Size":  2143948,
+        "Hash":  "584e83828ccd61e864d4d43227bee8f03d1349cdb134c8916cdca484a4ccb4b8"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MTrouser.pak",
+        "Size":  639964,
+        "Hash":  "689b903cbafaea88b50006bc9ce8867696c35658676391295f7e13ce82167bb8"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/MTunic.pak",
+        "Size":  639512,
+        "Hash":  "fa5ded57e2d67f8d799fb864f772e0bb46b080b94226bca7440efdba3378fc81"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/New-Dialog.pak",
+        "Size":  1032828,
+        "Hash":  "419c6b92560d24b97f9ed5446e8403f318009a78df2747816de26e4bfbb2d9ed"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/newmaps.pak",
+        "Size":  1001392,
+        "Hash":  "4bc6637749297b996354470dcf2519794e353a14afd7beb056f2a22fefd5beed"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Nizie.pak",
+        "Size":  2745272,
+        "Hash":  "211200d0efb861d550f0a9f52d314d3347cef6e8501db6110fa8b0ee1112f28d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/NMHelm1.pak",
+        "Size":  147772,
+        "Hash":  "6952b92300a698213f57e09b2b894b5a7bff9818a2c1b5772cc5f09f14c56b7a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/NMHelm2.pak",
+        "Size":  134200,
+        "Hash":  "393348839db18c4236fe2a1e5353492e20c525cac1063a16c486de802e513351"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/NMHelm3.pak",
+        "Size":  122920,
+        "Hash":  "a99bae175db88848b3f7c39e6ec0f06341e031aa67585d2d4c2ca11ec7d8d1ff"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/NMHelm4.pak",
+        "Size":  175856,
+        "Hash":  "acf50e9eab580467e03ade645c7ac63207171996dda6d5f10f1f43114414f10d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/NWHelm1.pak",
+        "Size":  149956,
+        "Hash":  "1f8dea2c0c0e355f2e56ed2a44664ccc631a6838e696cf28112f4aded76ba251"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/NWHelm2.pak",
+        "Size":  343356,
+        "Hash":  "6b557444b0d757fd67aabfb04d7a3486caf499cd9972bbc045c5a68fdb874b83"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/NWHelm3.pak",
+        "Size":  123156,
+        "Hash":  "a03876e74e959b9fb6ee5f254bf647b35c3b829be4e09df22910fc535576403a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/NWHelm4.pak",
+        "Size":  471396,
+        "Hash":  "71921fffc76ce0757a79405f04868a7227f11b72a8440e509e37484d0294d742"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Objects1.pak",
+        "Size":  3573090,
+        "Hash":  "237fdf6564a90c0acb3db71dd9d747f092f6fd90c8a482fca94c66bdb46d1a36"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Objects2.pak",
+        "Size":  1207386,
+        "Hash":  "cdaf81902dd506e30a370cfa8c9f7bb2bd6ea9276fa5c8dc243fc0d5ded5e3ff"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Objects3.pak",
+        "Size":  1234480,
+        "Hash":  "058ed95b0eeec86eb30a65c6b411e1513b05c611c86779df7c604fa84fcaeb82"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/objects4.pak",
+        "Size":  617124,
+        "Hash":  "9c63f0542be379933d3e08bd21ba555cc029ef1795dcd36ad3043400e2faba56"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Objects5.pak",
+        "Size":  2737568,
+        "Hash":  "54145f70f044cd56028bbde6992b85d1eb3224b185b937d771ff6c6a2cd1f3bc"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Objects6.pak",
+        "Size":  694640,
+        "Hash":  "19d0723529f5faa1cca922957fcf1c6a9c80c8abb906190d329195017b89425f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Objects7.pak",
+        "Size":  2159920,
+        "Hash":  "0d6b543adb4b50967a9ddbf0a70ff1fc96792ed0ae4d86968172635fa3c8ec0d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Orc.pak",
+        "Size":  615124,
+        "Hash":  "fce8581bb32d263c67e438b9728b736f4a6bdbfacb08c786fbebd49a9f6a76d3"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Orge.pak",
+        "Size":  8500736,
+        "Hash":  "e4c272e38bbe6276cccd4d24b07aa1dc7b3fc587b9b57569c80ed47fc4328a57"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/PartySprite.pak",
+        "Size":  179738,
+        "Hash":  "cac4d122959cfcd1b84fd3803e0c1bccfa44b360caacfa1182abb6908281beaf"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Perry.pak",
+        "Size":  124672,
+        "Hash":  "1b562651638d364650ca2dc329baafdc01fa406e1f9d8ba95847a1bd4b9fd05e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Rudolph.pak",
+        "Size":  1187776,
+        "Hash":  "0bb66cb18c98d492dbbe0fcbb318f69a9b53564abb3579e61a07ca34787cbc1d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Scp.pak",
+        "Size":  631804,
+        "Hash":  "f0e2c88e89a0a31463319682453b1917eb2aa95b0991ac3dc516a344cbfa9a49"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/SHOPKPR.PAK",
+        "Size":  88932,
+        "Hash":  "7ff511a296e170fda6cf3f25ee92eefc820110248780530f698840b305d269b3"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Sinside1.pak",
+        "Size":  8423808,
+        "Hash":  "6ca595c5897f6757a3f8b4fbc92347a6a99dd00b70d0cb33bff52e4acf022dd9"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/SKE.PAK",
+        "Size":  512152,
+        "Hash":  "b55048f41142bb4c05b93af4b0cfc41aae90530dbd102a861e4ee1fd078446a7"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/SLM.PAK",
+        "Size":  277648,
+        "Hash":  "dd172e674f526efb7b507daecd3645b33cf60e3c2f6697300ccbba613f62c093"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Sorceress.pak",
+        "Size":  2264596,
+        "Hash":  "d5b207d555631928d2ddec3771b8d924f529b1eeb20ed4fe9d433fedf0c558ba"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/SPRFONTS.PAK",
+        "Size":  87428,
+        "Hash":  "8f4024f9ff9422e5b4356faf36b84385e2e2f494b937cd7240f1bbc4ad35a3ea"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Stalker.pak",
+        "Size":  2249420,
+        "Hash":  "a906d15834b9b8a2b4f3f1bbe594585509174f49c982f7efc17afcf60002ca97"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Structures1.pak",
+        "Size":  6239864,
+        "Hash":  "952d8b8a5449d1c7bcba525bf2b13b0db90d84361aced65b348a63b0fdeaf7db"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Telescope.pak",
+        "Size":  2920400,
+        "Hash":  "0d369ae15a08987254f612e2df03d405bdc4ff5c534b8dca54d49c51d2e91b3b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Telescope2.pak",
+        "Size":  3687176,
+        "Hash":  "fb9af1ccabddc5583ba03e9b15c101edbd6d1b620ac9a932d180ebddca487fa5"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tentocle.pak",
+        "Size":  663176,
+        "Hash":  "93d517907db4adf4ce4c84e784f33fc1afb02b73ea2e3996f880855dece72e49"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tigerworm.pak",
+        "Size":  4688784,
+        "Hash":  "7ba9e306e3855e804b878b650ba24ce16d82249041de6f96ec9df3ab52c19a6c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile223-225.pak",
+        "Size":  925896,
+        "Hash":  "e047bd23e19cd5a32882ea7b3fddeeac7eec6d6ef69d1a7938ab915edd780841"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile226-229.pak",
+        "Size":  1235176,
+        "Hash":  "9b3d8eea4ad82a9860923e8010eab9380cc44828cfeede104c6178fb6f0e9259"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile363-366.pak",
+        "Size":  1247992,
+        "Hash":  "11195e08df66e817a0e1f2dc25525bf752b7904eaf3a27ef27b43ee688c4800d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile367-367.pak",
+        "Size":  311988,
+        "Hash":  "8caea0fd4c0d0f4ce9a6fba1912b3d2a99d89aeedb028d544d868b248bdec2d6"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile370-381.pak",
+        "Size":  2555712,
+        "Hash":  "b1247317e982dfb80858d26440417cff7c9f6a397218550c3ebd082193436d43"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile382-387.pak",
+        "Size":  1597304,
+        "Hash":  "e8af7198a25653b408a31d649f8a1629a4df19112ac0e04f3c3e82313b99f113"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile388-402.pak",
+        "Size":  4679904,
+        "Hash":  "1e1dbb5362953d28c9c8dd0abb1824c2486b87d4e7be1fa650f216b92db27b44"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile403-405.pak",
+        "Size":  936000,
+        "Hash":  "7856541e6e6f11d5fa5a98dec9fbc769444a0c8e827a33292b94d776d1c5d61c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile406-421.pak",
+        "Size":  4991896,
+        "Hash":  "83d75a73cc557fdc0b9171a4f1bb071ec99baa21559d6a9f3e29631700d9e4b8"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile422-429.pak",
+        "Size":  2181860,
+        "Hash":  "2000b3b9119c00f5ec088320f084daf08fa52935d5fbf934dcc678dd72ec4989"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile430-443.pak",
+        "Size":  4367912,
+        "Hash":  "346cc31c2d73be14f00cff9bb3ead931fad2f3a5fdfb9efa8ab3c9c710faebb7"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile444-444.pak",
+        "Size":  312016,
+        "Hash":  "2711e17ff7f6185e1ca90181258ca94e41b1d5b940a20c4ec4d17d0378d6baa3"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile445-461.pak",
+        "Size":  3841324,
+        "Hash":  "aa01f9d63cce8d3e1a077ae550484b974216868f24c8e24e6be70c3a3805a65f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile462-464.pak",
+        "Size":  2766036,
+        "Hash":  "3f2f93f882e88c6050ed1b159697f37a397d1ee7a0603055943f600be59f9085"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile462-473.pak",
+        "Size":  3743928,
+        "Hash":  "5c516aa4f6e4ee50be59dfcda655bd18d9b740519948ae69c558c83bbdb90f3c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile462-475.pak",
+        "Size":  4365896,
+        "Hash":  "69f4b9f506391ae2cf2025c6deff2e91d44005559054ab2b1d981b09d9e4bae1"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile474-478.pak",
+        "Size":  1559984,
+        "Hash":  "d2027d2a95221e9f41b1d6de917ff45e8a0d16f9af6c6ed480a21c849193ab26"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile474-488.pak",
+        "Size":  4679924,
+        "Hash":  "e1947b3504092b2a12bbf6d2d5fd348411ec68a68cc07a23cca075da05b2504b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile479-488.pak",
+        "Size":  3119948,
+        "Hash":  "4acdaad1221bf076266ad63bee77ce10df24de9d216e16f748dc92706bff9b5a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile489-522.pak",
+        "Size":  10607076,
+        "Hash":  "6f882bedb352dc792f9015ec83661c81313cd23300c0b1123542186c88b5ce17"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile523-530.pak",
+        "Size":  3109340,
+        "Hash":  "04dbc545d183ec67022bc14999fedb69162e1256b12d04701b1035f69368b991"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile523-532.pak",
+        "Size":  3119964,
+        "Hash":  "657e993b19a4ca8b261c47e959fb036281fe2ff2f35a339087b28dc3d1ca1b98"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile531-540.pak",
+        "Size":  3119944,
+        "Hash":  "eb30122c27ecd496ed0a153f56d63dca550804be099aafb05ea7a791560d86b2"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tile541-545.pak",
+        "Size":  1559986,
+        "Hash":  "308b75108e78e5fb82932d11d95e04a127f4e2f68f4ad77f45619846e32d4065"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/TK.pak",
+        "Size":  1335472,
+        "Hash":  "5d2250a012aa253ec88f6379c7a540836ad32180c7b544972b67fd14a61c6a18"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Tom.pak",
+        "Size":  176948,
+        "Hash":  "416bbc38d29c54a60d17dfb669a04b5e7c8795f2a6df14ddd0d348e8387a2752"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/TPKnight.pak",
+        "Size":  3597732,
+        "Hash":  "36ee4ef019fd52a805202aa4aa037b2d88b36f0974580e3017a2338b04c8bf66"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/TREES1.PAK",
+        "Size":  2945524,
+        "Hash":  "17baea601ac5593003928889cb5e584a4fd334322525bdc29da892a81ece102c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/TreeShadows.pak",
+        "Size":  155504,
+        "Hash":  "72f37e59b2aa1b0c42c2a4613c5cab34439496c796944e2cae216abb20e61103"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Troll.pak",
+        "Size":  1753384,
+        "Hash":  "53e560f862b7b4e1ab218646898cb157ceb48d7cf39649963a12e2a112ff7aa0"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/TutelarAngel1.pak",
+        "Size":  827700,
+        "Hash":  "e08e248307a9d4704365b78a876724e82256bcbe58d568eff08a0a92722fe2e4"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/TutelarAngel2.pak",
+        "Size":  827700,
+        "Hash":  "bc6ffa8f59f767ca7dbd4084e3030f3126987c7cc5d0c8c8ec979a3913c44fd0"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/TutelarAngel3.pak",
+        "Size":  774940,
+        "Hash":  "25cb5e3228597b3cdf321f571c90d67b0c2d7cabc443e305c4671e28eff04194"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/TutelarAngel4.pak",
+        "Size":  774940,
+        "Hash":  "6babf841de3584fd6ef6eb3e8e4c44c7ea328d92f24f34f1f56f892b18d85933"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Unicorn.pak",
+        "Size":  1034476,
+        "Hash":  "a4d7c97461e5e962200f71cfd7396ae251ec891d48a2bbe06b455245a1d84eb4"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WAxe1.pak",
+        "Size":  172268,
+        "Hash":  "ea3cb3c6b6b2a38abb60d9135e3bfa940328c7ef8d940926bc86d27ebd981197"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WAxe2.pak",
+        "Size":  231084,
+        "Hash":  "e2966ee52f72c72a3ffeb6c1e7caf0efc9c06052c9a878530156803fa7d502c0"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WAxe3.pak",
+        "Size":  211296,
+        "Hash":  "22cbbec9cdfe225fc704ea20cecc54594cea9fc49d5c8a83d1f0bf2d8920f58b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WAxe4.pak",
+        "Size":  215004,
+        "Hash":  "c907bf9781c3867563d2ff72a7f1f076fe7c9c9b0c1566d740b26606bb9c8c7f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WAxe5.pak",
+        "Size":  263984,
+        "Hash":  "29c4421010e4fafd82c27d9b60a4558c46420e239e7f0579e27e41f0e062a466"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WAxe6.pak",
+        "Size":  405220,
+        "Hash":  "30e1ae11824c71bd90ce885c828c41319ae15e34e93a41af7a89149fa6907b71"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WBabHammer.pak",
+        "Size":  456980,
+        "Hash":  "0177d2caf188cbf71f6cb67f3459d68edc7ca84d759c1ee876c367ca046e3d5e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WBerserkWand.pak",
+        "Size":  414152,
+        "Hash":  "606dc6e9c7a401bf589e89fbe68b0bc6076aab53c53f26100b6a004653b586fb"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WBHammer.pak",
+        "Size":  355152,
+        "Hash":  "64b4794fd62e26ddefa970965b481e7876f9631ffe9610ba8bf28f800e357f6f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wbo.pak",
+        "Size":  696004,
+        "Hash":  "dfd5ea24309b88122514691bb4532a501afcf13d8722bcb1be7bf3b84f209938"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WBodice1.pak",
+        "Size":  182364,
+        "Hash":  "5ed0ee526584d5e8b0de0d285bb6449c68edd06ef30904855f72fed5974544ea"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WBodice2.pak",
+        "Size":  254932,
+        "Hash":  "68fb4bc2989f82ecd9722829fb2ea81bd554c297952b3f6addddb1fb834929ef"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WBShadowSword.pak",
+        "Size":  496668,
+        "Hash":  "d16eabb18dc418038a27c81229bf068f5f46f0399c3161a8cb93b7a85532f548"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WChemiss.pak",
+        "Size":  631200,
+        "Hash":  "b9ff522c53e68f96d6431c0dd058412f091a2e0855d0cb9c28b2aa9ac3c4f3d1"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WCHoses.pak",
+        "Size":  700988,
+        "Hash":  "0f176ff3ca25a7efa5cf9006fc820918013dd230eea1fc4c419ff00e5aff8a0a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WCMail.pak",
+        "Size":  592408,
+        "Hash":  "8b5342ca9ecd8aac9d9eb5cb2a5671c43a9c17d97e32e8fc4e0d911a949bd48b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WDarkExec.pak",
+        "Size":  470940,
+        "Hash":  "c21ed9e4557e0cfa9fabc534e8961789da00f67a8143afe218c135bc399a882d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WDebastator.pak",
+        "Size":  418184,
+        "Hash":  "188fc76affd5c677324383f8a607698078dda41ff6287802ef927c94c3fe31de"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WDirectBow.pak",
+        "Size":  593200,
+        "Hash":  "4c3a43bf6db9446c690017a759e425c6b0b02ef87812247d85fd1e7d2afb42b9"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WereWolf.pak",
+        "Size":  1277924,
+        "Hash":  "167c8846d6f22d2091648a30e80deca0c0eeab0134072f09dac33b96600c1a63"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WFireBow.pak",
+        "Size":  1222604,
+        "Hash":  "7ec644fd66b3fa98b74bf194e85dc0f944c2340e6830983944c26052eb49d234"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHammer.pak",
+        "Size":  348988,
+        "Hash":  "31972e315ef9591430d5358f04de8addcd77baa9f0d980f6e2d78b4273f2d6be"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHauberk.pak",
+        "Size":  613784,
+        "Hash":  "998bc872ca97ebeb7c581e1d318483b1a08b03b70c1e0efb4e12c089466be93d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHCap1.pak",
+        "Size":  270788,
+        "Hash":  "a198e20963236d0319a721986279bc1b7d8bfd849b569f3b3e55d047b23da0b0"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHCap2.pak",
+        "Size":  270788,
+        "Hash":  "a4f4d09b62b4d1ac59362ec4c2e5bb99ecf933aa269161775ca9cc762ea34a05"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHelm1.pak",
+        "Size":  109264,
+        "Hash":  "94c82f61c40b441820a79e073fcfb45438a243f1288dd257298bea8ac68fbc8f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHelm4.pak",
+        "Size":  81008,
+        "Hash":  "904d91339033ba3881e1602b7122c620c378ed1684741f51a5e61cd143133eb2"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHHauberk1.pak",
+        "Size":  1159284,
+        "Hash":  "41783a4375e8358507c9f7e9674aaa9297fd532831335ba7c278999e2ee46e95"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHHauberk2.pak",
+        "Size":  1161216,
+        "Hash":  "d02476cf2ec80640aab2360753cf9126e34816bb4db0b208fd3fe00a73f759c4"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHHelm1.pak",
+        "Size":  280320,
+        "Hash":  "e5990d46a0d7a453cc95f6985b9539ea0dad96efabaeaaebbab57df6d4738b6a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHHelm2.pak",
+        "Size":  280320,
+        "Hash":  "8356404f59465daa37b4bc76a93bca2266fddf1467f508658d86e3bd492257b6"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHLeggings1.pak",
+        "Size":  2032860,
+        "Hash":  "2368e14a64292789c8d2d67c5984f0c8d63a225e800de6777de610673dc3a0af"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHLeggings2.pak",
+        "Size":  2032860,
+        "Hash":  "ccabd3499e52108a5c601340e383c7a7bedba1bf88aad80923dfa50c163789e2"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Whoe.pak",
+        "Size":  118312,
+        "Hash":  "8c193317152d39825e214a6dfefca11d9c1b25095ffc8f60c2eff1cbecb6dd4d"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHPMail1.pak",
+        "Size":  1594644,
+        "Hash":  "8afa54834901122a1d7c4d08eea9941316f49a439dd9a4e93807586b4f635b5f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHPMail2.pak",
+        "Size":  1594644,
+        "Hash":  "8d8c835abda143c517d16c572fa5f90c30069ca6b31327e0b08227dc16b3d3f6"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Whr.pak",
+        "Size":  680548,
+        "Hash":  "20b7fb49759431052ff0e7ba3271c307d51a1990e23efe0358403075d2565e6e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHRobe1.pak",
+        "Size":  4177584,
+        "Hash":  "18c1e8c249afe1e4b56977c158f0b4ca831d41e04d9823ba3f6500db9afddfb6"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHRobe2.pak",
+        "Size":  4177584,
+        "Hash":  "0d2242aa466c45ef0c268f230a04e01271d281ce0fa69506e19f842c3bcaf104"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WHTrouser.pak",
+        "Size":  232196,
+        "Hash":  "09e9351e8709fb6eddd5e30f45cf008848a658f00a213258d8ad5790e106d362"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/William.pak",
+        "Size":  128708,
+        "Hash":  "fee6f3c24e9af9764db2100c095bafe68e0fdc3d604d098f88ee0110fa57d93a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WKlonessAstock.pak",
+        "Size":  451172,
+        "Hash":  "404ab41aa5740c83377b4edcbeda59413b88dffe307703649a7db09f13dcb250"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WKlonessAxe.pak",
+        "Size":  329812,
+        "Hash":  "d1078551db54feab243efcaeaff8e5363f5a1c149ab2581daca327e089bf4b9f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WKlonessBlade.pak",
+        "Size":  407584,
+        "Hash":  "719e71344794f46af0cbd57a3b0ae694f547d308c420f7506eecf43308703859"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WKlonessWand.pak",
+        "Size":  612120,
+        "Hash":  "cf833b74845870e93d40b21fe93c524154c291ffb42701e77f4acc7970f368eb"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WLarmor.pak",
+        "Size":  378768,
+        "Hash":  "1f22045e9a81f99649c0708724e5cf7ba6489b0d868f30913db24716c163e2e7"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WLBoots.pak",
+        "Size":  1310764,
+        "Hash":  "d34814d6bc264050029a0a2816452507adfb01d2ef7d722e7ea9470c32da27a9"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WLeggings.pak",
+        "Size":  670608,
+        "Hash":  "a0d931a9c11a572b56a7a76dc68592743151b4ab20778471a1db0dc9d602863e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WLightBlade.pak",
+        "Size":  411272,
+        "Hash":  "a5862e7adce94c0502397101c6f248b6699aebcf90bb989f90a9110503ddb934"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wm.pak",
+        "Size":  1453932,
+        "Hash":  "ebb02586775b4847e03be7abb1dca0ad85ea52dc546ce65c347ba43f070b0ded"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wmantle01.pak",
+        "Size":  943056,
+        "Hash":  "07c9881750e232c64192cdcb5c6854b49c5d85ccb3f9f5d5ae798293ebc84c3c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wmantle02.pak",
+        "Size":  942720,
+        "Hash":  "c9ea605c182f5f565efa7b3e2ffba4436f4080ba119f1499e0de16445b9c829a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wmantle03.pak",
+        "Size":  944700,
+        "Hash":  "bbd3746c5a73ab667245487e98d4ec2214aaae67afd15d2a250b6c912378f134"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wmantle04.pak",
+        "Size":  4285704,
+        "Hash":  "ad3902d47afbf96a16870f9d34fbac253596a68dd259eca9023e378ad67a8336"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wmantle05.pak",
+        "Size":  4285704,
+        "Hash":  "8e64ec0352eb6c9566b1d9b85f9d4d9ee314d67aba7562a17105d2d2944443fa"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wmantle06.pak",
+        "Size":  4285704,
+        "Hash":  "9b5cc85e16670d543f8eec9a3b758b9b77f94150e0f0cf555b464729f4e0cb18"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WPickAxe1.pak",
+        "Size":  286904,
+        "Hash":  "7b2657c14828cc49fa0af3ccfe9867a217931f6145cc1aa14d7c485d11a8e020"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WPMail.pak",
+        "Size":  396688,
+        "Hash":  "a1bf2a1e062fb16a5ca3becc845dd2bce6cdf9cd796b2fadf1a4793b952fc1ea"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wpt.pak",
+        "Size":  1278704,
+        "Hash":  "3767f670561abf50c74c939a7de663b03a344c3538da8f6a33ecb3c28ac5b4a2"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WReMagicWand.pak",
+        "Size":  486068,
+        "Hash":  "034e6dddfeb5d4b1ef285c7fdbacf365b12d6f2ebd0dab3ad0b4ac0fceec6fed"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wrobe1.pak",
+        "Size":  1169940,
+        "Hash":  "b75f9ac84041142b9a702d1af008810aebbbaeed6dd1921ca8ff3a429792fe3a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WSanta.pak",
+        "Size":  1178332,
+        "Hash":  "c9d4438a2051faa3727f179e69b6c33b6eb4f667f8d1c499ca8949cc050f0a9b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wsh.pak",
+        "Size":  1816712,
+        "Hash":  "762046bcf02145674d2b5d161818c1080c0978bd3efe366272ef163d1507f768"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WShirt.pak",
+        "Size":  463744,
+        "Hash":  "30880e47e60e2de2dc16c18bc67e4a5492bb3ea2399841dc9e938d40e4dc3ee5"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WShoes.pak",
+        "Size":  747716,
+        "Hash":  "7528c2bee7fe2a9d4f792c18e4526fe36fd39fc5a7300620921b885e47762de4"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WSkirt.pak",
+        "Size":  715388,
+        "Hash":  "690c46d1ca74030a0c1b8b89379fb96f48b7ca12c84f790d711b2ee52feb5229"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WSMail.pak",
+        "Size":  434448,
+        "Hash":  "f7c8a08952e50c9a8dfa9e68aa6f67fbbde468a8f1623112c17f16862f0f0ac1"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WStaff1.pak",
+        "Size":  474548,
+        "Hash":  "3341f030de13dff57b1b962e91ac724f4144731bb68c8f3631efea791a0c4b4f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WStaff2.pak",
+        "Size":  810084,
+        "Hash":  "e9183304777c63de2b83e64baefcbc9fc250464bc37dc6eac0bd6e8e84724068"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WStaff3.pak",
+        "Size":  566860,
+        "Hash":  "53a595114aa29f1c6420d2819cf17e58db76a868361910ac06731f36378c361e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WStormbringer.pak",
+        "Size":  445744,
+        "Hash":  "b7346a604ac5ac4e0a2aa51d39b9d501b3102f1cdacad4e18746d13fad3ed6d5"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wsw.pak",
+        "Size":  3874636,
+        "Hash":  "417f3bcb840261e0b1804102fc3a7802decd2163bea776b923f65d8bfcae0d94"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wsw2.pak",
+        "Size":  410300,
+        "Hash":  "177abc3b399cff2c1f8b54a573f434067e72b86177a1aaae4bc53807760d1fa7"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wsw3.pak",
+        "Size":  1153084,
+        "Hash":  "0c275dcb6676b6ca99f6ea4de62f7651b98b7e3489ba2f5c8a3458b58f21f9b7"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wswx.pak",
+        "Size":  354408,
+        "Hash":  "3a0451ca8e851900647d34c58197df8157b12013759f6a8c0d7a6d7b6729e36b"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/WTrouser.pak",
+        "Size":  532068,
+        "Hash":  "6cec7e42accd9c4ab7d544dde1903b73134a91a85267f0f5f170ca344e36e13f"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Ww.pak",
+        "Size":  1150064,
+        "Hash":  "290586c333d84ea179c921169d7b4bebea13364ae4bf658733b481154071cbf3"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Wyvern.pak",
+        "Size":  19958156,
+        "Hash":  "593db9e3764142380ac33a2615a49e4f6a7cf3436b8c61d90644391a52b8670c"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Ym.pak",
+        "Size":  1453932,
+        "Hash":  "4f309d7dec923781f7e18c0d0f395ce105d338e7e3d9d3690593e191524c94a4"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/yseffect2.pak",
+        "Size":  23847736,
+        "Hash":  "3df7ecaaf66786aec7b2549de62fbe3e3d6298bdba4022a40e7d7b8398b48b5a"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/yseffect3.pak",
+        "Size":  33172352,
+        "Hash":  "c61bd5a137839da63f3b2dd49759fd67ab7c393e3c813708961ba38bf62f8b09"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/yseffect4.pak",
+        "Size":  3628898,
+        "Hash":  "0d7c2c0f1e7127b54258afa19414c46fd90ae8e2bf030f61077ddb1543ed7eab"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/yspro.pak",
+        "Size":  38365564,
+        "Hash":  "22680140bd7bb359240f8c2cd5f5e776d3d1a26fb08891fa8cdf908ed4a9e94e"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Yw.pak",
+        "Size":  1150064,
+        "Hash":  "7403ff5eae760959416eb32617723ccba764f6c12134a83ee187a06a6f9c3390"
+    },
+    {
+        "Path":  "Helbreath/SPRITES/Zom.pak",
+        "Size":  351744,
+        "Hash":  "6c5b6440b2293e742a1bf71077ce02a3e3c0c02ac1da4c495bb9c974c543599b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C1.WAV",
+        "Size":  14674,
+        "Hash":  "defa92ff292e37def48e318cd3af9b2a4a0c0e6f7ec78f1cef8fc17963a65149"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C10.WAV",
+        "Size":  14946,
+        "Hash":  "aaf38dee1e07400d03cc8da08b0d674a95b0ff6129d58411d331cd2b526b96a6"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C11.WAV",
+        "Size":  14476,
+        "Hash":  "ddee527a68628bb45b20a2b17c6e1bf158bf3a6bb363b812e7d808e569d0a85d"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C12.WAV",
+        "Size":  16322,
+        "Hash":  "1c56e6c055eab45d4c604bd0be249e7aede5284d678b402571282cd730c07260"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C13.WAV",
+        "Size":  13046,
+        "Hash":  "1f7650696adf4bdc7fdcfc4c53816715033d31b6dcee9160f570d07dcce5d2fe"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C14.WAV",
+        "Size":  67680,
+        "Hash":  "5eed2e1dd99cdc79820e5308a9c679cb2bc2702f0324d0d675c1ef27cec749a1"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C15.WAV",
+        "Size":  74358,
+        "Hash":  "bf851ec651ba4fa4a6c2d3e0bb45d91dc430c49925a5a2b45d95ddc78357e66d"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C16.WAV",
+        "Size":  90646,
+        "Hash":  "7e03e51f4a60ecafc0582f5ed9b253db891ee67699d6605b581668c66e1044b7"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C17.WAV",
+        "Size":  44220,
+        "Hash":  "b0660f053f2408323b7d19d545c357673365704f330a3513479c935d9506bf34"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C18.WAV",
+        "Size":  41100,
+        "Hash":  "cde04c726d016cff1f81d092b3d9d02f1187ae2369e3e31578876b36a937d350"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C19.WAV",
+        "Size":  50934,
+        "Hash":  "f23b6362d32119cc5b9357faee294377b1274e4027d6e3a22b2fa381ea09b718"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C2.WAV",
+        "Size":  32124,
+        "Hash":  "27815f17874e0a65e11eec3e05f132f0e43168a63e883dd8e48f841a482a46d7"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C20.WAV",
+        "Size":  55796,
+        "Hash":  "8970cff4c03c0abaf901dad614966fd2b9c6bd8c7ab3169e4977524a095c4131"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C21.WAV",
+        "Size":  82294,
+        "Hash":  "634a8045ab17c1debf517c888a4da1bac24627bd3149e0c8bce1fd0cde120f9b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C22.WAV",
+        "Size":  26422,
+        "Hash":  "56265226901ea9de8a80921efb3f5e07d2f47d7329e85aa94c2ac0750ed5b190"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C23.WAV",
+        "Size":  46582,
+        "Hash":  "b3f67207b91253408afcb75bd261da536ed1d526d2e98ea7c818594653669792"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C24.WAV",
+        "Size":  46710,
+        "Hash":  "14312eb9eda63100f82b48ab015cf6b433bc886f6e065332fcc4448b8b042ea1"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C3.WAV",
+        "Size":  55050,
+        "Hash":  "72bf612c7dcb9bf3c23304b35b49e32a03ae84cf21390d7ecaa04810bc263358"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C4.WAV",
+        "Size":  7636,
+        "Hash":  "922a7122be2068cad21eace27cf8a0e87a996cf59eacf17d8dba7bc8153c7150"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C5.WAV",
+        "Size":  10838,
+        "Hash":  "12e6da0257b1785a1ced56ce8c2818eae2ac85a01ab1aed9484a77be26d14993"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C6.WAV",
+        "Size":  28726,
+        "Hash":  "6a681c469a225a512a55fe26eb3f90064276763ad0a03d0607134dff6a596c0a"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C7.WAV",
+        "Size":  15062,
+        "Hash":  "2e66b8e8133cae064bfdee12f2037e3ae27c5aba6dcb1a2b03203626634e2dc0"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C8.WAV",
+        "Size":  11174,
+        "Hash":  "0f470bbd5b6beeb90b9ef1996bfed9cc693b839660993aa6869cd5c57ecf88d9"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/C9.WAV",
+        "Size":  15760,
+        "Hash":  "4bca0517a792ce8e38d8a68a5287696abbe65470594283692e4104938ffc0184"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E1.WAV",
+        "Size":  45548,
+        "Hash":  "48697f0ccb8e07a886cf9f885b46fbf0395fefb88eda380322ef012c8fcd0012"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E10.WAV",
+        "Size":  32340,
+        "Hash":  "3750a78b5e238c21819de8061354d060b4bd42c3efea1ef2620089d25c6bfe8a"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E11.WAV",
+        "Size":  20116,
+        "Hash":  "e8c7cd9e8569b8a9cdad1aed89288182c279f7d387f1da3137ae4e23c6195802"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E12.WAV",
+        "Size":  27814,
+        "Hash":  "d7996f94047e4247ddf17e261d0b55f1124e0b4ef44f7348ac3e16770ec9ee85"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E13.WAV",
+        "Size":  7352,
+        "Hash":  "d7341f0bb761b2af41cefa4d5bbeb0b77790fc6a57012a6b61acafca4485e328"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E14.WAV",
+        "Size":  16098,
+        "Hash":  "f07b2a3262f63041e998af664c87367e4ebbf400d89934e76392d77b79eb52e4"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E15.WAV",
+        "Size":  132024,
+        "Hash":  "19138229ab9b4f2f5461276c2998edd516b305a570979b0a8d8284004ea373b9"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E16.WAV",
+        "Size":  148478,
+        "Hash":  "c54445bb67371d8cb480b3e780d9b6a740f0866030a03f3e2daedf5f7576c137"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E17.WAV",
+        "Size":  48794,
+        "Hash":  "37f9364fbf074fc0f2ef7b8b085edcdbe5e0a660a637e58b777fb2a7bb081dad"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E18.WAV",
+        "Size":  66586,
+        "Hash":  "ab0e7ec9ead53aa3420c489d851bd223bf1fdc8bd30a436571379be893dea9cd"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E19.WAV",
+        "Size":  18292,
+        "Hash":  "80e0e0be4e6e579d67cd829bff1ee767c464bd3d033cec739b757a47ad870150"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E2.WAV",
+        "Size":  87056,
+        "Hash":  "95ec88431dd679e179daaad97f25cefdc35a514a89208685cad4f0018883aa72"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E20.WAV",
+        "Size":  22364,
+        "Hash":  "81229491ca3f838d7b649deb5597c529288708afe2745db2edc21ae69d34e98d"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E21.WAV",
+        "Size":  24684,
+        "Hash":  "3847f47c2150c676963a110e7c4f2153f52281aca26a5fb00586b3d1fc8d0330"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E22.WAV",
+        "Size":  58868,
+        "Hash":  "a548c74f845e342798b1bd698d945320703de989a0ac9ddb656167fc9bc51f78"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E23.WAV",
+        "Size":  173820,
+        "Hash":  "636d76c8bf58bac4e17e0f70747bd31ad367aea9b999e5525ec046feb111b568"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E24.WAV",
+        "Size":  132182,
+        "Hash":  "fbb8252080fd017904d1974366bcf917f221b8d979610b92a21cddb47ee23295"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E25.WAV",
+        "Size":  39014,
+        "Hash":  "127fec49114c390b797c4a2ae64800079b8503ab54f3001e377e32841f19ff0c"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E26.WAV",
+        "Size":  136270,
+        "Hash":  "943bedb2db49b6ba8e3ee57f9f946263f4a1d496c691cb941482415f298e7859"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E27.WAV",
+        "Size":  216038,
+        "Hash":  "06710421afd2cd5c5707f659d3c203a7411c35d5edde255b0127e7485851bfd6"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E28.WAV",
+        "Size":  50220,
+        "Hash":  "aa5b6f7eadb9e8078aa6ba16533bdc1058be26e69e6dd78721b428182ecea913"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E29.WAV",
+        "Size":  44140,
+        "Hash":  "ea87a325736d76a2a2b72939b6b2b01a28f3538a72e4bd0a19443217134bb79a"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E3.WAV",
+        "Size":  88318,
+        "Hash":  "40be808738513bd2e5b90f510e9d34f5789ff963a62d01cc5f2bb4eeb4c63cbf"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E30.WAV",
+        "Size":  53148,
+        "Hash":  "9fd970e00abce88e5b282e2584afe89e59df6e181688b2639803974186a18970"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E31.WAV",
+        "Size":  832206,
+        "Hash":  "da0a463fa846aeb0c2739989b1ab4aa1608c14ef0b2e1c0059d339c613dd02a3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E32.WAV",
+        "Size":  745680,
+        "Hash":  "d741e0ef0f0e3a763d50f7ad9db07a09e87892119151f08bcff2643769304f0b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E33.WAV",
+        "Size":  752568,
+        "Hash":  "529c242f123fa8b75a3a94dcf2eede62c79a1b6de2241111ee7663d66ad1e75e"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E34.WAV",
+        "Size":  169182,
+        "Hash":  "f3b9718ed4d0f7fc0512c382da493b54b98a232f84c7e95928f584c0e80e2bb3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E35.WAV",
+        "Size":  156892,
+        "Hash":  "f7cc64d6585519aec56c5465ac58a266624028141485bb815b67f8a555ddf476"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E36.WAV",
+        "Size":  23092,
+        "Hash":  "205820718fdf6399f3297edc4ff1859bde99ad5c860548236dc86bc729d71b6a"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E37.WAV",
+        "Size":  21748,
+        "Hash":  "fa4fac34424624dc53e6e544ce300b299b64450cf30a0d3b55aa2d86af563d35"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E38.WAV",
+        "Size":  754942,
+        "Hash":  "5c8e2e1fa7c3d7fd45b4b555a7ee7b71ef90b3f67f39818a657adca17a4e41d3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E39.WAV",
+        "Size":  503852,
+        "Hash":  "19145331b23e039c12076a605808653f2d38948e2fb4f3b1a191e67caf221755"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E4.WAV",
+        "Size":  166200,
+        "Hash":  "4213ff7fa1a4786fddb64d719fe2956d71a0be1a96444c35a1b429242c6ddcc3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E40.WAV",
+        "Size":  207740,
+        "Hash":  "7faaaed664790dfb6183010eca80c52cb9f4ef58859100cea5b35c39060ab3f6"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E41.WAV",
+        "Size":  160770,
+        "Hash":  "6c24a27f0b57744d1fc52fa0a18f8e1add5169571bbddabad1f63631e8859d8e"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E42.WAV",
+        "Size":  40382,
+        "Hash":  "5ba6fcd502b97ad17e5d02dc4edda39cad613043650eda243d69b91036225197"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E43.WAV",
+        "Size":  111948,
+        "Hash":  "6ea57d1e5477f6b69bacac7194ae8fad20e8ef85c39dfb3a6c0d78db12df961b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E44.wav",
+        "Size":  213290,
+        "Hash":  "53085c8e03ecf4235cda3072d842c7f3ea3ff81d32a4321dfdb4e7f2a1a4d9f0"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E45.wav",
+        "Size":  51106,
+        "Hash":  "e036695e4ef5b1aa100deb2373e54ee569ba10693ec1f82f13e629a550640910"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E46.wav",
+        "Size":  20502,
+        "Hash":  "0a167f797baac1acc438fcadc56c7822ce518d0f8e4a8cee23986688b8b6f154"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E47.wav",
+        "Size":  55108,
+        "Hash":  "ff5d0452df2f91502cc6682cae14e563cf018043fb79018a63f0f06ebd7b41c6"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E49.wav",
+        "Size":  75812,
+        "Hash":  "d7a8f4e7556d844d99022ceab5b8105ee3a569106212e0d54855af689cf77564"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E5.WAV",
+        "Size":  131862,
+        "Hash":  "5060c79024c2592c80380410265cd887eaef2aea1c6e474dae37464df455ff21"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E50.wav",
+        "Size":  54238,
+        "Hash":  "3701bcc740fd24a1cb940b41eac8096f1909b4f92283dfc356b3384374c1863d"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E51.wav",
+        "Size":  648784,
+        "Hash":  "7048b2752ab5d5627b0db8d3804ddf8352b89d3860ab3d05e168ba01845edc0f"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E52.wav",
+        "Size":  417836,
+        "Hash":  "08f2ee0d31f51dfdd6f8e79418272097863642dc08a12d64eadaa393bd4726d2"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E53.wav",
+        "Size":  565292,
+        "Hash":  "c9f41baf56e37377306852e6f391b44f71ce23c5fb7236bf61d365af6f43b812"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E6.WAV",
+        "Size":  131116,
+        "Hash":  "ef08b3b8bf0527d730d8625b95b770304bee2269ce4536a314126715fbaa1f6c"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E7.WAV",
+        "Size":  87924,
+        "Hash":  "b45ca13767b8c381b3812556c1d3a9f313e9438aded36647841a75ceb7ee6bf1"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E8.WAV",
+        "Size":  91860,
+        "Hash":  "4bba5344d5477f39aa200576d45bf1e572d608ad31e878ef09e5efdc335519b1"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/E9.WAV",
+        "Size":  130196,
+        "Hash":  "d3de90b0ed5cb3685c45871795b610cdb313c3b7bc32231062a67f78b227b096"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M1.WAV",
+        "Size":  44242,
+        "Hash":  "925b7676998a17c1204e1db69c3295d2c8c12653175c765d2390fabcc83b3c50"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M10.WAV",
+        "Size":  33376,
+        "Hash":  "c8e16bcdf22d0970c4255546f0bee1d280c5d19ca78cf36b9b3d551241f399d4"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M100.wav",
+        "Size":  27088,
+        "Hash":  "7195a95e309f8dda6f3af116d4230b2a37610dd014949d19fcabc770f1b1f6ca"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M101.wav",
+        "Size":  24104,
+        "Hash":  "a9bf1e97db28fd47ceb70365e1ce5119c44206456f698d93dfc0d6508552d6c0"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M102.wav",
+        "Size":  60460,
+        "Hash":  "b32a69e70d9a78303b48ad0292673c700ab04b408cd19e455a5664effa298db2"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M103.wav",
+        "Size":  106540,
+        "Hash":  "e195b8111e9a84080a7a549ed5e58843d753811e4ee71c654ad0c1e70fac1505"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M105.wav",
+        "Size":  229494,
+        "Hash":  "a8af3a62a004130dfeabeccd11c134151f3e9c7db4d725bc454b269042bd7140"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M106.wav",
+        "Size":  498806,
+        "Hash":  "c02024d84ab59684b0675940b5c55b9919d33bccb414da229745556c837e48cd"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M107.wav",
+        "Size":  325676,
+        "Hash":  "9124223d5b48bf9570201fcf0341674d5ddafc907964148abc5988c0c06ab124"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M108.wav",
+        "Size":  139382,
+        "Hash":  "748706c44ff2f7f00a60d681d41c60da66248235c8d36f690fb3e2e55e7d7b3d"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M109.wav",
+        "Size":  108406,
+        "Hash":  "69b755632c89031fcf94b38b25c978fe85332d96e16addc8c63eca5216040440"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M11.WAV",
+        "Size":  42678,
+        "Hash":  "3273df91ae51daca93354729a63f070016bd923b79daa9befdb090888d1ecdf7"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M110.wav",
+        "Size":  76534,
+        "Hash":  "82f676f03a2e205a57f02963cd2e6a8cd9f3fdc069a910e792489a745385e964"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M111.wav",
+        "Size":  156278,
+        "Hash":  "4348b9321b04bd0ff3f7dce7c6326fc2a007731923f13126945dd2786f43c056"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M112.wav",
+        "Size":  85622,
+        "Hash":  "7fd0deaf5c1aacdac485a2b1d9e700382745396509ae3b6e528fc907e95e0476"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M113.wav",
+        "Size":  169338,
+        "Hash":  "0ee1ea89f51b477068ecd922179e7a87481cffc689953763ee09e22b63e5a8f3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M114.wav",
+        "Size":  440438,
+        "Hash":  "3bc227d80863333ef64d6d8e42c9a79de716e6b0fc7283afa623916ed93c804d"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M115.wav",
+        "Size":  180854,
+        "Hash":  "a08e10cf10e22688e2865806dff7553cef8b88b1722395d7a3c62358a71d2cbd"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M116.wav",
+        "Size":  162934,
+        "Hash":  "c910e36cc1bb7da53199eb26e7fc04e5c4fae1e800bff43b62114ca2337995a0"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M117.wav",
+        "Size":  101750,
+        "Hash":  "f83b20af6d8061915465dbd529a841473065de89be2f7778c1b00f09981cb158"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M118.wav",
+        "Size":  150134,
+        "Hash":  "58cf2d9b3cac35b8d47ef381f8e2d506007c044359e4fa3405a71d0fe2aee960"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M119.wav",
+        "Size":  122960,
+        "Hash":  "5fd784911a6aec2392aee449ea330b3962bcdafa17d0eea154327fb19b8f729f"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M12.WAV",
+        "Size":  39092,
+        "Hash":  "850b6a6c2e945c6b8fc32ae76d5ba70bd5a737ed5bd0bc1de81cdda03df3ee48"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M120.wav",
+        "Size":  133750,
+        "Hash":  "d418c3d3b7ac5aa8fee4e042a2a3c8d96eb2c3cd112fbb571474f4e7091cbc6a"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M121.wav",
+        "Size":  187510,
+        "Hash":  "b12e0e627dd1101ceec7c30e0e1c62a2ae4ca95c0db62289bca089b5ac010c1a"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M122.wav",
+        "Size":  215158,
+        "Hash":  "12c76f6b1adbe9d79918da159295f9c921997a2cec1062a0ba49ca13a5627314"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M123.wav",
+        "Size":  188534,
+        "Hash":  "354f775e5c700eddf75a875d23f056f7f791b50ebb5e14d5b1c5cb69b38fa7ae"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M124.wav",
+        "Size":  59002,
+        "Hash":  "d94f185b66279bc0599d18ff83eeb329122e8885d7d2f39e050c694db80dbf63"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M125.wav",
+        "Size":  189258,
+        "Hash":  "c8a9f104c3825f4794e2b7c50bf100602fd67cf1e7c5da4d315ac45af7fda235"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M126.wav",
+        "Size":  192630,
+        "Hash":  "fb55122c3bff0ca858514a3961db5380f3c83b9d79fcb0cb564ce0e76cd51e40"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M127.wav",
+        "Size":  71798,
+        "Hash":  "d66aac65dbe0f1c524355943a474619f1404a69709ac7f4841e3092ef215f790"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M128.wav",
+        "Size":  162426,
+        "Hash":  "730186a50b242547662e4c53950ce2af311a353a49cc655b7f3ea032a23fbe87"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M129.wav",
+        "Size":  199914,
+        "Hash":  "f04fa37c73b062dd9faf6cb190f616848a6fd3bf74733a375a66a6a9e6d66e94"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M13.WAV",
+        "Size":  48630,
+        "Hash":  "6f7afd2aa91aed592124db24e7ffbf1532ee70cd00d8e8148405d40aa1a1a59b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M130.wav",
+        "Size":  348278,
+        "Hash":  "1ad8e16511817b64619f76073a397f821ae165aafe208f65e4fd0aa1563a6ad1"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M131.wav",
+        "Size":  162002,
+        "Hash":  "1b0955092f1dddf820564bab26f158a3aabd706fcaf5f50fcb50a1227a26d1d1"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M132.wav",
+        "Size":  46618,
+        "Hash":  "8a4f13805e637c7630270ed3995b737e794a76110a71ed3eb5c5bdcdbae663a4"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M133.wav",
+        "Size":  126106,
+        "Hash":  "46dec8aa51723ed61affbfa03a8e7a68c2fbd5c6a227712c4a664b3c19af7ccc"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M134.wav",
+        "Size":  196066,
+        "Hash":  "2a6224d3a334fe3f5137c39746c6d280884c9c6a173c758c305a27c2f2e134ab"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M135.wav",
+        "Size":  82342,
+        "Hash":  "7957abda91d5047d7d0443f7f03226a7ab4c2d206770268816f8e8714356b7e8"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M14.WAV",
+        "Size":  11554,
+        "Hash":  "ca270b1752243c7037110760016863c1c0020e796abe7bc425e1b37efc6173b5"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M140.wav",
+        "Size":  65476,
+        "Hash":  "3404d74b47559a3f03ddf09eacf15f74b428822e760425bc65d5e05be958213e"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M141.wav",
+        "Size":  117206,
+        "Hash":  "f1855c02562f1be15dea9960f130449e9a89a84688cfadd9eaf682181460d649"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M142.wav",
+        "Size":  18126,
+        "Hash":  "c017035e8fa0d478e1912fab901d2fb5c8078fa1f4c45f122024b84c3588945c"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M143.wav",
+        "Size":  54550,
+        "Hash":  "8d9ff93454a2561abc2e32c324bf211108f13c4c4a9bf3ca30859c064a148d18"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M144.wav",
+        "Size":  133750,
+        "Hash":  "d418c3d3b7ac5aa8fee4e042a2a3c8d96eb2c3cd112fbb571474f4e7091cbc6a"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M145.wav",
+        "Size":  137198,
+        "Hash":  "73504151ff29cffd40f11ea47d0c5098e477a862a5c47ab2e00c998b4ab6ef98"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M146.wav",
+        "Size":  77376,
+        "Hash":  "43f4bc1e73e4d486b6fb005bca25bdf94993ad94136884fa1fda4d3e4d9f1f90"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M147.wav",
+        "Size":  45234,
+        "Hash":  "7202281f33ba8b19ce15668b041ec6901a527f49978ab43c880543d8a37d8d57"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M148.wav",
+        "Size":  50506,
+        "Hash":  "e11a51addfae02cb8c82be9e2de9a877ad879388bbc021cd57388608762c3a38"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M149.wav",
+        "Size":  194210,
+        "Hash":  "84a817d65ab3ab25cb0d34c48994c8db7f99c60ff87e1e98b021c679e0b81ec3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M15.WAV",
+        "Size":  23478,
+        "Hash":  "394f05f4fea5ecb1ccbf564c8fd767b62299fb289fd8bc600eebc43ffcc89930"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M150.wav",
+        "Size":  65498,
+        "Hash":  "967dbb7fadeb055b7ad007c94dbe7c0dc89e3ed03b4676eff7da04086ccf6fb9"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M151.wav",
+        "Size":  73224,
+        "Hash":  "932335e30dc681c56bdd5224c43173bb87c4bd6841c253ad212e31829f83f97b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M152.wav",
+        "Size":  86960,
+        "Hash":  "00911a36cff848959332a70fb153b9b36beab7030ebdfdf6620e65e65e6bd900"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M153.wav",
+        "Size":  86392,
+        "Hash":  "254b50c47b21c1bc7bf68f7ee9ea47d8298ef9240a19deacea192ba64c5f7177"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M154.wav",
+        "Size":  87160,
+        "Hash":  "d0149ca4543602a9af8cb1da5e911f363e95eedad747e28e212aba1ee0b05989"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M155.wav",
+        "Size":  73224,
+        "Hash":  "784d1ae3924c24ee02ec3225603256716c03e7af9295795f6e96bed9b022504b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M156.wav",
+        "Size":  86960,
+        "Hash":  "a79b169c73e41f14135d324c2d6b7606a4a6a678e70824c608516011f64ce0be"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M16.WAV",
+        "Size":  66340,
+        "Hash":  "3eeab99ccfdc5295f7bfa35e0f132c7ac56fc4949b8b6818bcc623119570a619"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M17.WAV",
+        "Size":  65472,
+        "Hash":  "43b03a4ac34731ef9d96b86187167251454ab83e71fa174588e9d6db2be6ebc3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M18.WAV",
+        "Size":  47276,
+        "Hash":  "64d4a79d0ac1910717a675ee2b44cb6458e800b4d8ac90cd549fb3ec3e682aa8"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M19.WAV",
+        "Size":  71212,
+        "Hash":  "fc6ec3f88a8ce30e23462ce88ec7d720cece969b9632a5d2ca8f3822a58d9179"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M2.WAV",
+        "Size":  27628,
+        "Hash":  "035e21370ad9954eef0d5b7b63b8886601a543f27827fc01fe775c932bc118f9"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M20.WAV",
+        "Size":  87340,
+        "Hash":  "a512336c73b86d031f7c41a65590972e1459ada761425f129c38c14b80b4447e"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M21.WAV",
+        "Size":  36332,
+        "Hash":  "d57f632731b2cd4a5311caf75eb45b98e6956382dd4f1f529755dd6a988d274d"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M22.WAV",
+        "Size":  34804,
+        "Hash":  "3e81f65ed3e035d145cae2a983fe4e1fda3d53a1c8159a6a3f0967dbc18a3de3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M23.WAV",
+        "Size":  34180,
+        "Hash":  "b851b3dfea331402921fde7b2a2f27c59cf6f7f58ec0ee043a9fd00e97e6434c"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M24.WAV",
+        "Size":  44452,
+        "Hash":  "86ad75301305051c8c212cb337adcb5ea860e22ae94e955e225368c4c767cf7e"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M25.WAV",
+        "Size":  36722,
+        "Hash":  "50c722787d079a4c88c19477a51eedc1f521cf3a6961bce0c10d7cf058f082b7"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M26.WAV",
+        "Size":  21634,
+        "Hash":  "a2cd82fd1cfab14214e62a1b91b4e0fb81ffd16093190b625aa973e0b8cb1c7e"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M27.WAV",
+        "Size":  26520,
+        "Hash":  "d16f5db52824666a63a3f6b26ad9d4f660b089340ae09b51e004aa44cc44219f"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M28.WAV",
+        "Size":  35360,
+        "Hash":  "6ab93293e02793eb488c795666b84cc9aabaaf0437d8d28ef8c5966796cafd74"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M29.WAV",
+        "Size":  37956,
+        "Hash":  "b2ac2a3b87915b99e1d2fd9d4780527bd2a277d1f3d621fc0266d86c0bb9ac72"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M3.WAV",
+        "Size":  43776,
+        "Hash":  "59a26bf64a0e96fc90d3a3162b2afe4ec0c8fcf5535b978c2666ad575dc66cd2"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M30.WAV",
+        "Size":  44934,
+        "Hash":  "91b105abec9b2542e833ea443d1267719eb1741996bff7ef9963787cda4c7f7a"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M31.WAV",
+        "Size":  31620,
+        "Hash":  "d77430a81b65ff207095659b4bf540330811b11e3c3e79ea1fa657290e117ffa"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M32.WAV",
+        "Size":  35980,
+        "Hash":  "73b402cff5318dd441dd81c3e7dd48203c8aee00cb38dccecca56ecf588ec18b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M33.WAV",
+        "Size":  67468,
+        "Hash":  "73338e9b7e277ad5ab160d797eeafa76cf84d2bcee660a8987bfa595bc977b37"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M34.WAV",
+        "Size":  55540,
+        "Hash":  "1613c5b2842f79ad2cbb24ca0db7058d039e48ac06804d46dcb85da821d32529"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M35.WAV",
+        "Size":  39348,
+        "Hash":  "5af915b97291ab1e7bdaade04364125b311aa030c6996aff772561414266ab2c"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M36.WAV",
+        "Size":  50620,
+        "Hash":  "42c667339fbe4fcb9b8517dd104fd15492b6c8b4bdede01c3fd7474d5f8d0ad4"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M37.WAV",
+        "Size":  64666,
+        "Hash":  "83fded15aa5710128b1d8b9ef9bf4ddebec2cef4b32f00d31bb959285d4a1aab"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M38.WAV",
+        "Size":  32260,
+        "Hash":  "5ec80fc4411214e124cce50d20a13220f845a329a47123ddbf798162a37b8919"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M39.WAV",
+        "Size":  42442,
+        "Hash":  "fe403907238d4727065436c5cb9501eec70c4181eac7b465dfe17c49a30ed1a7"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M4.WAV",
+        "Size":  66302,
+        "Hash":  "e672ac9a8fe2a1ee9bbdaf00433eca270bc8947804631eb8c0670239c8e35be7"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M40.WAV",
+        "Size":  67978,
+        "Hash":  "687b6595ad06fa2b78b834a64d53c74fe87b15c5800ffd0e8f790441bfa1958e"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M41.WAV",
+        "Size":  66548,
+        "Hash":  "4a4bbe8fa80116d5afc49c8574195982b576416e67590a6ecf2198600dd50eba"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M42.WAV",
+        "Size":  44104,
+        "Hash":  "066dc4ed16eaed6173cbfd5d7936e1d83617a3849174a3477c82b011b23797fb"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M43.WAV",
+        "Size":  37866,
+        "Hash":  "1c18486364f657dd867cdced225cf8357c72ddb4ab0e55542fe7acdb60cea623"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M44.WAV",
+        "Size":  82440,
+        "Hash":  "920da864ca92cae2f422d5ced0534c5a676285726e039f20055abd888abcdc6a"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M45.WAV",
+        "Size":  86470,
+        "Hash":  "3748898b8814c6e1bedec9d19a210a3fb234094c2cecad80dc0cde49a2d99cc1"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M46.WAV",
+        "Size":  61044,
+        "Hash":  "63f02f4fc9554b772790f95407d80d40ca1f6da572c542834936804c3961362f"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M47.WAV",
+        "Size":  44498,
+        "Hash":  "93e4abf14a2daea70927a2440754649c604b618dae4e49e89281b3806f27d9d7"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M48.WAV",
+        "Size":  18382,
+        "Hash":  "d9656d09230ab6ce9c700c34b231ef4024c4e1f05ade96100f7d5d97c15a38eb"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M49.WAV",
+        "Size":  40054,
+        "Hash":  "2a76907310dc3f9c2c8886ee8119857f23faaeb8c88e7f90f4ff64b1e90461b0"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M5.WAV",
+        "Size":  68220,
+        "Hash":  "76d0fab9ca6766bd442e0f451697a932961652db611c608fff6a5c6b043f7272"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M50.WAV",
+        "Size":  77262,
+        "Hash":  "c6385a94e411a388c8ddb3538a1c172befd2f3708baaeb8ad1983efe7ec745f3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M51.WAV",
+        "Size":  62670,
+        "Hash":  "4d758a8a79c6c2711e17ba072fd54d6edc85e8caa9609810fca9a65f5b1a7dff"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M52.WAV",
+        "Size":  34974,
+        "Hash":  "52f6a27ffff371adba86eec9728c4d143e17d1827423aee5ec4b65eb9e535219"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M53.WAV",
+        "Size":  21582,
+        "Hash":  "1236427edcd37d8f89510b0cf7c7b6e84874b9aed4afade3afcdaaed2bdd959e"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M54.WAV",
+        "Size":  81762,
+        "Hash":  "fa4c6cfa7e4436f473e0d90113dd18c18fc319a725ffed627c55cbe1eafd8120"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M55.WAV",
+        "Size":  101300,
+        "Hash":  "ce655b11d0d65096de93cecbb58e1a913ffc9493ba3ae2a4adf110d39288a939"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M56.WAV",
+        "Size":  180868,
+        "Hash":  "9ab6d6d1334139c64ddb0df459325a88efd42dc7e46e65e54ecaadfa820c9b87"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M57.WAV",
+        "Size":  28388,
+        "Hash":  "baf55d65cf38ded1d5aafee83e1b49f3b3c49720298d318e6045073ee428d419"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M58.WAV",
+        "Size":  53804,
+        "Hash":  "526ba269a5d4740d1c866d734f0f073d35d87d15f9eab7de99bc66405bdce247"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M59.WAV",
+        "Size":  73588,
+        "Hash":  "91e3d63e88e6dbc8864e4e06646ea761e784c5f1587962de303297362174ceaa"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M6.WAV",
+        "Size":  44220,
+        "Hash":  "520f213deae438b42cc009eb364dfd90f77d2753d30b18015f80a7cfd99def24"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M60.WAV",
+        "Size":  64116,
+        "Hash":  "978722c2805c94df89f7775a48bfec1969a2366710a41787a7a7196526e78437"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M61.WAV",
+        "Size":  72638,
+        "Hash":  "fd0c24218e27dc891927889c27acecd2771f791fc77ad716cbb34a1721e296d9"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M62.WAV",
+        "Size":  65654,
+        "Hash":  "df23d49424114aeb7c2c73d53c73b62e6f2b5f00aca580ef94e144abda73462e"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M63.wav",
+        "Size":  53366,
+        "Hash":  "c32bb94a1f676bd362e5d8d2ea7e62682ab57d3689733e46448ae69aa6ac13fb"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M64.wav",
+        "Size":  59050,
+        "Hash":  "c002e144be01c4e7e34f009c191248dfecc4be2e4c151e4086cb1659d771ee80"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M65.wav",
+        "Size":  41514,
+        "Hash":  "7873f179d09313b4a0a14f96356a1340d5777c2cbc99e50708c295ecae9ea1d0"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M66.wav",
+        "Size":  82548,
+        "Hash":  "fb2d5494284a838b08698c09e25df17de811bd78a8f0a6e3106f194c221e55cc"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M67.wav",
+        "Size":  29626,
+        "Hash":  "d39eecdea5535132d5b45b16abdb96726163b464766c351abe63730e6aefddf3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M68.wav",
+        "Size":  43580,
+        "Hash":  "bbf3396627b0684ade2f7506cdb67b48dc03b53e9d6ede902b987e27baa4ad36"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M69.wav",
+        "Size":  30848,
+        "Hash":  "f91ccf76e1ac6589791ac83dcacf06acde317096f8832b9cc179830b229a25b6"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M7.WAV",
+        "Size":  30520,
+        "Hash":  "1d4b5cf3458ef89ce7ee7db3be9a6571e299125d567d34efd83b1ec4f44ec4dc"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M70.wav",
+        "Size":  103694,
+        "Hash":  "b60cc5c6a90e00687747fc17f9964e293006e792f57ac2e2859630ec6ace552f"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M71.wav",
+        "Size":  29864,
+        "Hash":  "6960f2bd2d4e9790691d5a0ca292911da811c2ebafe677008e324bae411f6569"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M72.wav",
+        "Size":  12712,
+        "Hash":  "66d14a1d6e7a3565f07a207cc1723734bc74b7c493578816834bb8e844063ea9"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M73.wav",
+        "Size":  44026,
+        "Hash":  "4351506a1856404d6398110f040072f3bf8ab6ebf5e5fbaf611516999fb0c215"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M74.wav",
+        "Size":  39558,
+        "Hash":  "d0cb783004dc231e52c1ba3243d243b20ae83cc845ab566b5ded9dc991e038a8"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M75.wav",
+        "Size":  61394,
+        "Hash":  "132ad46b79907e1f1aa9b1aca5267fb587b87f57c13b1baa2e0c0f63512c357c"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M76.wav",
+        "Size":  51944,
+        "Hash":  "4a0ebf26da1c2c784f489b9f154cf92aa6f21f9b44e5ef240f14b25169cfd238"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M77.wav",
+        "Size":  20074,
+        "Hash":  "919c9542596f8739d14c421b52cc7fce0cf8209b583aeb38c639727ccaa42c10"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M78.wav",
+        "Size":  30066,
+        "Hash":  "044b688e4f3fbce25425da7ee8c33763eb0bfd66f2d94e203fb3f16939b4d4a3"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M79.wav",
+        "Size":  22824,
+        "Hash":  "464a28d3e45b1f8a267348eba4488d0c49140723597488331a5536ca220095c0"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M8.WAV",
+        "Size":  66188,
+        "Hash":  "efdfb290e9516b2d209ae6f221d01fa08b81fd5ff038f1dd5a24d96740bba87b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M80.wav",
+        "Size":  32344,
+        "Hash":  "46765befb6f31b2ac875b56a4595845937f2468138bc35260860807f995b45ac"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M81.wav",
+        "Size":  31810,
+        "Hash":  "0144fedae420858e414381deee4664d32228ddf7055098d237ad60d97cc0cfc0"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M82.wav",
+        "Size":  60176,
+        "Hash":  "a1bdd2183e692c1e73e7b4e26774992b1b2a17da29379cff210bcf08dfcdda1b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M83.wav",
+        "Size":  85826,
+        "Hash":  "a6411601c9d6dc8d9d5dde4e1689d05a9a38eb86617d4fbbcee2f981b7caaf1c"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M84.wav",
+        "Size":  60504,
+        "Hash":  "ed3e1b931bd64ab0c0a935bff9594d5ea01ae908d6bd5ef1ec55287a552e8b80"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M85.wav",
+        "Size":  56530,
+        "Hash":  "809a0a770b72c7810344c4fadf1c5910134c4b4937c03b659fea8e491b790650"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M86.wav",
+        "Size":  80470,
+        "Hash":  "6f823c3bb1d7eb2dcfbd55262b4c5d875b5fea2e783a8b6a82dd0d1f4e1dcdb4"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M87.wav",
+        "Size":  43832,
+        "Hash":  "9cb133b5bf93a270f6931cce819993537c653ce9a16416cb9fb322e40b4290c8"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M88.wav",
+        "Size":  63494,
+        "Hash":  "ee9b1351493b8a8e5c19fcfc7fd4fa66dcac4f6591815f81b9e8de2ec18b4cb9"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M89.wav",
+        "Size":  22984,
+        "Hash":  "287cc2dce38b7fc1dbabc4e149a64213f98a9b78ed6a9a007e364c05b7658bcb"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M9.WAV",
+        "Size":  48012,
+        "Hash":  "74d225d69c73e0dc34051dcc631d0ae8254a289409f378ca9b75a91e2aac2918"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M90.wav",
+        "Size":  75978,
+        "Hash":  "453d2b26c27b035384a63ebfbf931563e96ef71be41e4b3e7e7f8a29abfa0b7b"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M91.wav",
+        "Size":  44152,
+        "Hash":  "3c8f70809ddcc4548731cfefb26bd1bc3c930cb5057947b14c0947ef83dea383"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M92.wav",
+        "Size":  46124,
+        "Hash":  "c1de0ab51658a0be8f6dd4a3bb55f55d094e5b557be53411d7c6c78b2bfb89d1"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M93.wav",
+        "Size":  48570,
+        "Hash":  "b921e6b9c54840c46c36330be55adcf236769ae040db2e89789fadaa79e74c83"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M94.wav",
+        "Size":  68568,
+        "Hash":  "649ec6db4ef817d51d8a1a7cba5d20496384b3768664762c7e1705a3bcf6cecc"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M95.wav",
+        "Size":  40186,
+        "Hash":  "b1039a3a5d6ad8692094dc55a75d82585585770cd7e8d19b14185023fd21ff85"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M96.wav",
+        "Size":  46202,
+        "Hash":  "4ab584f504e893f43de05d73a63055b12fa531a3233664d2c8faa733f90c2b51"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M97.wav",
+        "Size":  47850,
+        "Hash":  "dc76949dbb3ecc96773980e4b253cb47f8a486d5205e990c6309e470eb6304e4"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M98.wav",
+        "Size":  42146,
+        "Hash":  "775a978fb2d6f262ca8e9eda47639ee72da109ed1430d6de02e1d2a9c8c8f2f5"
+    },
+    {
+        "Path":  "Helbreath/SOUNDS/M99.wav",
+        "Size":  214760,
+        "Hash":  "24bd697582b10c7e5e9c5408eeddb2dbd4aa4b7cd05724563a07b2359e5a410a"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/2ndmiddle.amd",
+        "Size":  625256,
+        "Hash":  "6c9df2ab7a3bfa4d7aa157329417c95bd73dd6141e518bfcab958e13c43ede76"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/Abaddon.amd",
+        "Size":  400256,
+        "Hash":  "1ac9dc8d4b88cce8116b3cc715a1daa90cc5206ba74bc5ff9c73f996ec374022"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/arebrk11.amd",
+        "Size":  225256,
+        "Hash":  "76a2d14d3d636f42f7ddd331fd8e7b948367f5d0c5f37c1c04b47c173374ff6e"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/arebrk12.amd",
+        "Size":  225256,
+        "Hash":  "d8becac589873f19426f3ac81bd10caf54aeed6aae8b426366725df46056e6d4"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/arebrk21.amd",
+        "Size":  225256,
+        "Hash":  "49a9fe8cf81841086a0e9a303ae3a5a88aac13e16820000185567ef78b07a4cd"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/arebrk22.amd",
+        "Size":  225256,
+        "Hash":  "847eaebd077f75bbb6bdad4cd6ba4c66fd4e261ae6de42b6448b37bb5a600662"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/arefarm.amd",
+        "Size":  625256,
+        "Hash":  "b6611dfd77621466488b7b0abb3dadb42bc889066d935d43f45f81f72fa9be96"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/arejail.amd",
+        "Size":  240256,
+        "Hash":  "5f7216f5c2559f8494175e2c90b28c6d0a904c20d123d41f3dedc0d7aa9dc22a"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/ARESDEN.AMD",
+        "Size":  900256,
+        "Hash":  "56bfa67f443e266d236a1bd58771972db76545a5e0d596fe223eae9c33331e9a"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/aresdend1.amd",
+        "Size":  400256,
+        "Hash":  "631867ff8ff772d676ac5639093ecdaf177bb09f06bc5e593a83e104658140b2"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/areuni.amd",
+        "Size":  400256,
+        "Hash":  "943b361ef3c69387bf84403f69a007afe72eb972ef07ce6a836fc054d7872842"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/arewrhus.amd",
+        "Size":  100256,
+        "Hash":  "c21ff35254d6801f98c5bbb7630590c7414c731670c8788b1a1bc4c0b6660a34"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/bisle.amd",
+        "Size":  685256,
+        "Hash":  "34293bea2da545a36ea3a0372d1b374c1492bf45840e69365538d90cd483b544"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/bsmith_1.amd",
+        "Size":  100256,
+        "Hash":  "f17f393db7f1875bd1f9470f8dbd9364835889f4c867829394c382a4d03828ec"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/bsmith_1f.amd",
+        "Size":  100256,
+        "Hash":  "f17f393db7f1875bd1f9470f8dbd9364835889f4c867829394c382a4d03828ec"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/bsmith_2.amd",
+        "Size":  100256,
+        "Hash":  "f17f393db7f1875bd1f9470f8dbd9364835889f4c867829394c382a4d03828ec"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/bsmith_2f.amd",
+        "Size":  100256,
+        "Hash":  "f17f393db7f1875bd1f9470f8dbd9364835889f4c867829394c382a4d03828ec"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/BTField.amd",
+        "Size":  900256,
+        "Hash":  "0bbc83154d079423470706fcccccd66ec0cfe9aa7f53cf61e35d4d5fd484b1e4"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/cath_1.amd",
+        "Size":  100256,
+        "Hash":  "2f4d7b326b9b3e2d08a04565f251e59c9e62ecb10067700ed2b3e7cdba70cc6a"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/cath_2.amd",
+        "Size":  100256,
+        "Hash":  "2f4d7b326b9b3e2d08a04565f251e59c9e62ecb10067700ed2b3e7cdba70cc6a"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/cityhall_1.amd",
+        "Size":  100256,
+        "Hash":  "75d43a427f022e7a7f9b005958446cd8e87f782ce476ef86e97215e226ee4e52"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/cityhall_2.amd",
+        "Size":  100256,
+        "Hash":  "6f7f60a42188ba6eddefea0030062ca1a9a27a63047bceb3377e7b1e0621a77f"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/Cmdhall_1.amd",
+        "Size":  100256,
+        "Hash":  "732622f1850d192d1b156ceaf0c624cac1243caeec8648e134f1b9fba121f7f5"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/Cmdhall_2.amd",
+        "Size":  100256,
+        "Hash":  "732622f1850d192d1b156ceaf0c624cac1243caeec8648e134f1b9fba121f7f5"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/default.amd",
+        "Size":  289256,
+        "Hash":  "d50084a0bbd10d3e85e8762323d7518d278ba201840954506cb86f0a381cd7e7"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/dglv2.amd",
+        "Size":  2500256,
+        "Hash":  "f3413250390d67de04d2590a020e75ea616255455d3481d33afccaf1e674782e"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/dglv3.amd",
+        "Size":  1600256,
+        "Hash":  "dbdba2c153251177cfce1672ab7077e8e3f716d1e2dce492e1597a1e1d099be6"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/dglv4.amd",
+        "Size":  1600256,
+        "Hash":  "d12b99f03d6954577ea28df2319f29c75c4c62c74a5f0566b15abfd42cdc0c38"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/DruncnCity.amd",
+        "Size":  400256,
+        "Hash":  "df0f52b12f7200043cd4b132be82a1addf9202957d39d6c8c6357f2a5d99b383"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/elvbrk11.amd",
+        "Size":  225256,
+        "Hash":  "76a2d14d3d636f42f7ddd331fd8e7b948367f5d0c5f37c1c04b47c173374ff6e"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/elvbrk12.amd",
+        "Size":  225256,
+        "Hash":  "d8becac589873f19426f3ac81bd10caf54aeed6aae8b426366725df46056e6d4"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/elvbrk21.amd",
+        "Size":  225256,
+        "Hash":  "49a9fe8cf81841086a0e9a303ae3a5a88aac13e16820000185567ef78b07a4cd"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/elvbrk22.amd",
+        "Size":  225256,
+        "Hash":  "847eaebd077f75bbb6bdad4cd6ba4c66fd4e261ae6de42b6448b37bb5a600662"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/elvfarm.amd",
+        "Size":  625256,
+        "Hash":  "9321eb40d87e2fefd52a3d5e733127e12a5b0928eabed1b9a2de0ac6fabf4c4c"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/ELVINE.AMD",
+        "Size":  900256,
+        "Hash":  "8fb5f62ac0a2b8a1f4b867866efa56515a77ab67fbd5e33d50a8d8b642238996"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/elvined1.amd",
+        "Size":  400256,
+        "Hash":  "1e322df54da9fbfd4807f25057a76ceecd204e65f6370508834319e5f15688d0"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/elvjail.amd",
+        "Size":  240256,
+        "Hash":  "5f7216f5c2559f8494175e2c90b28c6d0a904c20d123d41f3dedc0d7aa9dc22a"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/elvuni.amd",
+        "Size":  400256,
+        "Hash":  "177ffc38be615e9817bc83607639b05da8f70ed5949ad3db2497f52484c45509"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/elvwrhus.amd",
+        "Size":  100256,
+        "Hash":  "c21ff35254d6801f98c5bbb7630590c7414c731670c8788b1a1bc4c0b6660a34"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/fightzone1.amd",
+        "Size":  100256,
+        "Hash":  "8df950113e7e6aef8bff2c0adac4931e83e69a484d7f5f9cd9eb0756dfc377e1"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/fightzone2.amd",
+        "Size":  100256,
+        "Hash":  "8df950113e7e6aef8bff2c0adac4931e83e69a484d7f5f9cd9eb0756dfc377e1"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/fightzone3.amd",
+        "Size":  100256,
+        "Hash":  "8df950113e7e6aef8bff2c0adac4931e83e69a484d7f5f9cd9eb0756dfc377e1"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/fightzone4.amd",
+        "Size":  64256,
+        "Hash":  "ccad1027c17deb45fc9b4116d90189a156f9dce8cb0325410c5f2056cffc4ea8"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/fightzone5.amd",
+        "Size":  144256,
+        "Hash":  "18875eff28cef621f94e33e1da8fce845b8c4030dcf066bda77b7ca778d6b143"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/fightzone6.amd",
+        "Size":  144256,
+        "Hash":  "93a40d994e15cacf76480e79e49d9e7e0db4386cecd587e21315daa5e4c21df3"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/fightzone7.amd",
+        "Size":  144256,
+        "Hash":  "28eb7b7f0f100cbc6b170301f676c99b4632e0791cd57c68322a3fa94e577429"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/fightzone8.amd",
+        "Size":  144256,
+        "Hash":  "cc6f2980e6dd2fb1e0ca9f12182249e3f24d9e2d548368fef8a6b9fb030a00de"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/fightzone9.amd",
+        "Size":  100256,
+        "Hash":  "8df950113e7e6aef8bff2c0adac4931e83e69a484d7f5f9cd9eb0756dfc377e1"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/gldhall_1.amd",
+        "Size":  100256,
+        "Hash":  "a669d80a58c5262dc020902669fbc5a31292afba52c0629e5f1c69c32edb2fe0"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/gldhall_2.amd",
+        "Size":  100256,
+        "Hash":  "a669d80a58c5262dc020902669fbc5a31292afba52c0629e5f1c69c32edb2fe0"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/GodH.amd",
+        "Size":  625256,
+        "Hash":  "5bc6196a7fbed4af7dcaf501397249f3b9d830dab6eadcd16a6389219a50bba4"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/gshop_1.amd",
+        "Size":  100256,
+        "Hash":  "6bf5ca867d93f7ae880bc5d59610dd19a18a6e64607560f1f70920b9e96e607e"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/gshop_1f.amd",
+        "Size":  100256,
+        "Hash":  "6bf5ca867d93f7ae880bc5d59610dd19a18a6e64607560f1f70920b9e96e607e"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/gshop_2.amd",
+        "Size":  100256,
+        "Hash":  "6bf5ca867d93f7ae880bc5d59610dd19a18a6e64607560f1f70920b9e96e607e"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/gshop_2f.amd",
+        "Size":  100256,
+        "Hash":  "6bf5ca867d93f7ae880bc5d59610dd19a18a6e64607560f1f70920b9e96e607e"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/HRampart.amd",
+        "Size":  400256,
+        "Hash":  "7bc80719bb47bebf511cbdd9b8d4aeaadfe3b6482e30428668e3c2fd8e9508f8"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/huntzone1.amd",
+        "Size":  400256,
+        "Hash":  "e7523a5ed689b9172131ee95a50444d4349c7cc192204332ab8e65187e629924"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/huntzone2.amd",
+        "Size":  400256,
+        "Hash":  "6ac001fffc3ef40f26306ae479ed00ae96867de3971f12b58230adb98636e3ab"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/huntzone3.amd",
+        "Size":  400256,
+        "Hash":  "679a76abb16beb58dfedfd7f71596942f5dbe283f0d4382a0c917976feded5c0"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/huntzone4.amd",
+        "Size":  400256,
+        "Hash":  "3e592b1f366f666012038425c10041e82ea91a160ba3d6df6d23b421df8bb844"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/icebound.amd",
+        "Size":  900256,
+        "Hash":  "ef4ecf08fa3d175858f8a2228f6009040b43afd9bda241fa4668f04423da6d49"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/inferniaA.amd",
+        "Size":  225256,
+        "Hash":  "35bf5d273f27c9936a115c6bdf08cad4b2a7d5b5a7cd0050a8dce83368030e4e"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/inferniaB.amd",
+        "Size":  225256,
+        "Hash":  "e88945db9c19b5500800337113100d7453bfcbf50e65ecd67b2426d44990491b"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/maze.AMD",
+        "Size":  400256,
+        "Hash":  "af0504da7340b7b66cb29804194e79caac4c74ad3196299c4dc0613f41eac5cb"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/middled1n.amd",
+        "Size":  484256,
+        "Hash":  "6f22f4ebb42e7fab646fcc1b532c4f68749ff7fe5ba6f558924e4135a6b91f4b"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/middled1x.amd",
+        "Size":  400256,
+        "Hash":  "1bf7a3003e0da17dd01636cc6a0cebc47f6002b146010dcc53824610f6d0a0fd"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/middleland.amd",
+        "Size":  2746016,
+        "Hash":  "1321e2c93e84e94949cc627b265bd54e11b92d6e0c2d4ce508f04317bc0b07c7"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/procella.amd",
+        "Size":  625256,
+        "Hash":  "1ae813c1589c71268ecaa94e64390f0872fdde52b86f3416c5bd07f1d9abce36"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/Resurr1.amd",
+        "Size":  400256,
+        "Hash":  "f5e11a32b71fb936cab4bb7d0827c2cf63e41dbeb8fa9e5c85baa73a32b36464"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/Resurr2.amd",
+        "Size":  400256,
+        "Hash":  "f5e11a32b71fb936cab4bb7d0827c2cf63e41dbeb8fa9e5c85baa73a32b36464"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/Toh1.amd",
+        "Size":  625256,
+        "Hash":  "aef0e52f31dee4ec6021a2badc9693e98ed33370464a00b2c36b2eeba514b26a"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/Toh2.amd",
+        "Size":  900256,
+        "Hash":  "f268d03fbb504f551fa92129682f2554633493cb73d2a2ec839f026688915e69"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/Toh3.amd",
+        "Size":  900256,
+        "Hash":  "ebb43cc4ef605043deedd70ee4144c4f2a1abf7dac9a57e21a6ab70ff5235456"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/wrhus_1.amd",
+        "Size":  100256,
+        "Hash":  "c21ff35254d6801f98c5bbb7630590c7414c731670c8788b1a1bc4c0b6660a34"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/wrhus_1f.amd",
+        "Size":  100256,
+        "Hash":  "c21ff35254d6801f98c5bbb7630590c7414c731670c8788b1a1bc4c0b6660a34"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/wrhus_2.amd",
+        "Size":  100256,
+        "Hash":  "c21ff35254d6801f98c5bbb7630590c7414c731670c8788b1a1bc4c0b6660a34"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/wrhus_2f.amd",
+        "Size":  100256,
+        "Hash":  "c21ff35254d6801f98c5bbb7630590c7414c731670c8788b1a1bc4c0b6660a34"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/wzdtwr_1.amd",
+        "Size":  100256,
+        "Hash":  "68ea3a4f46eeb5604b30247fec0094ca98f46b8fee8084595d109be9d010c187"
+    },
+    {
+        "Path":  "Helbreath/MAPDATA/wzdtwr_2.amd",
+        "Size":  100256,
+        "Hash":  "494b930b2bf8e75f61c3d7d038f471a1f3b8dc839300f3a9f79bbf25b0ce6851"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/abaddon.wav",
+        "Size":  2949372,
+        "Hash":  "594e9a8952f785f5bc3b8a0e2715b9f2f413c833788a39f44f302aeb5a7e574e"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/aresden.wav",
+        "Size":  3228446,
+        "Hash":  "e99e18c2aa3f53ed7589f2bc3c81c1b19efde13e48066fde4af4bb983aef94bf"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/Carol.wav",
+        "Size":  2736480,
+        "Hash":  "950131e83bdaca0c42815f0262ac7f4dbc64276a8ec0d00a118c019dd605f527"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/Carol0.wav",
+        "Size":  3008044,
+        "Hash":  "7901c499f65b74c3b5962b517ba4d82e2297ee8bf29d028bce21d4fde7f6fe95"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/Carol1.wav",
+        "Size":  2349878,
+        "Hash":  "abeefb30c7d618184047c260c549add22749b9c0a8e89acec486452ddf58614e"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/Carol2.wav",
+        "Size":  2803236,
+        "Hash":  "c77b5e990740d1a64bbab75d3260b55d3a75658a9fc64e60eba08b5984a957bb"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/druncncity.wav",
+        "Size":  1204052,
+        "Hash":  "87cc306a8592474e41acaeaac4f99459fbbdd2de3b2af9adde5312f5cb385909"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/dungeon.wav",
+        "Size":  3669372,
+        "Hash":  "ab2abb45fbb3009768f9a2a4c5ff106576dfd2ede2bde49495de1dcafd8bbcaa"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/elvine.wav",
+        "Size":  3695250,
+        "Hash":  "66612f9257a95957ad3262695d2a6e023678ad0820807715b8c5c3123103ad0f"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/MainTm.wav",
+        "Size":  3159590,
+        "Hash":  "731263ea97057c4d33f5dbf8f421df8c12bd0b11ee812e43da3646b1debf4c5b"
+    },
+    {
+        "Path":  "Helbreath/MUSIC/middleland.wav",
+        "Size":  2620348,
+        "Hash":  "3e23f114f828d035e69f8e509d781fb4966c0cffa3bf89182a0bd1d543066862"
+    },
+    {
+        "Path":  "Helbreath/FONTS/ENG00.FNT",
+        "Size":  2048,
+        "Hash":  "936d85ffd95f923f234dca60573a1d9ac9cff49cb9907bd3898618fb11c51464"
+    },
+    {
+        "Path":  "Helbreath/FONTS/ENG1.FNT",
+        "Size":  4096,
+        "Hash":  "dea99493135fa2ae6099739fef014397054f20c67afa30ffb2d2ae09e0097306"
+    },
+    {
+        "Path":  "Helbreath/FONTS/ENG2.FNT",
+        "Size":  4096,
+        "Hash":  "532a1553974b7f022ab5eaeb8850aa164703f1105e0bdf3a74385563410f4379"
+    },
+    {
+        "Path":  "Helbreath/FONTS/HAN3.FNT",
+        "Size":  11520,
+        "Hash":  "013ea10ad9ed931aee3a81af902361bae6507d2fec12970506bb092b952a349f"
+    },
+    {
+        "Path":  "Helbreath/FONTS/Han4.fnt",
+        "Size":  11520,
+        "Hash":  "013ea10ad9ed931aee3a81af902361bae6507d2fec12970506bb092b952a349f"
+    },
+    {
+        "Path":  "Helbreath/FONTS/Hangul00.fnt",
+        "Size":  11520,
+        "Hash":  "2183235d32a5900412941c9ee814f62d57ff014c8327a07304cabca5580221bb"
+    },
+    {
+        "Path":  "Helbreath/FONTS/Hangul01.fnt",
+        "Size":  11520,
+        "Hash":  "aa3f9977954ebb3985423d6e38d5cff6a7696ba415fd89fc5f04fcf8747341ab"
+    }
+]
