@@ -56,6 +56,25 @@ namespace HelbreathLauncher
             _ = UpdateServerStatus();
         }
 
+        // Cambio de Idioma
+        private void CmbLang_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (CmbLang == null || BtnPlay == null) return; // Load check
+
+            if (CmbLang.SelectedIndex == 0) // ES
+            {
+                LabelServer.Content = "SELECCIONAR SERVIDOR";
+                BtnRegister.Content = "CREAR CUENTA";
+                BtnPlay.Content = "JUGAR AHORA";
+            }
+            else // EN
+            {
+                LabelServer.Content = "SELECT SERVER";
+                BtnRegister.Content = "CREATE ACCOUNT";
+                BtnPlay.Content = "PLAY NOW";
+            }
+        }
+
         // Bucle infinito que comprueba el estado cada 5 segundos
         private async void StartServerPing()
         {
@@ -210,78 +229,16 @@ namespace HelbreathLauncher
         // AUTO-UPDATER
         // ==========================================
         private UpdateManager _updater;
-        private ProgressBar _progBar;
-        private TextBlock _lblStatus;
 
         private void InitializeUpdater()
         {
             try 
             {
-                // Create controls programmatically to verify preservation of XAML
-                // We'll add them to the main Grid (row 2, where the status light is, or overlay at bottom)
+                // Initialize Manager with existing XAML controls
+                _updater = new UpdateManager(this, ProgBarUpdate, TxtUpdateStatus);
                 
-                // Container for Updater UI (Bottom of the window)
-                // Existing Grid has 3 rows. Row 2 is typically the status bar.
-                // We will inject a StackPanel in Grid.Row="2" to sit on top or replace the status text temporarily.
-                
-                // Use the main grid from the XAML. The XAML root grid doesn't have a name, 
-                // but we can assume 'Content' of the Window is the Border, and its Child is the Grid.
-                // Let's rely on finding the Grid by type or structure for robustness, 
-                // OR simpler: Add to the Grid where 'TxtStatus' lives.
-                
-                // TxtStatus is in a StackPanel, which is in a Border in Grid.Row="2".
-                // We want to overlay or be next to it.
-                
-                // Better approach: Add a new Border at the bottom of the main Grid (Row 2).
-                
-                if (this.Content is Border mainBorder && mainBorder.Child is Grid mainGrid)
-                {
-                    var updaterPanel = new StackPanel
-                    {
-                        Orientation = Orientation.Vertical,
-                        VerticalAlignment = VerticalAlignment.Bottom,
-                        Margin = new Thickness(20, 0, 20, 35), // Just above bottom status
-                        Visibility = Visibility.Collapsed // Hidden by default
-                    };
-                    Grid.SetRow(updaterPanel, 1); // Put in Middle row (Row 1) at the bottom, so it doesn't overlap status light
-                    Grid.SetColumnSpan(updaterPanel, 2);
-
-                    _lblStatus = new TextBlock
-                    {
-                        Text = "Iniciando actualizador...",
-                        Foreground = Brushes.White,
-                        FontSize = 12,
-                        HorizontalAlignment = HorizontalAlignment.Center,
-                        Margin = new Thickness(0, 0, 0, 5)
-                    };
-
-                    _progBar = new ProgressBar
-                    {
-                        Height = 10,
-                        Width = 400,
-                        Minimum = 0,
-                        Maximum = 100,
-                        Background = new SolidColorBrush(Color.FromRgb(30, 30, 30)),
-                        Foreground = new SolidColorBrush(Color.FromRgb(0, 122, 204)), // VS Blue
-                        BorderThickness = new Thickness(0)
-                    };
-
-                    updaterPanel.Children.Add(_lblStatus);
-                    updaterPanel.Children.Add(_progBar);
-
-                    mainGrid.Children.Add(updaterPanel);
-
-                    // Initialize Manager
-                    _updater = new UpdateManager(this, _progBar, _lblStatus);
-                    
-                    // Start Update Check
-                    _ = _updater.CheckAndApplyUpdates();
-                }
-                else
-                {
-                    // Fallback or Log if structure isn't as expected (to avoid crash)
-                    // MessageBox.Show("Warning: Could not inject Updater UI. XAML structure mismatch.");
-                }
+                // Start Update Check
+                _ = _updater.CheckAndApplyUpdates();
             }
             catch (Exception ex)
             {
