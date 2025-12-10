@@ -3598,5 +3598,10 @@
         "Path":  "Helbreath/FONTS/Hangul01.fnt",
         "Size":  11520,
         "Hash":  "aa3f9977954ebb3985423d6e38d5cff6a7696ba415fd89fc5f04fcf8747341ab"
+    },
+    {
+        "Path":  "Helbreath/Renderer/Shaders.hlsl",
+        "Size":  2292,
+        "Hash":  "f013a9a5ac8871c305d100aedd633c88488de27072fe02e51528a5fb82fe4f6a"
     }
 ]

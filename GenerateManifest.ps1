@@ -1,7 +1,7 @@
 $baseUrl = "https://raw.githubusercontent.com/Omymnr/HB-Server-Apocalypse/main/"
 $exclude = @("files.json", "version.txt", "version.dat", "Helbreath.exe.tmp", "Helbreath.exe.old")
 $targetFiles = @("HelbreathLauncher.exe", "Game.exe", "search.dll")
-$targetFolders = @("CONTENTS", "SPRITES", "SOUNDS", "MAPDATA", "MUSIC", "FONTS", "RENDER")
+$targetFolders = @("CONTENTS", "SPRITES", "SOUNDS", "MAPDATA", "MUSIC", "FONTS", "Renderer")
 
 # We are running in D:\HB-Server-Apocalypse\
 # We need to scan D:\HB-Server-Apocalypse\Helbreath\
