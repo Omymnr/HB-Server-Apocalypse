@@ -1,0 +1,10 @@
+Account-generated: Time(2025:12/9/22/29) IP(93.156.35.112)
+[Account Info]
+account-name = test1
+account-password = test1
+account-Email = test@gmail.com
+account-Quiz =  
+account-Answer = -
+account-change-password = 2025 12 9
+
+[CHARACTERS]

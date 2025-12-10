@@ -1,0 +1,34 @@
+
+# Visual Studio
+.vs/
+*.ipch
+*.user
+*.suo
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+*.tlog
+*.idb
+*.pdb
+
+# Large Archives and Binaries
+*.rar
+*.zip
+*.7z
+*.exe
+*.dll
+*.lib
+
+# Exceptions (if specific binaries are needed and small)
+!Helbreath/Settings.exe
+# Add other exceptions here if needed, but be careful of size > 100MB
+
+# Specific large files observed
+Helbreath/HelbreathLauncher.exe
+Helbreath2.rar
+Launcher/HelbreathLauncher/HelbreathLauncher/bin/Release/net8.0-windows/win-x86/publish/HelbreathLauncher.exe
+
+# Temporary
+*.log
+*.tmp

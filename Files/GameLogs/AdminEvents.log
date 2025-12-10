@@ -11258,3 +11258,1898 @@
 (2025:12: 9:16:19) - Send DEF_ENTERGAMERESTYPE_CONFIRM
 (2025:12: 9:16:19) - <1> Client Connected: (127.0.0.1)
 (2025:12: 9:16:19) - <1> Client Disconnected! (127.0.0.1)
+(2025:12: 9:17: 2) - (!) Account Request Login: omy
+(2025:12: 9:17: 2) - Account Login!
+(2025:12: 9:18:11) - (!) INITIALIZING GAME SERVER...
+(2025:12: 9:18:11) - (!) Reading configuration file...
+(2025:12: 9:18:11) - Gate DNS is set to 0
+(2025:12: 9:18:11) - Log DNS is set to 0
+(2025:12: 9:18:11) - (*) Game server name : Apocalypse
+(2025:12: 9:18:11) - (*) Game server address : 192.168.0.15
+(2025:12: 9:18:11) - (*) Internal (LAN) Game server address : 192.168.0.15
+(2025:12: 9:18:11) - (*) External (Internet) Game server address : 89.7.69.125
+(2025:12: 9:18:11) - (*) Game server port : 9907
+(2025:12: 9:18:11) - (*) Log server address : 192.168.0.15
+(2025:12: 9:18:11) - (*) Log server port : 2500
+(2025:12: 9:18:11) - (*) Gate server address : 192.168.0.15
+(2025:12: 9:18:11) - (*) Gate server port : 9907
+(2025:12: 9:18:11) - (*) Game server mode : INTERNET
+(2025:12: 9:18:11) - (!) Reading configuration file...
+(2025:12: 9:18:11) - (*) Add map (inferniaB)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (inferniaA)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (maze)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (druncncity)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (procella)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (abaddon)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (aresden)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (arefarm)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (aresdend1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (arebrk11)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (arebrk12)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (arebrk21)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (arebrk22)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (wrhus_1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (cityhall_1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (arewrhus)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (resurr1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (gshop_1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (arejail)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (cath_1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (wzdtwr_1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (gshop_1f)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (wrhus_1f)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (bsmith_1f)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (bsmith_1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (gldhall_1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (CmdHall_1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (dglv2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (dglv3)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (dglv4)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (elvine)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (elvfarm)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (elvbrk11)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (elvbrk12)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (elvbrk21)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (elvbrk22)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (elvined1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (elvjail)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (elvwrhus)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (gldhall_2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (gshop_2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (gshop_2f)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (resurr2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (wrhus_2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (wrhus_2f)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (wzdtwr_2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (bsmith_2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (bsmith_2f)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (cath_2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (cityhall_2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (CmdHall_2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (BtField)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (GodH)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (HRampart)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (areuni)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (elvuni)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (huntzone1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (huntzone2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (huntzone3)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (huntzone4)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (middleland)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (2ndmiddle)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (middled1n)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (middled1x)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (bisle)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (default)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (fightzone1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (fightzone2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (fightzone3)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (fightzone4)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (fightzone5)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (fightzone6)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (fightzone7)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (fightzone8)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (fightzone9)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (toh1)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (toh2)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (*) Add map (toh3)   - Loading map info files...
+(2025:12: 9:18:11) - (*) Data file loading success.
+(2025:12: 9:18:11) - (!) Reading settings file...
+(2025:12: 9:18:11) - (*) Enemy Kill Mode: DEATHMATCH
+(2025:12: 9:18:11) - (*) Player gains (1) EK per enemy kill.
+(2025:12: 9:18:11) - (*) Primary drop rate: (1)
+(2025:12: 9:18:11) - (*) Secondary drop rate: (1)
+(2025:12: 9:18:11) - (*) Administator vulnerability ignored.
+(2025:12: 9:18:11) - (*) Monday Raid Time : (3) minutes
+(2025:12: 9:18:11) - (*) Tuesday Raid Time : (3) minutes
+(2025:12: 9:18:11) - (*) Wednesday Raid Time : (3) minutes
+(2025:12: 9:18:11) - (*) Thursday Raid Time : (3) minutes
+(2025:12: 9:18:11) - (*) Friday Raid Time : (30) minutes
+(2025:12: 9:18:11) - (*) Saturday Raid Time : (45) minutes
+(2025:12: 9:18:11) - (*) Sunday Raid Time : (60) minutes
+(2025:12: 9:18:11) - (*) Logging All Chat.
+(2025:12: 9:18:11) - (*) Slate Success Rate (25) percent
+(2025:12: 9:18:11) - (*) Rep<->Drop modifier: (5)
+(2025:12: 9:18:11) - (*) Security number memorized!
+(2025:12: 9:18:11) - (!) Reading AdminList.cfg...
+(2025:12: 9:18:11) - (!) Reading BannedList.cfg...
+(2025:12: 9:18:11) - (!) Reading settings file...
+(2025:12: 9:18:11) - (!) Reading Notify Message list file...
+(2025:12: 9:18:11) - (!) ITEM(Total:292) configuration - success!
+(2025:12: 9:18:11) - (!) ITEM(Total:623) configuration - success!
+(2025:12: 9:18:11) - (!) ITEM(Total:1111) configuration - success!
+(2025:12: 9:18:11) - (!) BuildItem(Total:97) configuration - success!
+(2025:12: 9:18:11) - (!) NPC(Total:115) configuration - success!
+(2025:12: 9:18:11) - (!) MAGIC(Total:96) configuration - success!
+(2025:12: 9:18:11) - (!) SKILL(Total:23) configuration - success!
+(2025:12: 9:18:11) - (!) QUEST(Total:90) configuration - success!
+(2025:12: 9:18:11) - (!) POTION(Total:19) configuration - success!
+(2025:12: 9:18:11) - (!) DupItemID(Total:13) configuration - success!
+(2025:12: 9:18:11) - Sending start message...
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\inferniaB.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\inferniaB.txt) - success! TL(1) WP(9) LNPC(0) MXO(400) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\inferniaA.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\inferniaA.txt) - success! TL(1) WP(9) LNPC(0) MXO(400) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\maze.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\maze.txt) - success! TL(1) WP(9) LNPC(0) MXO(100) RMG(1 / 19)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\druncncity.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\druncncity.txt) - success! TL(12) WP(9) LNPC(0) MXO(100) RMG(1 / 18)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\procella.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\procella.txt) - success! TL(1) WP(9) LNPC(0) MXO(700) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\abaddon.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\abaddon.txt) - success! TL(0) WP(0) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\aresden.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\aresden.txt) - success! TL(91) WP(9) LNPC(0) MXO(600) RMG(1 / 1)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\arefarm.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\arefarm.txt) - success! TL(50) WP(10) LNPC(0) MXO(300) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\aresdend1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\aresdend1.txt) - success! TL(11) WP(9) LNPC(0) MXO(180) RMG(1 / 4)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\arebrk11.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\arebrk11.txt) - success! TL(9) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\arebrk12.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\arebrk12.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\arebrk21.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\arebrk21.txt) - success! TL(6) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\arebrk22.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\arebrk22.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\wrhus_1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\wrhus_1.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\cityhall_1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\cityhall_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\arewrhus.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\arewrhus.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\resurr1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\resurr1.txt) - success! TL(16) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\gshop_1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\gshop_1.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\arejail.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\arejail.txt) - success! TL(0) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\cath_1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\cath_1.txt) - success! TL(3) WP(10) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\wzdtwr_1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\wzdtwr_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\gshop_1f.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\gshop_1f.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\wrhus_1f.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\wrhus_1f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\bsmith_1f.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\bsmith_1f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\bsmith_1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\bsmith_1.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\gldhall_1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\gldhall_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\CmdHall_1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\CmdHall_1.txt) - success! TL(8) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\dglv2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\dglv2.txt) - success! TL(63) WP(9) LNPC(0) MXO(999) RMG(1 / 5)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\dglv3.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\dglv3.txt) - success! TL(12) WP(9) LNPC(0) MXO(700) RMG(1 / 9)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\dglv4.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\dglv4.txt) - success! TL(9) WP(9) LNPC(0) MXO(600) RMG(1 / 10)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\elvine.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\elvine.txt) - success! TL(85) WP(9) LNPC(0) MXO(600) RMG(1 / 1)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\elvfarm.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\elvfarm.txt) - success! TL(38) WP(10) LNPC(0) MXO(300) RMG(1 / 1)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\elvbrk11.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\elvbrk11.txt) - success! TL(9) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\elvbrk12.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\elvbrk12.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\elvbrk21.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\elvbrk21.txt) - success! TL(6) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\elvbrk22.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\elvbrk22.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\elvined1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\elvined1.txt) - success! TL(11) WP(9) LNPC(0) MXO(180) RMG(1 / 4)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\elvjail.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\elvjail.txt) - success! TL(0) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\elvwrhus.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\elvwrhus.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\gldhall_2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\gldhall_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\gshop_2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\gshop_2.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\gshop_2f.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\gshop_2f.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\resurr2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\resurr2.txt) - success! TL(16) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\wrhus_2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\wrhus_2.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\wrhus_2f.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\wrhus_2f.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\wzdtwr_2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\wzdtwr_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\bsmith_2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\bsmith_2.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\bsmith_2f.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\bsmith_2f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\cath_2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\cath_2.txt) - success! TL(3) WP(10) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\cityhall_2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\cityhall_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\CmdHall_2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\CmdHall_2.txt) - success! TL(8) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\BtField.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\BtField.txt) - success! TL(0) WP(9) LNPC(0) MXO(900) RMG(1 / 20)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\GodH.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\GodH.txt) - success! TL(3) WP(0) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\HRampart.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\HRampart.txt) - success! TL(6) WP(0) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\areuni.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\areuni.txt) - success! TL(18) WP(9) LNPC(0) MXO(350) RMG(1 / 7)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\elvuni.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\elvuni.txt) - success! TL(9) WP(9) LNPC(0) MXO(350) RMG(1 / 7)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\huntzone1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\huntzone1.txt) - success! TL(33) WP(9) LNPC(0) MXO(350) RMG(1 / 16)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\huntzone2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\huntzone2.txt) - success! TL(31) WP(9) LNPC(0) MXO(350) RMG(1 / 16)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\huntzone3.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\huntzone3.txt) - success! TL(6) WP(9) LNPC(0) MXO(350) RMG(1 / 6)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\huntzone4.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\huntzone4.txt) - success! TL(9) WP(9) LNPC(0) MXO(350) RMG(1 / 6)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\middleland.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\middleland.txt) - success! TL(56) WP(19) LNPC(0) MXO(750) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\2ndmiddle.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\2ndmiddle.txt) - success! TL(22) WP(4) LNPC(0) MXO(400) RMG(1 / 8)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\middled1n.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\middled1n.txt) - success! TL(8) WP(9) LNPC(0) MXO(150) RMG(1 / 12)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\middled1x.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\middled1x.txt) - success! TL(4) WP(9) LNPC(0) MXO(150) RMG(1 / 5)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\bisle.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\bisle.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\default.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\default.txt) - success! TL(12) WP(0) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\fightzone1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\fightzone1.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\fightzone2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\fightzone2.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\fightzone3.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\fightzone3.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\fightzone4.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\fightzone4.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\fightzone5.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\fightzone5.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\fightzone6.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\fightzone6.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\fightzone7.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\fightzone7.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\fightzone8.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\fightzone8.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\fightzone9.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\fightzone9.txt) - success! TL(0) WP(10) LNPC(0) MXO(65) RMG(0 / 0)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\toh1.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\toh1.txt) - success! TL(9) WP(9) LNPC(0) MXO(300) RMG(1 / 13)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\toh2.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\toh2.txt) - success! TL(12) WP(9) LNPC(0) MXO(200) RMG(1 / 14)
+(2025:12: 9:18:11) - (!) Reading Map info file : mapdata\toh3.txt
+(2025:12: 9:18:11) - (!) Map info file decoding(mapdata\toh3.txt) - success! TL(6) WP(9) LNPC(0) MXO(180) RMG(1 / 15)
+(2025:12: 9:18:11) - (!) Reading Crusade configuration file...
+(2025:12: 9:18:11) - (!) Map(aresden) Strike Point(1) Related Map(cityhall_1) Index(14)
+(2025:12: 9:18:11) - (!) Map(aresden) Strike Point(2) Related Map(gshop_1) Index(17)
+(2025:12: 9:18:11) - (!) Map(aresden) Strike Point(3) Related Map(bsmith_1) Index(24)
+(2025:12: 9:18:11) - (!) Map(aresden) Strike Point(4) Related Map(wrhus_1) Index(13)
+(2025:12: 9:18:11) - (!) Map(elvine) Strike Point(1) Related Map(cityhall_2) Index(49)
+(2025:12: 9:18:11) - (!) Map(elvine) Strike Point(2) Related Map(gshop_2) Index(40)
+(2025:12: 9:18:11) - (!) Map(elvine) Strike Point(3) Related Map(bsmith_2) Index(46)
+(2025:12: 9:18:11) - (!) Map(elvine) Strike Point(4) Related Map(wrhus_2) Index(43)
+(2025:12: 9:18:11) - (!) Reading Schedule file...
+(2025:12: 9:18:11) - (!) Cannot open CrusadeGUID file.
+(2025:12: 9:18:11) - (!) Cannot open ApocalypseGUID file.
+(2025:12: 9:18:11) - (!) Cannot open HeldenianGUID file.
+(2025:12: 9:18:11) - 
+(2025:12: 9:18:11) - (!) Game Server Activated.
+(2025:12: 9:18:12) - (!) Account Request Login: omy
+(2025:12: 9:18:12) - Account Login!
+(2025:12: 9:18:12) - (!) Request enter Game: OMY
+(2025:12: 9:18:12) - Account Login!
+(2025:12: 9:18:12) - Send DEF_ENTERGAMERESTYPE_CONFIRM
+(2025:12: 9:18:12) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:18:12) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:19:51) - (!) INITIALIZING GAME SERVER...
+(2025:12: 9:19:51) - (!) Reading configuration file...
+(2025:12: 9:19:51) - Gate DNS is set to 0
+(2025:12: 9:19:51) - Log DNS is set to 0
+(2025:12: 9:19:51) - (*) Game server name : Apocalypse
+(2025:12: 9:19:51) - (*) Game server address : 192.168.0.15
+(2025:12: 9:19:51) - (*) Internal (LAN) Game server address : 192.168.0.15
+(2025:12: 9:19:51) - (*) External (Internet) Game server address : 89.7.69.125
+(2025:12: 9:19:51) - (*) Game server port : 9907
+(2025:12: 9:19:51) - (*) Log server address : 192.168.0.15
+(2025:12: 9:19:51) - (*) Log server port : 2500
+(2025:12: 9:19:51) - (*) Gate server address : 192.168.0.15
+(2025:12: 9:19:51) - (*) Gate server port : 9907
+(2025:12: 9:19:51) - (*) Game server mode : INTERNET
+(2025:12: 9:19:51) - (!) Reading configuration file...
+(2025:12: 9:19:51) - (*) Add map (inferniaB)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (inferniaA)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (maze)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (druncncity)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (procella)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (abaddon)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (aresden)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (arefarm)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (aresdend1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (arebrk11)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (arebrk12)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (arebrk21)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (arebrk22)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (wrhus_1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (cityhall_1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (arewrhus)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (resurr1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (gshop_1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (arejail)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (cath_1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (wzdtwr_1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (gshop_1f)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (wrhus_1f)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (bsmith_1f)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (bsmith_1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (gldhall_1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (CmdHall_1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (dglv2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (dglv3)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (dglv4)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (elvine)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (elvfarm)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (elvbrk11)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (elvbrk12)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (elvbrk21)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (elvbrk22)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (elvined1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (elvjail)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (elvwrhus)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (gldhall_2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (gshop_2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (gshop_2f)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (resurr2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (wrhus_2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (wrhus_2f)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (wzdtwr_2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (bsmith_2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (bsmith_2f)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (cath_2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (cityhall_2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (CmdHall_2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (BtField)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (GodH)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (HRampart)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (areuni)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (elvuni)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (huntzone1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (huntzone2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (huntzone3)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (huntzone4)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (middleland)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (2ndmiddle)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (middled1n)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (middled1x)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (bisle)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (default)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (fightzone1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (fightzone2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (fightzone3)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (fightzone4)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (fightzone5)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (fightzone6)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (fightzone7)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (fightzone8)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (fightzone9)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (toh1)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (toh2)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (*) Add map (toh3)   - Loading map info files...
+(2025:12: 9:19:51) - (*) Data file loading success.
+(2025:12: 9:19:51) - (!) Reading settings file...
+(2025:12: 9:19:51) - (*) Enemy Kill Mode: DEATHMATCH
+(2025:12: 9:19:51) - (*) Player gains (1) EK per enemy kill.
+(2025:12: 9:19:51) - (*) Primary drop rate: (1)
+(2025:12: 9:19:51) - (*) Secondary drop rate: (1)
+(2025:12: 9:19:51) - (*) Administator vulnerability ignored.
+(2025:12: 9:19:51) - (*) Monday Raid Time : (3) minutes
+(2025:12: 9:19:51) - (*) Tuesday Raid Time : (3) minutes
+(2025:12: 9:19:51) - (*) Wednesday Raid Time : (3) minutes
+(2025:12: 9:19:51) - (*) Thursday Raid Time : (3) minutes
+(2025:12: 9:19:51) - (*) Friday Raid Time : (30) minutes
+(2025:12: 9:19:51) - (*) Saturday Raid Time : (45) minutes
+(2025:12: 9:19:51) - (*) Sunday Raid Time : (60) minutes
+(2025:12: 9:19:51) - (*) Logging All Chat.
+(2025:12: 9:19:51) - (*) Slate Success Rate (25) percent
+(2025:12: 9:19:51) - (*) Rep<->Drop modifier: (5)
+(2025:12: 9:19:51) - (*) Security number memorized!
+(2025:12: 9:19:51) - (!) Reading AdminList.cfg...
+(2025:12: 9:19:51) - (!) Reading BannedList.cfg...
+(2025:12: 9:19:51) - (!) Reading settings file...
+(2025:12: 9:19:51) - (!) Reading Notify Message list file...
+(2025:12: 9:19:51) - (!) ITEM(Total:292) configuration - success!
+(2025:12: 9:19:51) - (!) ITEM(Total:623) configuration - success!
+(2025:12: 9:19:51) - (!) ITEM(Total:1111) configuration - success!
+(2025:12: 9:19:51) - (!) BuildItem(Total:97) configuration - success!
+(2025:12: 9:19:51) - (!) NPC(Total:115) configuration - success!
+(2025:12: 9:19:51) - (!) MAGIC(Total:96) configuration - success!
+(2025:12: 9:19:51) - (!) SKILL(Total:23) configuration - success!
+(2025:12: 9:19:51) - (!) QUEST(Total:90) configuration - success!
+(2025:12: 9:19:51) - (!) POTION(Total:19) configuration - success!
+(2025:12: 9:19:51) - (!) DupItemID(Total:13) configuration - success!
+(2025:12: 9:19:51) - Sending start message...
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\inferniaB.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\inferniaB.txt) - success! TL(1) WP(9) LNPC(0) MXO(400) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\inferniaA.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\inferniaA.txt) - success! TL(1) WP(9) LNPC(0) MXO(400) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\maze.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\maze.txt) - success! TL(1) WP(9) LNPC(0) MXO(100) RMG(1 / 19)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\druncncity.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\druncncity.txt) - success! TL(12) WP(9) LNPC(0) MXO(100) RMG(1 / 18)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\procella.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\procella.txt) - success! TL(1) WP(9) LNPC(0) MXO(700) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\abaddon.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\abaddon.txt) - success! TL(0) WP(0) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\aresden.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\aresden.txt) - success! TL(91) WP(9) LNPC(0) MXO(600) RMG(1 / 1)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\arefarm.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\arefarm.txt) - success! TL(50) WP(10) LNPC(0) MXO(300) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\aresdend1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\aresdend1.txt) - success! TL(11) WP(9) LNPC(0) MXO(180) RMG(1 / 4)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\arebrk11.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\arebrk11.txt) - success! TL(9) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\arebrk12.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\arebrk12.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\arebrk21.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\arebrk21.txt) - success! TL(6) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\arebrk22.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\arebrk22.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\wrhus_1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\wrhus_1.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\cityhall_1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\cityhall_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\arewrhus.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\arewrhus.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\resurr1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\resurr1.txt) - success! TL(16) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\gshop_1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\gshop_1.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\arejail.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\arejail.txt) - success! TL(0) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\cath_1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\cath_1.txt) - success! TL(3) WP(10) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\wzdtwr_1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\wzdtwr_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\gshop_1f.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\gshop_1f.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\wrhus_1f.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\wrhus_1f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\bsmith_1f.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\bsmith_1f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\bsmith_1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\bsmith_1.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\gldhall_1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\gldhall_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\CmdHall_1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\CmdHall_1.txt) - success! TL(8) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\dglv2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\dglv2.txt) - success! TL(63) WP(9) LNPC(0) MXO(999) RMG(1 / 5)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\dglv3.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\dglv3.txt) - success! TL(12) WP(9) LNPC(0) MXO(700) RMG(1 / 9)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\dglv4.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\dglv4.txt) - success! TL(9) WP(9) LNPC(0) MXO(600) RMG(1 / 10)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\elvine.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\elvine.txt) - success! TL(85) WP(9) LNPC(0) MXO(600) RMG(1 / 1)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\elvfarm.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\elvfarm.txt) - success! TL(38) WP(10) LNPC(0) MXO(300) RMG(1 / 1)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\elvbrk11.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\elvbrk11.txt) - success! TL(9) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\elvbrk12.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\elvbrk12.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\elvbrk21.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\elvbrk21.txt) - success! TL(6) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\elvbrk22.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\elvbrk22.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\elvined1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\elvined1.txt) - success! TL(11) WP(9) LNPC(0) MXO(180) RMG(1 / 4)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\elvjail.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\elvjail.txt) - success! TL(0) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\elvwrhus.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\elvwrhus.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\gldhall_2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\gldhall_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\gshop_2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\gshop_2.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\gshop_2f.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\gshop_2f.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\resurr2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\resurr2.txt) - success! TL(16) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\wrhus_2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\wrhus_2.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\wrhus_2f.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\wrhus_2f.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\wzdtwr_2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\wzdtwr_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\bsmith_2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\bsmith_2.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\bsmith_2f.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\bsmith_2f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\cath_2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\cath_2.txt) - success! TL(3) WP(10) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\cityhall_2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\cityhall_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\CmdHall_2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\CmdHall_2.txt) - success! TL(8) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\BtField.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\BtField.txt) - success! TL(0) WP(9) LNPC(0) MXO(900) RMG(1 / 20)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\GodH.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\GodH.txt) - success! TL(3) WP(0) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\HRampart.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\HRampart.txt) - success! TL(6) WP(0) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\areuni.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\areuni.txt) - success! TL(18) WP(9) LNPC(0) MXO(350) RMG(1 / 7)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\elvuni.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\elvuni.txt) - success! TL(9) WP(9) LNPC(0) MXO(350) RMG(1 / 7)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\huntzone1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\huntzone1.txt) - success! TL(33) WP(9) LNPC(0) MXO(350) RMG(1 / 16)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\huntzone2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\huntzone2.txt) - success! TL(31) WP(9) LNPC(0) MXO(350) RMG(1 / 16)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\huntzone3.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\huntzone3.txt) - success! TL(6) WP(9) LNPC(0) MXO(350) RMG(1 / 6)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\huntzone4.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\huntzone4.txt) - success! TL(9) WP(9) LNPC(0) MXO(350) RMG(1 / 6)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\middleland.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\middleland.txt) - success! TL(56) WP(19) LNPC(0) MXO(750) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\2ndmiddle.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\2ndmiddle.txt) - success! TL(22) WP(4) LNPC(0) MXO(400) RMG(1 / 8)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\middled1n.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\middled1n.txt) - success! TL(8) WP(9) LNPC(0) MXO(150) RMG(1 / 12)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\middled1x.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\middled1x.txt) - success! TL(4) WP(9) LNPC(0) MXO(150) RMG(1 / 5)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\bisle.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\bisle.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\default.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\default.txt) - success! TL(12) WP(0) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\fightzone1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\fightzone1.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\fightzone2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\fightzone2.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\fightzone3.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\fightzone3.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\fightzone4.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\fightzone4.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\fightzone5.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\fightzone5.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\fightzone6.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\fightzone6.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\fightzone7.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\fightzone7.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\fightzone8.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\fightzone8.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\fightzone9.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\fightzone9.txt) - success! TL(0) WP(10) LNPC(0) MXO(65) RMG(0 / 0)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\toh1.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\toh1.txt) - success! TL(9) WP(9) LNPC(0) MXO(300) RMG(1 / 13)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\toh2.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\toh2.txt) - success! TL(12) WP(9) LNPC(0) MXO(200) RMG(1 / 14)
+(2025:12: 9:19:51) - (!) Reading Map info file : mapdata\toh3.txt
+(2025:12: 9:19:51) - (!) Map info file decoding(mapdata\toh3.txt) - success! TL(6) WP(9) LNPC(0) MXO(180) RMG(1 / 15)
+(2025:12: 9:19:51) - (!) Reading Crusade configuration file...
+(2025:12: 9:19:51) - (!) Map(aresden) Strike Point(1) Related Map(cityhall_1) Index(14)
+(2025:12: 9:19:51) - (!) Map(aresden) Strike Point(2) Related Map(gshop_1) Index(17)
+(2025:12: 9:19:51) - (!) Map(aresden) Strike Point(3) Related Map(bsmith_1) Index(24)
+(2025:12: 9:19:51) - (!) Map(aresden) Strike Point(4) Related Map(wrhus_1) Index(13)
+(2025:12: 9:19:51) - (!) Map(elvine) Strike Point(1) Related Map(cityhall_2) Index(49)
+(2025:12: 9:19:51) - (!) Map(elvine) Strike Point(2) Related Map(gshop_2) Index(40)
+(2025:12: 9:19:51) - (!) Map(elvine) Strike Point(3) Related Map(bsmith_2) Index(46)
+(2025:12: 9:19:51) - (!) Map(elvine) Strike Point(4) Related Map(wrhus_2) Index(43)
+(2025:12: 9:19:51) - (!) Reading Schedule file...
+(2025:12: 9:19:51) - (!) Cannot open CrusadeGUID file.
+(2025:12: 9:19:51) - (!) Cannot open ApocalypseGUID file.
+(2025:12: 9:19:51) - (!) Cannot open HeldenianGUID file.
+(2025:12: 9:19:51) - 
+(2025:12: 9:19:51) - (!) Game Server Activated.
+(2025:12: 9:20: 4) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 4) - <2> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 4) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 4) - <2> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 4) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 4) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 4) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 4) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 4) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 4) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 4) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 4) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 5) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 5) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 5) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 5) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 5) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 5) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 5) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 5) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 9) - <2> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 9) - <2> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 9) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20: 9) - (!) Account Request Login: omy
+(2025:12: 9:20: 9) - Account Login!
+(2025:12: 9:20: 9) - (!) Request enter Game: OMY
+(2025:12: 9:20: 9) - Account Login!
+(2025:12: 9:20: 9) - Send DEF_ENTERGAMERESTYPE_CONFIRM
+(2025:12: 9:20: 9) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:20: 9) - <2> Client Connected: (93.156.35.112)
+(2025:12: 9:20: 9) - <2> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:10) - <2> Client Connected: (93.156.35.112)
+(2025:12: 9:20:10) - <2> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:10) - <2> Client Connected: (93.156.35.112)
+(2025:12: 9:20:10) - <2> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:20:10) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:10) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:11) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:12) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:12) - <2> Client Connected: (93.156.35.112)
+(2025:12: 9:20:12) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:12) - <2> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Connected: (93.156.35.112)
+(2025:12: 9:20:13) - <1> Client Disconnected! (93.156.35.112)
+(2025:12: 9:20:13) - (!) Account Request Login: omy
+(2025:12: 9:20:13) - Account Login!
+(2025:12: 9:20:33) - (!) Account Request Login: omy
+(2025:12: 9:20:33) - Account Login!
+(2025:12: 9:21:21) - <1> Client Connected: (104.28.238.42)
+(2025:12: 9:21:21) - <2> Client Connected: (104.28.206.45)
+(2025:12: 9:21:21) - <2> Client Disconnected! (104.28.206.45)
+(2025:12: 9:21:21) - <1> Client Disconnected! (104.28.238.42)
+(2025:12: 9:21:21) - <1> Client Connected: (104.28.206.45)
+(2025:12: 9:21:21) - <1> Client Disconnected! (104.28.206.45)
+(2025:12: 9:21:22) - <1> Client Connected: (104.28.206.45)
+(2025:12: 9:21:22) - <1> Client Disconnected! (104.28.206.45)
+(2025:12: 9:21:22) - <1> Client Connected: (104.28.206.45)
+(2025:12: 9:21:22) - <1> Client Disconnected! (104.28.206.45)
+(2025:12: 9:21:23) - <1> Client Connected: (104.28.206.45)
+(2025:12: 9:21:23) - <1> Client Disconnected! (104.28.206.45)
+(2025:12: 9:21:23) - <1> Client Connected: (104.28.206.45)
+(2025:12: 9:21:23) - <1> Client Disconnected! (104.28.206.45)
+(2025:12: 9:21:23) - <1> Client Connected: (104.28.206.45)
+(2025:12: 9:21:23) - <1> Client Disconnected! (104.28.206.45)
+(2025:12: 9:21:26) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - Unknown message received: (0x0FC94201) PC() - (Delayed). 	IP(192.168.0.15)
+(2025:12: 9:21:26) - <2> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - <2> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - Unknown message received: (0x0FC94201) PC() - (Delayed). 	IP(192.168.0.15)
+(2025:12: 9:21:26) - <2> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - <2> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:26) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - (!) Account Request Login: omy
+(2025:12: 9:21:27) - Account Login!
+(2025:12: 9:21:27) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - (!) Request enter Game: OMY
+(2025:12: 9:21:27) - Account Login!
+(2025:12: 9:21:27) - Send DEF_ENTERGAMERESTYPE_CONFIRM
+(2025:12: 9:21:27) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <2> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <2> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <2> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <2> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - Unknown message received: (0x0FC94201) PC() - (Delayed). 	IP(192.168.0.15)
+(2025:12: 9:21:27) - <2> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <2> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <2> Client Connected: (192.168.0.15)
+(2025:12: 9:21:27) - <2> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:27) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:28) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:35) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:35) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:35) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:35) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:35) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:35) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:35) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:35) - Unknown message received: (0x0FC94201) PC() - (Delayed). 	IP(192.168.0.15)
+(2025:12: 9:21:35) - <2> Client Connected: (192.168.0.15)
+(2025:12: 9:21:35) - <2> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:35) - <2> Client Connected: (192.168.0.15)
+(2025:12: 9:21:35) - <2> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:35) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:35) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:35) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:36) - (!) Account Request Login: omy
+(2025:12: 9:21:36) - Account Login!
+(2025:12: 9:21:36) - (!) Request enter Game: OMY
+(2025:12: 9:21:36) - Account Login!
+(2025:12: 9:21:36) - Send DEF_ENTERGAMERESTYPE_CONFIRM
+(2025:12: 9:21:36) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:36) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:37) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:38) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:39) - (!) Account Request Login: omy
+(2025:12: 9:21:39) - Account Login!
+(2025:12: 9:21:41) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:41) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:41) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:41) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:41) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:41) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:41) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:41) - Unknown message received: (0x0FC94201) PC() - (Delayed). 	IP(192.168.0.15)
+(2025:12: 9:21:41) - <2> Client Connected: (192.168.0.15)
+(2025:12: 9:21:41) - <2> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - (!) Account Request Login: omy
+(2025:12: 9:21:42) - Account Login!
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:42) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:43) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:44) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:45) - Unknown message received: (0x0FC94201) PC() - (Delayed). 	IP(192.168.0.15)
+(2025:12: 9:21:45) - <2> Client Connected: (192.168.0.15)
+(2025:12: 9:21:45) - <2> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:45) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:46) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:47) - (!) Account Request Login: omy
+(2025:12: 9:21:47) - Account Login!
+(2025:12: 9:21:47) - (!) Request enter Game: OMY
+(2025:12: 9:21:47) - Account Login!
+(2025:12: 9:21:47) - Send DEF_ENTERGAMERESTYPE_CONFIRM
+(2025:12: 9:21:47) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:21:47) - <1> Client Disconnected! (192.168.0.15)
+(2025:12: 9:21:56) - (!) Account Request Login: omy
+(2025:12: 9:21:56) - Account Login!
+(2025:12: 9:22: 4) - (!) Account Request Login: omy
+(2025:12: 9:22: 4) - Account Login!
+(2025:12: 9:22: 4) - (!) Request enter Game: OMY
+(2025:12: 9:22: 4) - Account Login!
+(2025:12: 9:22: 4) - Send DEF_ENTERGAMERESTYPE_CONFIRM
+(2025:12: 9:22: 4) - <1> Client Connected: (192.168.0.15)
+(2025:12: 9:22: 4) - <1> Client Disconnected! (192.168.0.15)
+(2025:12:10: 0:10) - (!) INITIALIZING GAME SERVER...
+(2025:12:10: 0:10) - (!) Reading configuration file...
+(2025:12:10: 0:10) - Gate DNS is set to 0
+(2025:12:10: 0:10) - Log DNS is set to 0
+(2025:12:10: 0:10) - (*) Game server name : Apocalypse
+(2025:12:10: 0:10) - (*) Game server address : 192.168.0.15
+(2025:12:10: 0:10) - (*) Internal (LAN) Game server address : 192.168.0.15
+(2025:12:10: 0:10) - (*) External (Internet) Game server address : 89.7.69.125
+(2025:12:10: 0:10) - (*) Game server port : 9907
+(2025:12:10: 0:10) - (*) Log server address : 192.168.0.15
+(2025:12:10: 0:10) - (*) Log server port : 2500
+(2025:12:10: 0:10) - (*) Gate server address : 192.168.0.15
+(2025:12:10: 0:10) - (*) Gate server port : 9907
+(2025:12:10: 0:10) - (*) Game server mode : INTERNET
+(2025:12:10: 0:10) - (!) Reading configuration file...
+(2025:12:10: 0:10) - (*) Add map (inferniaB)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (inferniaA)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (maze)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (druncncity)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (procella)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (abaddon)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (aresden)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (arefarm)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (aresdend1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (arebrk11)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (arebrk12)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (arebrk21)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (arebrk22)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (wrhus_1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (cityhall_1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (arewrhus)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (resurr1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (gshop_1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (arejail)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (cath_1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (wzdtwr_1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (gshop_1f)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (wrhus_1f)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (bsmith_1f)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (bsmith_1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (gldhall_1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (CmdHall_1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (dglv2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (dglv3)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (dglv4)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (elvine)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (elvfarm)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (elvbrk11)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (elvbrk12)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (elvbrk21)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (elvbrk22)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (elvined1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (elvjail)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (elvwrhus)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (gldhall_2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (gshop_2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (gshop_2f)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (resurr2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (wrhus_2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (wrhus_2f)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (wzdtwr_2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (bsmith_2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (bsmith_2f)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (cath_2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (cityhall_2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (CmdHall_2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (BtField)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (GodH)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (HRampart)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (areuni)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (elvuni)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (huntzone1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (huntzone2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (huntzone3)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (huntzone4)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (middleland)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (2ndmiddle)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (middled1n)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (middled1x)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (bisle)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (default)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (fightzone1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (fightzone2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (fightzone3)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (fightzone4)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (fightzone5)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (fightzone6)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (fightzone7)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (fightzone8)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (fightzone9)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (toh1)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (toh2)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (*) Add map (toh3)   - Loading map info files...
+(2025:12:10: 0:10) - (*) Data file loading success.
+(2025:12:10: 0:10) - (!) Reading settings file...
+(2025:12:10: 0:10) - (*) Enemy Kill Mode: DEATHMATCH
+(2025:12:10: 0:10) - (*) Player gains (1) EK per enemy kill.
+(2025:12:10: 0:10) - (*) Primary drop rate: (1)
+(2025:12:10: 0:10) - (*) Secondary drop rate: (1)
+(2025:12:10: 0:10) - (*) Administator vulnerability ignored.
+(2025:12:10: 0:10) - (*) Monday Raid Time : (3) minutes
+(2025:12:10: 0:10) - (*) Tuesday Raid Time : (3) minutes
+(2025:12:10: 0:10) - (*) Wednesday Raid Time : (3) minutes
+(2025:12:10: 0:10) - (*) Thursday Raid Time : (3) minutes
+(2025:12:10: 0:10) - (*) Friday Raid Time : (30) minutes
+(2025:12:10: 0:10) - (*) Saturday Raid Time : (45) minutes
+(2025:12:10: 0:10) - (*) Sunday Raid Time : (60) minutes
+(2025:12:10: 0:10) - (*) Logging All Chat.
+(2025:12:10: 0:10) - (*) Slate Success Rate (25) percent
+(2025:12:10: 0:10) - (*) Rep<->Drop modifier: (5)
+(2025:12:10: 0:10) - (*) Security number memorized!
+(2025:12:10: 0:10) - (!) Reading AdminList.cfg...
+(2025:12:10: 0:10) - (!) Reading BannedList.cfg...
+(2025:12:10: 0:10) - (!) Reading settings file...
+(2025:12:10: 0:10) - (!) Reading Notify Message list file...
+(2025:12:10: 0:10) - (!) ITEM(Total:292) configuration - success!
+(2025:12:10: 0:10) - (!) ITEM(Total:623) configuration - success!
+(2025:12:10: 0:10) - (!) ITEM(Total:1111) configuration - success!
+(2025:12:10: 0:10) - (!) BuildItem(Total:97) configuration - success!
+(2025:12:10: 0:10) - (!) NPC(Total:115) configuration - success!
+(2025:12:10: 0:10) - (!) MAGIC(Total:96) configuration - success!
+(2025:12:10: 0:10) - (!) SKILL(Total:23) configuration - success!
+(2025:12:10: 0:10) - (!) QUEST(Total:90) configuration - success!
+(2025:12:10: 0:10) - (!) POTION(Total:19) configuration - success!
+(2025:12:10: 0:10) - (!) DupItemID(Total:13) configuration - success!
+(2025:12:10: 0:10) - Sending start message...
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\inferniaB.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\inferniaB.txt) - success! TL(1) WP(9) LNPC(0) MXO(400) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\inferniaA.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\inferniaA.txt) - success! TL(1) WP(9) LNPC(0) MXO(400) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\maze.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\maze.txt) - success! TL(1) WP(9) LNPC(0) MXO(100) RMG(1 / 19)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\druncncity.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\druncncity.txt) - success! TL(12) WP(9) LNPC(0) MXO(100) RMG(1 / 18)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\procella.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\procella.txt) - success! TL(1) WP(9) LNPC(0) MXO(700) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\abaddon.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\abaddon.txt) - success! TL(0) WP(0) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\aresden.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\aresden.txt) - success! TL(91) WP(9) LNPC(0) MXO(600) RMG(1 / 1)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\arefarm.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\arefarm.txt) - success! TL(50) WP(10) LNPC(0) MXO(300) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\aresdend1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\aresdend1.txt) - success! TL(11) WP(9) LNPC(0) MXO(180) RMG(1 / 4)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\arebrk11.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\arebrk11.txt) - success! TL(9) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\arebrk12.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\arebrk12.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\arebrk21.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\arebrk21.txt) - success! TL(6) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\arebrk22.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\arebrk22.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\wrhus_1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\wrhus_1.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\cityhall_1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\cityhall_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\arewrhus.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\arewrhus.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\resurr1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\resurr1.txt) - success! TL(16) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\gshop_1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\gshop_1.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\arejail.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\arejail.txt) - success! TL(0) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\cath_1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\cath_1.txt) - success! TL(3) WP(10) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\wzdtwr_1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\wzdtwr_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\gshop_1f.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\gshop_1f.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\wrhus_1f.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\wrhus_1f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\bsmith_1f.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\bsmith_1f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\bsmith_1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\bsmith_1.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\gldhall_1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\gldhall_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\CmdHall_1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\CmdHall_1.txt) - success! TL(8) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\dglv2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\dglv2.txt) - success! TL(63) WP(9) LNPC(0) MXO(999) RMG(1 / 5)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\dglv3.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\dglv3.txt) - success! TL(12) WP(9) LNPC(0) MXO(700) RMG(1 / 9)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\dglv4.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\dglv4.txt) - success! TL(9) WP(9) LNPC(0) MXO(600) RMG(1 / 10)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\elvine.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\elvine.txt) - success! TL(85) WP(9) LNPC(0) MXO(600) RMG(1 / 1)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\elvfarm.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\elvfarm.txt) - success! TL(38) WP(10) LNPC(0) MXO(300) RMG(1 / 1)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\elvbrk11.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\elvbrk11.txt) - success! TL(9) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\elvbrk12.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\elvbrk12.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\elvbrk21.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\elvbrk21.txt) - success! TL(6) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\elvbrk22.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\elvbrk22.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\elvined1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\elvined1.txt) - success! TL(11) WP(9) LNPC(0) MXO(180) RMG(1 / 4)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\elvjail.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\elvjail.txt) - success! TL(0) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\elvwrhus.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\elvwrhus.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\gldhall_2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\gldhall_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\gshop_2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\gshop_2.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\gshop_2f.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\gshop_2f.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\resurr2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\resurr2.txt) - success! TL(16) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\wrhus_2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\wrhus_2.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\wrhus_2f.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\wrhus_2f.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\wzdtwr_2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\wzdtwr_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\bsmith_2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\bsmith_2.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\bsmith_2f.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\bsmith_2f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\cath_2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\cath_2.txt) - success! TL(3) WP(10) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\cityhall_2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\cityhall_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\CmdHall_2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\CmdHall_2.txt) - success! TL(8) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\BtField.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\BtField.txt) - success! TL(0) WP(9) LNPC(0) MXO(900) RMG(1 / 20)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\GodH.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\GodH.txt) - success! TL(3) WP(0) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\HRampart.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\HRampart.txt) - success! TL(6) WP(0) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\areuni.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\areuni.txt) - success! TL(18) WP(9) LNPC(0) MXO(350) RMG(1 / 7)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\elvuni.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\elvuni.txt) - success! TL(9) WP(9) LNPC(0) MXO(350) RMG(1 / 7)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\huntzone1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\huntzone1.txt) - success! TL(33) WP(9) LNPC(0) MXO(350) RMG(1 / 16)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\huntzone2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\huntzone2.txt) - success! TL(31) WP(9) LNPC(0) MXO(350) RMG(1 / 16)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\huntzone3.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\huntzone3.txt) - success! TL(6) WP(9) LNPC(0) MXO(350) RMG(1 / 6)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\huntzone4.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\huntzone4.txt) - success! TL(9) WP(9) LNPC(0) MXO(350) RMG(1 / 6)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\middleland.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\middleland.txt) - success! TL(56) WP(19) LNPC(0) MXO(750) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\2ndmiddle.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\2ndmiddle.txt) - success! TL(22) WP(4) LNPC(0) MXO(400) RMG(1 / 8)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\middled1n.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\middled1n.txt) - success! TL(8) WP(9) LNPC(0) MXO(150) RMG(1 / 12)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\middled1x.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\middled1x.txt) - success! TL(4) WP(9) LNPC(0) MXO(150) RMG(1 / 5)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\bisle.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\bisle.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\default.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\default.txt) - success! TL(12) WP(0) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\fightzone1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\fightzone1.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\fightzone2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\fightzone2.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\fightzone3.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\fightzone3.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\fightzone4.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\fightzone4.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\fightzone5.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\fightzone5.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\fightzone6.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\fightzone6.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\fightzone7.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\fightzone7.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\fightzone8.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\fightzone8.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\fightzone9.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\fightzone9.txt) - success! TL(0) WP(10) LNPC(0) MXO(65) RMG(0 / 0)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\toh1.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\toh1.txt) - success! TL(9) WP(9) LNPC(0) MXO(300) RMG(1 / 13)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\toh2.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\toh2.txt) - success! TL(12) WP(9) LNPC(0) MXO(200) RMG(1 / 14)
+(2025:12:10: 0:10) - (!) Reading Map info file : mapdata\toh3.txt
+(2025:12:10: 0:10) - (!) Map info file decoding(mapdata\toh3.txt) - success! TL(6) WP(9) LNPC(0) MXO(180) RMG(1 / 15)
+(2025:12:10: 0:10) - (!) Reading Crusade configuration file...
+(2025:12:10: 0:10) - (!) Map(aresden) Strike Point(1) Related Map(cityhall_1) Index(14)
+(2025:12:10: 0:10) - (!) Map(aresden) Strike Point(2) Related Map(gshop_1) Index(17)
+(2025:12:10: 0:10) - (!) Map(aresden) Strike Point(3) Related Map(bsmith_1) Index(24)
+(2025:12:10: 0:10) - (!) Map(aresden) Strike Point(4) Related Map(wrhus_1) Index(13)
+(2025:12:10: 0:10) - (!) Map(elvine) Strike Point(1) Related Map(cityhall_2) Index(49)
+(2025:12:10: 0:10) - (!) Map(elvine) Strike Point(2) Related Map(gshop_2) Index(40)
+(2025:12:10: 0:10) - (!) Map(elvine) Strike Point(3) Related Map(bsmith_2) Index(46)
+(2025:12:10: 0:10) - (!) Map(elvine) Strike Point(4) Related Map(wrhus_2) Index(43)
+(2025:12:10: 0:10) - (!) Reading Schedule file...
+(2025:12:10: 0:10) - (!) Cannot open CrusadeGUID file.
+(2025:12:10: 0:10) - (!) Cannot open ApocalypseGUID file.
+(2025:12:10: 0:10) - (!) Cannot open HeldenianGUID file.
+(2025:12:10: 0:10) - 
+(2025:12:10: 0:10) - (!) Game Server Activated.
+(2025:12:10: 0:11) - (!) Account Request Login: omy
+(2025:12:10: 0:11) - Account Login!
+(2025:12:10: 0:11) - (!) Request enter Game: OMY
+(2025:12:10: 0:11) - Account Login!
+(2025:12:10: 0:11) - Send DEF_ENTERGAMERESTYPE_CONFIRM
+(2025:12:10: 0:11) - <1> Client Connected: (192.168.0.15)
+(2025:12:10: 0:11) - <1> Client Disconnected! (192.168.0.15)
+(2025:12:10: 1:34) - (!) INITIALIZING GAME SERVER...
+(2025:12:10: 1:34) - (!) Reading configuration file...
+(2025:12:10: 1:34) - Gate DNS is set to 0
+(2025:12:10: 1:34) - Log DNS is set to 0
+(2025:12:10: 1:34) - (*) Game server name : Apocalypse
+(2025:12:10: 1:34) - (*) Game server address : 192.168.0.15
+(2025:12:10: 1:34) - (*) Internal (LAN) Game server address : 192.168.0.15
+(2025:12:10: 1:34) - (*) External (Internet) Game server address : 89.7.69.125
+(2025:12:10: 1:34) - (*) Game server port : 9907
+(2025:12:10: 1:34) - (*) Log server address : 192.168.0.15
+(2025:12:10: 1:34) - (*) Log server port : 2500
+(2025:12:10: 1:34) - (*) Gate server address : 192.168.0.15
+(2025:12:10: 1:34) - (*) Gate server port : 9907
+(2025:12:10: 1:34) - (*) Game server mode : INTERNET
+(2025:12:10: 1:34) - (!) Reading configuration file...
+(2025:12:10: 1:34) - (*) Add map (inferniaB)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (inferniaA)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (maze)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (druncncity)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (procella)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (abaddon)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (aresden)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (arefarm)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (aresdend1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (arebrk11)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (arebrk12)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (arebrk21)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (arebrk22)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (wrhus_1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (cityhall_1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (arewrhus)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (resurr1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (gshop_1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (arejail)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (cath_1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (wzdtwr_1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (gshop_1f)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (wrhus_1f)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (bsmith_1f)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (bsmith_1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (gldhall_1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (CmdHall_1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (dglv2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (dglv3)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (dglv4)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (elvine)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (elvfarm)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (elvbrk11)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (elvbrk12)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (elvbrk21)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (elvbrk22)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (elvined1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (elvjail)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (elvwrhus)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (gldhall_2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (gshop_2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (gshop_2f)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (resurr2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (wrhus_2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (wrhus_2f)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (wzdtwr_2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (bsmith_2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (bsmith_2f)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (cath_2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (cityhall_2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (CmdHall_2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (BtField)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (GodH)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (HRampart)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (areuni)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (elvuni)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (huntzone1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (huntzone2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (huntzone3)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (huntzone4)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (middleland)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (2ndmiddle)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (middled1n)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (middled1x)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (bisle)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (default)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (fightzone1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (fightzone2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (fightzone3)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (fightzone4)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (fightzone5)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (fightzone6)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (fightzone7)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (fightzone8)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (fightzone9)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (toh1)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (toh2)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (*) Add map (toh3)   - Loading map info files...
+(2025:12:10: 1:34) - (*) Data file loading success.
+(2025:12:10: 1:34) - (!) Reading settings file...
+(2025:12:10: 1:34) - (*) Enemy Kill Mode: DEATHMATCH
+(2025:12:10: 1:34) - (*) Player gains (1) EK per enemy kill.
+(2025:12:10: 1:34) - (*) Primary drop rate: (1)
+(2025:12:10: 1:34) - (*) Secondary drop rate: (1)
+(2025:12:10: 1:34) - (*) Administator vulnerability ignored.
+(2025:12:10: 1:34) - (*) Monday Raid Time : (3) minutes
+(2025:12:10: 1:34) - (*) Tuesday Raid Time : (3) minutes
+(2025:12:10: 1:34) - (*) Wednesday Raid Time : (3) minutes
+(2025:12:10: 1:34) - (*) Thursday Raid Time : (3) minutes
+(2025:12:10: 1:34) - (*) Friday Raid Time : (30) minutes
+(2025:12:10: 1:34) - (*) Saturday Raid Time : (45) minutes
+(2025:12:10: 1:34) - (*) Sunday Raid Time : (60) minutes
+(2025:12:10: 1:34) - (*) Logging All Chat.
+(2025:12:10: 1:34) - (*) Slate Success Rate (25) percent
+(2025:12:10: 1:34) - (*) Rep<->Drop modifier: (5)
+(2025:12:10: 1:34) - (*) Security number memorized!
+(2025:12:10: 1:34) - (!) Reading AdminList.cfg...
+(2025:12:10: 1:34) - (!) Reading BannedList.cfg...
+(2025:12:10: 1:34) - (!) Reading settings file...
+(2025:12:10: 1:34) - (!) Reading Notify Message list file...
+(2025:12:10: 1:34) - (!) ITEM(Total:292) configuration - success!
+(2025:12:10: 1:34) - (!) ITEM(Total:623) configuration - success!
+(2025:12:10: 1:34) - (!) ITEM(Total:1111) configuration - success!
+(2025:12:10: 1:34) - (!) BuildItem(Total:97) configuration - success!
+(2025:12:10: 1:34) - (!) NPC(Total:115) configuration - success!
+(2025:12:10: 1:34) - (!) MAGIC(Total:96) configuration - success!
+(2025:12:10: 1:34) - (!) SKILL(Total:23) configuration - success!
+(2025:12:10: 1:34) - (!) QUEST(Total:90) configuration - success!
+(2025:12:10: 1:34) - (!) POTION(Total:19) configuration - success!
+(2025:12:10: 1:34) - (!) DupItemID(Total:13) configuration - success!
+(2025:12:10: 1:34) - Sending start message...
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\inferniaB.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\inferniaB.txt) - success! TL(1) WP(9) LNPC(0) MXO(400) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\inferniaA.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\inferniaA.txt) - success! TL(1) WP(9) LNPC(0) MXO(400) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\maze.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\maze.txt) - success! TL(1) WP(9) LNPC(0) MXO(100) RMG(1 / 19)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\druncncity.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\druncncity.txt) - success! TL(12) WP(9) LNPC(0) MXO(100) RMG(1 / 18)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\procella.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\procella.txt) - success! TL(1) WP(9) LNPC(0) MXO(700) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\abaddon.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\abaddon.txt) - success! TL(0) WP(0) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\aresden.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\aresden.txt) - success! TL(91) WP(9) LNPC(0) MXO(600) RMG(1 / 1)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\arefarm.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\arefarm.txt) - success! TL(50) WP(10) LNPC(0) MXO(300) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\aresdend1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\aresdend1.txt) - success! TL(11) WP(9) LNPC(0) MXO(180) RMG(1 / 4)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\arebrk11.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\arebrk11.txt) - success! TL(9) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\arebrk12.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\arebrk12.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\arebrk21.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\arebrk21.txt) - success! TL(6) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\arebrk22.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\arebrk22.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\wrhus_1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\wrhus_1.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\cityhall_1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\cityhall_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\arewrhus.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\arewrhus.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\resurr1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\resurr1.txt) - success! TL(16) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\gshop_1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\gshop_1.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\arejail.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\arejail.txt) - success! TL(0) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\cath_1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\cath_1.txt) - success! TL(3) WP(10) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\wzdtwr_1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\wzdtwr_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\gshop_1f.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\gshop_1f.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\wrhus_1f.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\wrhus_1f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\bsmith_1f.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\bsmith_1f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\bsmith_1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\bsmith_1.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\gldhall_1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\gldhall_1.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\CmdHall_1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\CmdHall_1.txt) - success! TL(8) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\dglv2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\dglv2.txt) - success! TL(63) WP(9) LNPC(0) MXO(999) RMG(1 / 5)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\dglv3.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\dglv3.txt) - success! TL(12) WP(9) LNPC(0) MXO(700) RMG(1 / 9)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\dglv4.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\dglv4.txt) - success! TL(9) WP(9) LNPC(0) MXO(600) RMG(1 / 10)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\elvine.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\elvine.txt) - success! TL(85) WP(9) LNPC(0) MXO(600) RMG(1 / 1)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\elvfarm.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\elvfarm.txt) - success! TL(38) WP(10) LNPC(0) MXO(300) RMG(1 / 1)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\elvbrk11.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\elvbrk11.txt) - success! TL(9) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\elvbrk12.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\elvbrk12.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\elvbrk21.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\elvbrk21.txt) - success! TL(6) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\elvbrk22.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\elvbrk22.txt) - success! TL(3) WP(10) LNPC(0) MXO(200) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\elvined1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\elvined1.txt) - success! TL(11) WP(9) LNPC(0) MXO(180) RMG(1 / 4)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\elvjail.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\elvjail.txt) - success! TL(0) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\elvwrhus.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\elvwrhus.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\gldhall_2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\gldhall_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\gshop_2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\gshop_2.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\gshop_2f.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\gshop_2f.txt) - success! TL(5) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\resurr2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\resurr2.txt) - success! TL(16) WP(0) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\wrhus_2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\wrhus_2.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\wrhus_2f.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\wrhus_2f.txt) - success! TL(4) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\wzdtwr_2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\wzdtwr_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\bsmith_2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\bsmith_2.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\bsmith_2f.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\bsmith_2f.txt) - success! TL(6) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\cath_2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\cath_2.txt) - success! TL(3) WP(10) LNPC(0) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\cityhall_2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\cityhall_2.txt) - success! TL(3) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\CmdHall_2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\CmdHall_2.txt) - success! TL(8) WP(10) LNPC(1) MXO(0) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\BtField.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\BtField.txt) - success! TL(0) WP(9) LNPC(0) MXO(900) RMG(1 / 20)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\GodH.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\GodH.txt) - success! TL(3) WP(0) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\HRampart.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\HRampart.txt) - success! TL(6) WP(0) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\areuni.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\areuni.txt) - success! TL(18) WP(9) LNPC(0) MXO(350) RMG(1 / 7)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\elvuni.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\elvuni.txt) - success! TL(9) WP(9) LNPC(0) MXO(350) RMG(1 / 7)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\huntzone1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\huntzone1.txt) - success! TL(33) WP(9) LNPC(0) MXO(350) RMG(1 / 16)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\huntzone2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\huntzone2.txt) - success! TL(31) WP(9) LNPC(0) MXO(350) RMG(1 / 16)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\huntzone3.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\huntzone3.txt) - success! TL(6) WP(9) LNPC(0) MXO(350) RMG(1 / 6)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\huntzone4.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\huntzone4.txt) - success! TL(9) WP(9) LNPC(0) MXO(350) RMG(1 / 6)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\middleland.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\middleland.txt) - success! TL(56) WP(19) LNPC(0) MXO(750) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\2ndmiddle.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\2ndmiddle.txt) - success! TL(22) WP(4) LNPC(0) MXO(400) RMG(1 / 8)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\middled1n.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\middled1n.txt) - success! TL(8) WP(9) LNPC(0) MXO(150) RMG(1 / 12)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\middled1x.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\middled1x.txt) - success! TL(4) WP(9) LNPC(0) MXO(150) RMG(1 / 5)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\bisle.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\bisle.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\default.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\default.txt) - success! TL(12) WP(0) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\fightzone1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\fightzone1.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\fightzone2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\fightzone2.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\fightzone3.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\fightzone3.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\fightzone4.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\fightzone4.txt) - success! TL(0) WP(10) LNPC(0) MXO(50) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\fightzone5.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\fightzone5.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\fightzone6.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\fightzone6.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\fightzone7.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\fightzone7.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\fightzone8.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\fightzone8.txt) - success! TL(0) WP(9) LNPC(0) MXO(999) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\fightzone9.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\fightzone9.txt) - success! TL(0) WP(10) LNPC(0) MXO(65) RMG(0 / 0)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\toh1.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\toh1.txt) - success! TL(9) WP(9) LNPC(0) MXO(300) RMG(1 / 13)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\toh2.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\toh2.txt) - success! TL(12) WP(9) LNPC(0) MXO(200) RMG(1 / 14)
+(2025:12:10: 1:34) - (!) Reading Map info file : mapdata\toh3.txt
+(2025:12:10: 1:34) - (!) Map info file decoding(mapdata\toh3.txt) - success! TL(6) WP(9) LNPC(0) MXO(180) RMG(1 / 15)
+(2025:12:10: 1:34) - (!) Reading Crusade configuration file...
+(2025:12:10: 1:34) - (!) Map(aresden) Strike Point(1) Related Map(cityhall_1) Index(14)
+(2025:12:10: 1:34) - (!) Map(aresden) Strike Point(2) Related Map(gshop_1) Index(17)
+(2025:12:10: 1:34) - (!) Map(aresden) Strike Point(3) Related Map(bsmith_1) Index(24)
+(2025:12:10: 1:34) - (!) Map(aresden) Strike Point(4) Related Map(wrhus_1) Index(13)
+(2025:12:10: 1:34) - (!) Map(elvine) Strike Point(1) Related Map(cityhall_2) Index(49)
+(2025:12:10: 1:34) - (!) Map(elvine) Strike Point(2) Related Map(gshop_2) Index(40)
+(2025:12:10: 1:34) - (!) Map(elvine) Strike Point(3) Related Map(bsmith_2) Index(46)
+(2025:12:10: 1:34) - (!) Map(elvine) Strike Point(4) Related Map(wrhus_2) Index(43)
+(2025:12:10: 1:34) - (!) Reading Schedule file...
+(2025:12:10: 1:34) - (!) Cannot open CrusadeGUID file.
+(2025:12:10: 1:34) - (!) Cannot open ApocalypseGUID file.
+(2025:12:10: 1:34) - (!) Cannot open HeldenianGUID file.
+(2025:12:10: 1:34) - 
+(2025:12:10: 1:34) - (!) Game Server Activated.
+(2025:12:10: 1:34) - (!) Account Request Login: omy
+(2025:12:10: 1:34) - Account Login!

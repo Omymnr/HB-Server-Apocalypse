@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>server_ico.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Logo_Server.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Logo_Server.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="server_ico.ico" />
+  </ItemGroup>
+
+</Project>

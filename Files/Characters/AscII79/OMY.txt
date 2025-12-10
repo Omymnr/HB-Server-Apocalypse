@@ -1,6 +1,6 @@
 [FILE-DATE]
 
-file-saved-date: 2025 12 9 16 19
+file-saved-date: 2025 12 10 0 11
 
 [NAME-ACCOUNT]
 
@@ -20,7 +20,7 @@ character-loc-y   = 205
 
 character-HP       = 182
 character-MP       = 107
-character-SP       = 240
+character-SP       = 242
 character-LEVEL    = 41
 character-RATING   = 0
 character-STR      = 80
@@ -60,7 +60,7 @@ character-contribution = 0
 character-war-contribution = 0
 character-quest-completed = 0
 special-event-id = 0
-super-attack-left = 2
+super-attack-left = 1
 reserved-fightzone-id = 0 0 0
 special-ability-time = 0
 locked-map-name = NONE
@@ -68,7 +68,7 @@ locked-map-time = 0
 crusade-job = 0
 crusade-GUID = 0
 construct-point = 0
-dead-penalty-time = 1124198764
+dead-penalty-time = 1124198566
 party-id = 0
 gizon-item-upgade-left = 0
 

@@ -1,158 +1,151 @@
-﻿  BuildItem.cpp
-  CharInfo.cpp
-  Curse.cpp
-  DXC_ddraw.cpp
-  DXC_dinput.cpp
-  DXC_dsound.cpp
-  Effect.cpp
-  Game.cpp
-D:\HB-Server-Apocalypse\Client\Game.cpp(647,2): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(648,10): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(649,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(649,39): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(650,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(651,5): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(651,43): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(1591,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(1622,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(1855,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(2563,30): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(2565,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(3246,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(3246,17): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(3354,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(3354,19): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(3354,36): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(3355,5): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(3357,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(3358,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(3358,25): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(3359,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(3360,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(4141,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(4141,17): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(4416,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(4417,31): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(4437,38): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(4543,36): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(7531,39): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(14277,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14277,17): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14286,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14286,19): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14286,36): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14287,5): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14289,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14290,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14290,25): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14291,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14292,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(14565,54): warning C4805: '!=': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(16387,31): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(16421,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(17417,67): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(17547,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(17555,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(17563,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(17571,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(17581,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(17589,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(19561,103): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(19564,48): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(19788,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(19788,17): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(20232,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(20232,19): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(20232,36): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(20233,5): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(20235,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(20236,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(20236,25): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(20237,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(20238,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(20251,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(20257,58): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(20824,36): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(21058,56): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(21064,56): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
-D:\HB-Server-Apocalypse\Client\Game.cpp(23425,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23425,17): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23457,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23457,17): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23480,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23480,19): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23480,36): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23481,5): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23483,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23484,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23484,25): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23485,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23486,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23523,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23523,17): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23542,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23542,19): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23542,36): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23543,5): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23545,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23546,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23546,25): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23547,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23548,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23570,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23570,17): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23582,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23582,19): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23582,36): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23583,5): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23585,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23586,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23586,25): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23587,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23588,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23610,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(23610,17): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24181,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24181,19): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24181,36): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24182,5): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24184,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24185,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24185,25): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24186,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24187,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24357,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24357,19): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24357,36): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24358,5): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24360,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24361,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24361,25): error C2065: 'm_TextureManager': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24362,5): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24363,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24463,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24463,17): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24791,5): error C2065: 'm_Renderer': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24791,19): error C2065: 'm_SpriteBatch': identificador no declarado
-D:\HB-Server-Apocalypse\Client\Game.cpp(24791,19): error C1003: el recuento de errores supera 100; se detiene la compilación
-  GameMonitor.cpp
-  Item.cpp
-  ItemName.cpp
-  Magic.cpp
-  MapData.cpp
-  Misc.cpp
-  MobCounter.cpp
-  MouseInterface.cpp
-  Msg.cpp
-  Mydib.cpp
-  Skill.cpp
-  SoundBuffer.cpp
-  Compilando...
-  Sprite.cpp
-  StrTok.cpp
-  Tile.cpp
-  TileSpr.cpp
-  Wmain.cpp
-D:\HB-Server-Apocalypse\Client\Wmain.cpp(202,23): warning C4477: 'sprintf' : la cadena de formato '%d' requiere un argumento de tipo 'int', pero el argumento variádico 1 tiene el tipo 'HINSTANCE'
-  XSocket.cpp
-  YWSound.cpp
+﻿  Game.cpp
+D:\HB-Server-Apocalypse\Client\Game.cpp(1815,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(1848,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(2082,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(2970,31): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(2973,34): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(5223,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(5225,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(5264,42): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(5386,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(8808,40): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(18868,57): warning C4805: '!=': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(21435,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(21468,72): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(22564,70): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(22699,34): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(22709,34): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(22719,34): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(22729,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(22740,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(22750,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(25090,50): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(25093,51): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(25929,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(25937,59): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(26667,39): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(26927,59): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(26933,59): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32139,38): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32215,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32265,31): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32269,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32274,61): warning C4805: '!=': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32285,61): warning C4805: '!=': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32299,31): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32303,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32309,61): warning C4805: '!=': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32320,61): warning C4805: '!=': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32332,36): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32334,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32389,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32518,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(32531,39): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(34028,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(34066,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(34071,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36044,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36053,59): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36264,34): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36271,61): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36369,29): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36472,36): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36495,36): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36520,36): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36574,38): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36581,38): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(36589,38): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(37846,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(37848,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(37863,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(37868,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(37873,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(37878,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(37883,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(37888,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(37893,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(37902,30): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(38991,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39005,43): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39012,34): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39017,38): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39026,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39026,73): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39027,38): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39332,36): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39334,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39926,44): warning C4805: '!=': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39963,39): warning C4805: '!=': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(39965,39): warning C4805: '!=': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(40142,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(40901,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(41850,59): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(43923,17): warning C4305: 'argumento': truncamiento de 'int' a 'bool'
+D:\HB-Server-Apocalypse\Client\Game.cpp(43922,70): warning C4305: 'argumento': truncamiento de 'int' a 'bool'
+D:\HB-Server-Apocalypse\Client\Game.cpp(44709,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(47891,31): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(47892,60): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(47896,59): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(47937,59): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(47984,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48035,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48065,55): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48067,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48071,34): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48077,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48081,32): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48124,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48127,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48132,34): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48139,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48359,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48361,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48366,34): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48373,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48556,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48904,40): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(48914,41): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(49404,40): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(49644,40): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(49793,40): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(50283,35): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(51420,30): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(54010,33): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(54085,31): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(54093,30): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(54142,37): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+D:\HB-Server-Apocalypse\Client\Game.cpp(54162,30): warning C4805: '==': combinación no segura del tipo 'int' y el tipo 'bool' en la operación
+     Creando biblioteca D:\HB-Server-Apocalypse\Client\Release\Game.lib y objeto D:\HB-Server-Apocalypse\Client\Release\Game.exp
+  Generando código
+  1 of 1098 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    169 functions had inline decision re-evaluated but remain unchanged
+  Generación de código finalizada
+SpriteBatcher.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+TextureAtlas.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+HardwareCursor.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+Misc.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+GameMonitor.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+Msg.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+Magic.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+MobCounter.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+SoundBuffer.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+Mydib.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+Tile.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+XSocket.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+Sprite.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+TileSpr.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+YWSound.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+CharInfo.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+DXC_dinput.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+Game.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+TextureManager.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+TextureAtlasManager.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+GameCursorIntegration.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+Item.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+MapData.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+MouseInterface.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+Skill.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+StrTok.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+Wmain.obj : warning LNK4020: un registro de tipo de 'd:\hb-server-apocalypse\client\release\vc143.pdb' está dañado; puede que algunos símbolos y tipos no sean accesibles desde el depurador
+  Client.vcxproj -> D:\HB-Server-Apocalypse\Client\Release\Game.exe
