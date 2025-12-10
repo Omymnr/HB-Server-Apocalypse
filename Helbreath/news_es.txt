@@ -1,0 +1,10 @@
+[10/12/2025] - Notas del Parche v0.2
+
+NUEVAS FUNCIONALIDADES:
+- Sistema de Auto-Actualización mejorado: El cliente ahora verifica y repara archivos corruptos automáticamente.
+- Interfaz Redimensionable: Ahora puedes ajustar el tamaño de la ventana del Launcher a tu gusto. El contenido se adaptará automáticamente.
+- Soporte Multi-Idioma: Los mensajes de actualización ahora respetan el idioma seleccionado (Español/Inglés).
+- Corrección de Errores: Solucionado problema con 'search.dll' que no se descargaba correctamente.
+- Versionado Decimal: Implementado sistema de versiones X.X para un control más preciso.
+
+¡Gracias por jugar a Helbreath Apocalypse!

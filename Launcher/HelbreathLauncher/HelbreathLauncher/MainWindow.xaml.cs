@@ -75,6 +75,8 @@ namespace HelbreathLauncher
                 BtnPlay.Content = "PLAY NOW";
                 if (_updater != null) _updater.SetLanguage("EN");
             }
+            
+            LoadNews();
         }
 
         // Bucle infinito que comprueba el estado cada 5 segundos
@@ -232,10 +234,13 @@ namespace HelbreathLauncher
         // ==========================================
         private UpdateManager _updater;
 
-        private void InitializeUpdater()
+        private async void InitializeUpdater()
         {
             try 
             {
+                // Load cached news first (if any)
+                LoadNews();
+
                 // Initialize Manager with Play Button and Version Label
                 _updater = new UpdateManager(this, ProgBarUpdate, TxtUpdateStatus, BtnPlay, TxtVersion);
 
@@ -244,12 +249,54 @@ namespace HelbreathLauncher
                 else _updater.SetLanguage("ES");
                 
                 // Start Update Check
-                _ = _updater.CheckAndApplyUpdates();
+                await _updater.CheckAndApplyUpdates();
+                
+                // Reload news after update (in case they changed or were downloaded)
+                LoadNews();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error initializing updater: " + ex.Message);
             }
+        }
+
+        private void LoadNews()
+        {
+            try
+            {
+                if (CmbLang == null || BtnNews == null || TxtNewsContent == null) return;
+
+                bool isEs = CmbLang.SelectedIndex == 0;
+                
+                // Update Button Text
+                BtnNews.Content = isEs ? "NOTICIAS" : "NEWS";
+                
+                // Update Overlay Title
+                if (LabelNewsOverlay != null) LabelNewsOverlay.Text = isEs ? "NOTICIAS" : "NEWS";
+
+                string filename = isEs ? "news_es.txt" : "news_en.txt";
+                string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filename);
+
+                if (File.Exists(path))
+                {
+                    TxtNewsContent.Text = File.ReadAllText(path);
+                }
+                else
+                {
+                    TxtNewsContent.Text = isEs ? "No hay noticias disponibles." : "No news available.";
+                }
+            }
+            catch { }
+        }
+
+        private void BtnNews_Click(object sender, RoutedEventArgs e)
+        {
+             OverlayNews.Visibility = Visibility.Visible;
+        }
+
+        private void BtnCloseNews_Click(object sender, RoutedEventArgs e)
+        {
+             OverlayNews.Visibility = Visibility.Collapsed;
         }
     }
 }

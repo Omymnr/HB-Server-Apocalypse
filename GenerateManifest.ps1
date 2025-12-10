@@ -1,6 +1,6 @@
 $baseUrl = "https://raw.githubusercontent.com/Omymnr/HB-Server-Apocalypse/main/"
 $exclude = @("files.json", "version.txt", "version.dat", "Helbreath.exe.tmp", "Helbreath.exe.old")
-$targetFiles = @("HelbreathLauncher.exe", "Game.exe", "search.dll")
+$targetFiles = @("HelbreathLauncher.exe", "Game.exe", "search.dll", "news_es.txt", "news_en.txt")
 $targetFolders = @("CONTENTS", "SPRITES", "SOUNDS", "MAPDATA", "MUSIC", "FONTS", "RENDER")
 
 # We are running in D:\HB-Server-Apocalypse\

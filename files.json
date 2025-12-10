@@ -15,6 +15,16 @@
         "Hash":  "42cae5fd3bdc359a3bb81316066100afe7d767d276472291c05614119f8c4d13"
     },
     {
+        "Path":  "Helbreath/news_es.txt",
+        "Size":  678,
+        "Hash":  "54daf4c6fdb59c0848d2e550719b709cff4d77aa62f06b4bef56d4fadb4d18c7"
+    },
+    {
+        "Path":  "Helbreath/news_en.txt",
+        "Size":  545,
+        "Hash":  "7d52c24a9a8a2498f0ed98005e476468681bea0c851c895a2f919afa2d65555f"
+    },
+    {
         "Path":  "Helbreath/CONTENTS/badword.txt",
         "Size":  151,
         "Hash":  "cd1dc6d6ddee4e2623f4a6276f18e142a96c2348f1a876a3706ea1c9c9d8b5de"
