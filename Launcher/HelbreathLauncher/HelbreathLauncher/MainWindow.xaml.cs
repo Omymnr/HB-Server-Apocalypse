@@ -66,12 +66,14 @@ namespace HelbreathLauncher
                 LabelServer.Content = "SELECCIONAR SERVIDOR";
                 BtnRegister.Content = "CREAR CUENTA";
                 BtnPlay.Content = "JUGAR AHORA";
+                if (_updater != null) _updater.SetLanguage("ES");
             }
             else // EN
             {
                 LabelServer.Content = "SELECT SERVER";
                 BtnRegister.Content = "CREATE ACCOUNT";
                 BtnPlay.Content = "PLAY NOW";
+                if (_updater != null) _updater.SetLanguage("EN");
             }
         }
 
@@ -234,8 +236,12 @@ namespace HelbreathLauncher
         {
             try 
             {
-                // Initialize Manager with Play Button
-                _updater = new UpdateManager(this, ProgBarUpdate, TxtUpdateStatus, BtnPlay);
+                // Initialize Manager with Play Button and Version Label
+                _updater = new UpdateManager(this, ProgBarUpdate, TxtUpdateStatus, BtnPlay, TxtVersion);
+
+                // Initial Language
+                if (CmbLang.SelectedIndex == 1) _updater.SetLanguage("EN");
+                else _updater.SetLanguage("ES");
                 
                 // Start Update Check
                 _ = _updater.CheckAndApplyUpdates();

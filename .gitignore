@@ -25,6 +25,7 @@ Helbreath2.rar
 *.exe
 !Helbreath/HelbreathLauncher.exe
 *.dll
+!Helbreath/search.dll
 *.lib
 *.rar
 *.zip

@@ -1,13 +1,18 @@
 ﻿[
     {
         "Path":  "Helbreath/HelbreathLauncher.exe",
-        "Size":  67212891,
-        "Hash":  "c9b52ac637f7d21573069f967a323bc1eccf6b85d6340f8b763e7876f3f1f457"
+        "Size":  67214939,
+        "Hash":  "c26724fe9aed3de32a297df4162042c58b3b4b4eca23492e5ffda626dbdf8c0d"
     },
     {
         "Path":  "Helbreath/Game.exe",
         "Size":  931328,
         "Hash":  "f762df96a57018c7b56b1ff4dc7486d58227c747c27e5b58ca714baf793ea59f"
+    },
+    {
+        "Path":  "Helbreath/search.dll",
+        "Size":  135168,
+        "Hash":  "42cae5fd3bdc359a3bb81316066100afe7d767d276472291c05614119f8c4d13"
     },
     {
         "Path":  "Helbreath/CONTENTS/badword.txt",

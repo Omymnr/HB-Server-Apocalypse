@@ -49,16 +49,45 @@ namespace HelbreathLauncher
 
         private readonly Button _playButton;
 
-        public UpdateManager(Window window, ProgressBar bar, TextBlock label, Button playBtn)
+        private readonly TextBlock _versionLabel;
+        private string _currentLang = "ES";
+
+        public UpdateManager(Window window, ProgressBar bar, TextBlock label, Button playBtn, TextBlock versionLabel)
         {
             _mainWindow = window;
             _progressBar = bar;
             _statusLabel = label;
             _playButton = playBtn;
+            _versionLabel = versionLabel;
             _basePath = AppDomain.CurrentDomain.BaseDirectory;
             _httpClient = new HttpClient();
-            // No User-Agent needed for Raw content usually, but good practice
             _httpClient.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", "HelbreathLauncher-Updater");
+        }
+
+        public void SetLanguage(string lang)
+        {
+            _currentLang = lang;
+        }
+
+        private string GetMsg(string key)
+        {
+            bool isEs = _currentLang == "ES";
+            switch (key)
+            {
+                case "Checking": return isEs ? "Comprobando versión..." : "Checking version...";
+                case "ErrorCheck": return isEs ? "Error comprobando versión." : "Error checking version.";
+                case "Updated": return isEs ? "Cliente actualizado." : "Client updated.";
+                case "NewVersion": return isEs ? "Nueva versión detectada" : "New version found";
+                case "ErrorManifest": return isEs ? "Error al descargar lista." : "Error downloading file list.";
+                case "EmptyManifest": return isEs ? "Lista vacía." : "Empty file list.";
+                case "Verifying": return isEs ? "Verificando archivos" : "Verifying files";
+                case "Verified": return isEs ? "Verificado. Actualizando..." : "Verified. Updating...";
+                case "Downloading": return isEs ? "Descargando" : "Downloading";
+                case "Finished": return isEs ? "Actualización completada." : "Update finished.";
+                case "Error": return "Error: ";
+                case "Vers": return isEs ? "Versión" : "Version";
+                default: return key;
+            }
         }
 
         public async Task CheckAndApplyUpdates()
@@ -66,25 +95,16 @@ namespace HelbreathLauncher
             try
             {
                 SetPlayEnabled(false);
-                UpdateStatus("Comprobando versión...", 0);
+                UpdateStatus(GetMsg("Checking"), 0);
 
                 // 1. Check Remote Version
                 string remoteVersionStr = await DownloadString(VERSION_FILE);
                 if (string.IsNullOrEmpty(remoteVersionStr))
                 {
-                    UpdateStatus("Error comprobando versión (No internet?).", 0);
+                    UpdateStatus(GetMsg("ErrorCheck"), 0);
                     await Task.Delay(2000);
-                    // Decide if we enable play on error. User requested strictness.
-                    // But if version.txt is unreachble, maybe we allow play if Game.exe exists?
-                    // "Si falta algun archivo... inutilizable".
-                    // Let's keep it disabled if we cannot verify. Safer for "auto-update required" policy.
-                    // Or we check if Game.exe exists at least.
                     if (File.Exists(Path.Combine(_basePath, "Game.exe")))
                     {
-                         // Warning but allow?
-                         // User said: "Si el Launcher no esta actualizado... inutilizado".
-                         // If we can't check, we don't know. 
-                         // I will leave it DISABLED to force user to fix connection, as requested ("inutilizable hasta que este actualizado").
                          HideUI(); 
                          return; 
                     }
@@ -92,37 +112,36 @@ namespace HelbreathLauncher
                     return;
                 }
 
-                if (!int.TryParse(remoteVersionStr.Trim(), out int remoteVersion))
+                // Parse as DOUBLE (Decimal version)
+                if (!double.TryParse(remoteVersionStr.Trim(), System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out double remoteVersion))
                 {
-                    remoteVersion = 0; 
+                    remoteVersion = 0.0; 
                 }
 
                 // 2. Check Local Version
-                int localVersion = GetLocalVersion();
+                double localVersion = GetLocalVersion();
+
+                // Update Version Label immediately (current)
+                UpdateVersionLabel(localVersion);
 
                 // 3. Compare
                 if (localVersion >= remoteVersion)
                 {
-                    // Even if versions match, we should do a quick check of Game.exe existence?
-                    // "Si falta algun archivo...". 
-                    // Let's assume version match implies files OK for now, OR we can run the Manifest check anyway?
-                    // Running Manifest check every time is slow. The version.txt is the flag.
-                    // We trust version.txt.
-                    
-                    UpdateStatus($"Versión: {localVersion}", 100);
+                    UpdateStatus(GetMsg("Updated"), 100);
+                    UpdateVersionLabel(localVersion); // Ensure correct
                     await Task.Delay(500);
                     HideUI();
                     SetPlayEnabled(true);
                     return;
                 }
 
-                UpdateStatus($"Nueva versión detectada ({localVersion} -> {remoteVersion})...", 5);
+                UpdateStatus($"{GetMsg("NewVersion")} ({localVersion} -> {remoteVersion})...", 5);
 
                 // 4. Download Manifest
                 string manifestJson = await DownloadString(MANIFEST_FILE);
                 if (string.IsNullOrEmpty(manifestJson))
                 {
-                    UpdateStatus("Error descargando lista de archivos.", 0);
+                    UpdateStatus(GetMsg("ErrorManifest"), 0);
                     await Task.Delay(2000);
                     HideUI();
                     return;
@@ -140,7 +159,7 @@ namespace HelbreathLauncher
 
                 if (remoteFiles == null || remoteFiles.Count == 0)
                 {
-                    UpdateStatus("Lista de archivos vacía.", 100);
+                    UpdateStatus(GetMsg("EmptyManifest"), 100);
                     SetLocalVersion(remoteVersion); 
                     await Task.Delay(1000);
                     HideUI();
@@ -159,8 +178,8 @@ namespace HelbreathLauncher
                         checkedCount++;
                         if (checkedCount % 5 == 0)
                         {
-                            UpdateStatus($"Verificando archivos ({checkedCount}/{remoteFiles.Count})...", 
-                                5 + ((double)checkedCount / remoteFiles.Count * 20)); // 5% -> 25%
+                            UpdateStatus($"{GetMsg("Verifying")} ({checkedCount}/{remoteFiles.Count})...", 
+                                5 + ((double)checkedCount / remoteFiles.Count * 20)); 
                         }
 
                         if (NeedsUpdate(entry))
@@ -172,8 +191,9 @@ namespace HelbreathLauncher
 
                 if (filesToUpdate.Count == 0)
                 {
-                    UpdateStatus($"Versión: {remoteVersion}", 100);
+                    UpdateStatus($"{GetMsg("Vers")} {remoteVersion}", 100);
                     SetLocalVersion(remoteVersion);
+                    UpdateVersionLabel(remoteVersion);
                     await Task.Delay(1000);
                     HideUI();
                     SetPlayEnabled(true);
@@ -188,8 +208,8 @@ namespace HelbreathLauncher
                 foreach (var file in filesToUpdate)
                 {
                     current++;
-                    double progress = 25 + ((double)current / total * 75); // 25% -> 100%
-                    UpdateStatus($"Descargando ({current}/{total}): {file.Path}", progress);
+                    double progress = 25 + ((double)current / total * 75); 
+                    UpdateStatus($"{GetMsg("Downloading")} ({current}/{total}): {file.Path}", progress);
 
                     await DownloadFile(file);
 
@@ -201,7 +221,8 @@ namespace HelbreathLauncher
 
                 // 7. Finish
                 SetLocalVersion(remoteVersion);
-                UpdateStatus($"Versión: {remoteVersion}", 100); // FIXED: Show Version
+                UpdateVersionLabel(remoteVersion);
+                UpdateStatus($"{GetMsg("Finished")}", 100); 
                 await Task.Delay(1000);
 
                 if (selfUpdate)
@@ -217,11 +238,19 @@ namespace HelbreathLauncher
             }
             catch (Exception ex)
             {
-                UpdateStatus($"Error: {ex.Message}", 0);
+                UpdateStatus($"{GetMsg("Error")} {ex.Message}", 0);
                 await Task.Delay(3000);
                 HideUI();
-                // Keep Disabled on exception
             }
+        }
+        
+        private void UpdateVersionLabel(double v)
+        {
+             Application.Current.Dispatcher.Invoke(() =>
+            {
+                if (_versionLabel != null) 
+                    _versionLabel.Text = $"{GetMsg("Vers")}: {v.ToString("0.0", System.Globalization.CultureInfo.InvariantCulture)}";
+            });
         }
         
         private void SetPlayEnabled(bool enabled)
@@ -246,6 +275,38 @@ namespace HelbreathLauncher
                 return null;
             }
         }
+
+        // NeedsUpdate, ComputeSha256, DownloadFile kept same (except CleanPath fix is needed if I replace them?)
+        // I am using "EndLine: 302" which covers DownloadString.
+        // Wait, Need to make sure I don't lose NeedsUpdate etc.
+        // The original code has NeedsUpdate starting around 214.
+        // I will replace UP TO NeedsUpdate. 
+
+        private double GetLocalVersion()
+        {
+            string path = Path.Combine(_basePath, LOCAL_VERSION_FILE);
+            if (File.Exists(path))
+            {
+                try
+                {
+                    string txt = File.ReadAllText(path);
+                    if (double.TryParse(txt.Trim(), System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out double v)) return v;
+                }
+                catch { }
+            }
+            return 0.0; 
+        }
+
+        private void SetLocalVersion(double version)
+        {
+            try
+            {
+                string path = Path.Combine(_basePath, LOCAL_VERSION_FILE);
+                File.WriteAllText(path, version.ToString("0.0", System.Globalization.CultureInfo.InvariantCulture));
+            }
+            catch { }
+        }
+
 
         private bool NeedsUpdate(ManifestEntry entry)
         {
@@ -305,30 +366,7 @@ namespace HelbreathLauncher
             }
         }
 
-        private int GetLocalVersion()
-        {
-            string path = Path.Combine(_basePath, LOCAL_VERSION_FILE);
-            if (File.Exists(path))
-            {
-                try
-                {
-                    string txt = File.ReadAllText(path);
-                    if (int.TryParse(txt.Trim(), out int v)) return v;
-                }
-                catch { }
-            }
-            return 0; // Default if no file
-        }
 
-        private void SetLocalVersion(int version)
-        {
-            try
-            {
-                string path = Path.Combine(_basePath, LOCAL_VERSION_FILE);
-                File.WriteAllText(path, version.ToString());
-            }
-            catch { }
-        }
 
         private void PerformSelfUpdateRestart()
         {

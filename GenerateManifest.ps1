@@ -1,6 +1,6 @@
 $baseUrl = "https://raw.githubusercontent.com/Omymnr/HB-Server-Apocalypse/main/"
 $exclude = @("files.json", "version.txt", "version.dat", "Helbreath.exe.tmp", "Helbreath.exe.old")
-$targetFiles = @("HelbreathLauncher.exe", "Game.exe")
+$targetFiles = @("HelbreathLauncher.exe", "Game.exe", "search.dll")
 $targetFolders = @("CONTENTS", "SPRITES", "SOUNDS", "MAPDATA", "MUSIC", "FONTS", "RENDER")
 
 # We are running in D:\HB-Server-Apocalypse\
@@ -50,14 +50,24 @@ foreach ($folder in $targetFolders) {
 $json = $manifest | ConvertTo-Json -Depth 5
 $json | Set-Content "files.json" -Encoding UTF8
 
-# Increment Version in Root
+# Increment Version in Root (Decimal Logic)
 if (-not (Test-Path "version.txt")) {
-    Set-Content "version.txt" "1"
+    Set-Content "version.txt" "0.1"
 }
 else {
-    [int]$v = Get-Content "version.txt"
-    $v++
-    Set-Content "version.txt" $v
+    $current = Get-Content "version.txt"
+    try {
+        # Try parse as double
+        $v = [decimal]$current
+        $v = $v + 0.1
+        # Format explicitly with dot, avoid culture issues (comma)
+        $newV = $v.ToString("0.0", [System.Globalization.CultureInfo]::InvariantCulture)
+        Set-Content "version.txt" $newV
+    }
+    catch {
+        # Fallback if file was integer "1"
+        Set-Content "version.txt" "0.1"
+    }
 }
 
 Write-Host "Manifest generated in Root!"
