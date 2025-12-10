@@ -144,7 +144,7 @@ namespace HelbreathLauncher
                 if (localVersion >= remoteVersion && !forceUpdate)
                 {
                     UpdateStatus(GetMsg("Updated"), 100);
-                    UpdateVersionLabel(localVersion); 
+                    UpdateVersionLabel(remoteVersion); 
                     await Task.Delay(500);
                     HideUI();
                     SetPlayEnabled(true);

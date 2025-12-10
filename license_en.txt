@@ -1,0 +1,11 @@
+﻿LICENSE AGREEMENT - HELBREATH APOCALYPSE CLIENT
+
+This software is free and provided "as is", without warranties of any kind.
+
+By installing this software, you accept the following terms:
+
+1. This client is for personal and non-commercial use.
+2. Modification or distribution without permission is not allowed.
+3. Use of the software is at your own risk.
+
+For more information, visit the official repository.
