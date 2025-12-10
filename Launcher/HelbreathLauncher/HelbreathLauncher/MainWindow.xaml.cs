@@ -260,7 +260,7 @@ namespace HelbreathLauncher
             }
         }
 
-        private void LoadNews()
+        private async void LoadNews()
         {
             try
             {
@@ -274,19 +274,27 @@ namespace HelbreathLauncher
                 // Update Overlay Title
                 if (LabelNewsOverlay != null) LabelNewsOverlay.Text = isEs ? "NOTICIAS" : "NEWS";
 
-                string filename = isEs ? "news_es.txt" : "news_en.txt";
-                string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, filename);
+                TxtNewsContent.Text = isEs ? "Cargando..." : "Loading...";
 
-                if (File.Exists(path))
+                string filename = isEs ? "news_es.txt" : "news_en.txt";
+                // GitHub Raw URL (Hardcoded for simplicity or constants)
+                string url = $"https://raw.githubusercontent.com/Omymnr/HB-Server-Apocalypse/main/Helbreath/{filename}?t=" + DateTime.Now.Ticks;
+                
+                // Wait. The user puts news_es.txt in Root or Helbreath?
+                // Step 768: I wrote to `D:\HB-Server-Apocalypse\Helbreath\news_es.txt`.
+                // So it is inside `Helbreath/`.
+                // So URL: `.../main/Helbreath/news_es.txt`.
+                
+                using (var client = new HttpClient())
                 {
-                    TxtNewsContent.Text = File.ReadAllText(path);
-                }
-                else
-                {
-                    TxtNewsContent.Text = isEs ? "No hay noticias disponibles." : "No news available.";
+                     string content = await client.GetStringAsync(url);
+                     TxtNewsContent.Text = content;
                 }
             }
-            catch { }
+            catch 
+            {
+                TxtNewsContent.Text = (CmbLang.SelectedIndex == 0) ? "No hay noticias disponibles." : "No news available.";
+            }
         }
 
         private void BtnNews_Click(object sender, RoutedEventArgs e)

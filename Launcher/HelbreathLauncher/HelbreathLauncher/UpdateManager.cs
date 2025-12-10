@@ -289,27 +289,21 @@ namespace HelbreathLauncher
 
         private double GetLocalVersion()
         {
-            string path = Path.Combine(_basePath, LOCAL_VERSION_FILE);
-            if (File.Exists(path))
-            {
-                try
-                {
-                    string txt = File.ReadAllText(path);
-                    if (double.TryParse(txt.Trim(), System.Globalization.NumberStyles.Any, System.Globalization.CultureInfo.InvariantCulture, out double v)) return v;
-                }
-                catch { }
-            }
-            return 0.0; 
+            // Always return 0.0 to force check against remote
+            // The logic will then verify files via hash.
+            return 0.0;
         }
 
         private void SetLocalVersion(double version)
         {
+            // Do NOT save local version. 
+            // We rely on manifest check every time.
             try
             {
                 string path = Path.Combine(_basePath, LOCAL_VERSION_FILE);
-                File.WriteAllText(path, version.ToString("0.0", System.Globalization.CultureInfo.InvariantCulture));
+                if (File.Exists(path)) File.Delete(path); // Cleanup
             }
-            catch { }
+            catch {}
         }
 
 
