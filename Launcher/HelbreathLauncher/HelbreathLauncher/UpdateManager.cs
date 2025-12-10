@@ -111,12 +111,15 @@ namespace HelbreathLauncher
                 {
                     current++;
                     double progress = 50 + ((double)current / total * 50); // Second 50% is downloading
-                    UpdateStatus($"Descargando ({current}/{total}): {file.path}", progress);
+                    string cleanDisplayPath = CleanPath(file.path);
+                    UpdateStatus($"Descargando ({current}/{total}): {cleanDisplayPath}", progress);
 
                     await DownloadFile(file);
                     
                     // Update cache for the new file immediately
-                    string localPath = Path.Combine(_basePath, file.path.Replace("/", "\\"));
+                    string cleanPath = CleanPath(file.path);
+                    string localPath = Path.Combine(_basePath, cleanPath.Replace("/", "\\"));
+                    
                     if (File.Exists(localPath))
                     {
                         var info = new FileInfo(localPath);
@@ -132,7 +135,8 @@ namespace HelbreathLauncher
                 UpdateStatus("Actualización completada.", 100);
                 await Task.Delay(1000);
                 
-                if (filesToUpdate.Any(f => f.path.EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase)))
+                // Check if we updated the launcher itself
+                if (filesToUpdate.Any(f => CleanPath(f.path).EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase)))
                 {
                     PerformSelfUpdateRestart();
                 }
@@ -151,7 +155,8 @@ namespace HelbreathLauncher
 
         private bool NeedsUpdate(GitHubFile file)
         {
-            string localPath = Path.Combine(_basePath, file.path.Replace("/", "\\"));
+            string cleanPath = CleanPath(file.path);
+            string localPath = Path.Combine(_basePath, cleanPath.Replace("/", "\\"));
             if (!File.Exists(localPath)) return true;
 
             FileInfo info = new FileInfo(localPath);
@@ -237,13 +242,14 @@ namespace HelbreathLauncher
 
         private async Task DownloadFile(GitHubFile file)
         {
-            string localPath = Path.Combine(_basePath, file.path.Replace("/", "\\"));
-            string rawUrl = RAW_BASE_URL + file.path;
+            string cleanPath = CleanPath(file.path);
+            string localPath = Path.Combine(_basePath, cleanPath.Replace("/", "\\"));
+            string rawUrl = RAW_BASE_URL + file.path; // RAW URL needs full path
 
             string dir = Path.GetDirectoryName(localPath);
             if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
 
-            bool isSelfUpdate = file.path.EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase);
+            bool isSelfUpdate = cleanPath.EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase);
             if (isSelfUpdate) localPath += ".tmp";
 
             using (var response = await _httpClient.GetAsync(rawUrl))
@@ -255,7 +261,7 @@ namespace HelbreathLauncher
                 }
             }
             
-            // Fix timestamp to match system time immediately so cache is valid for next run
+            // Fix timestamp
             if (!isSelfUpdate)
             {
                  File.SetLastWriteTimeUtc(localPath, DateTime.UtcNow);
@@ -271,13 +277,16 @@ namespace HelbreathLauncher
             try
             {
                 if (File.Exists(oldExe)) File.Delete(oldExe);
-                File.Move(currentExe, oldExe);
-                File.Move(newExe, currentExe);
+                if (File.Exists(newExe))
+                {
+                    File.Move(currentExe, oldExe);
+                    File.Move(newExe, currentExe);
 
-                MessageBox.Show("Actualización recibida. Reiniciando...", "Helbreath Update", MessageBoxButton.OK, MessageBoxImage.Information);
+                    MessageBox.Show("Actualización recibida. Reiniciando...", "Helbreath Update", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                Process.Start(currentExe);
-                Application.Current.Shutdown();
+                    Process.Start(currentExe);
+                    Application.Current.Shutdown();
+                }
             }
             catch (Exception ex)
             {
@@ -286,13 +295,28 @@ namespace HelbreathLauncher
         }
 
         // Helpers
+        private string CleanPath(string repoPath)
+        {
+            // If the repo path starts with "Helbreath/", we strip it because 
+            // the Launcher is running INSIDE that folder.
+            if (repoPath.StartsWith("Helbreath/", StringComparison.OrdinalIgnoreCase))
+            {
+                return repoPath.Substring("Helbreath/".Length);
+            }
+            return repoPath;
+        }
+
         private bool IsTargetFile(string path)
         {
-            path = path.Replace("/", "\\");
-            string fileName = Path.GetFileName(path);
+            string cleanPath = CleanPath(path);
+            cleanPath = cleanPath.Replace("/", "\\");
+            
+            string fileName = Path.GetFileName(cleanPath);
             if (TARGET_FILES.Contains(fileName)) return true;
-            string[] parts = path.Split('\\');
+            
+            string[] parts = cleanPath.Split('\\');
             if (parts.Length > 0 && TARGET_FOLDERS.Contains(parts[0])) return true;
+            
             return false;
         }
 
