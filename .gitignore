@@ -23,6 +23,7 @@ Helbreath2.rar
 
 # Large Binaries and Archives
 *.exe
+!Helbreath/HelbreathLauncher.exe
 *.dll
 *.lib
 *.rar
@@ -30,7 +31,7 @@ Helbreath2.rar
 *.7z
 
 # Specific large files
-Helbreath/HelbreathLauncher.exe
+# Helbreath/HelbreathLauncher.exe
 
 # Temporary
 *.log
