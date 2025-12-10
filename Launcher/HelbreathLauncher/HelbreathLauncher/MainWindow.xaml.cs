@@ -234,8 +234,8 @@ namespace HelbreathLauncher
         {
             try 
             {
-                // Initialize Manager with existing XAML controls
-                _updater = new UpdateManager(this, ProgBarUpdate, TxtUpdateStatus);
+                // Initialize Manager with Play Button
+                _updater = new UpdateManager(this, ProgBarUpdate, TxtUpdateStatus, BtnPlay);
                 
                 // Start Update Check
                 _ = _updater.CheckAndApplyUpdates();

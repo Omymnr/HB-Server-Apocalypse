@@ -34,7 +34,8 @@ namespace HelbreathLauncher
         private const string BRANCH = "main";
         
         // Base URL for RAW files (We will look inside 'Helbreath' folder in the repo)
-        private const string BASE_URL = $"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/Helbreath/";
+        // EDITED: User wants manifest in Root, so Base URL is Root.
+        private const string BASE_URL = $"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/";
         
         private const string VERSION_FILE = "version.txt";
         private const string MANIFEST_FILE = "files.json";
@@ -46,11 +47,14 @@ namespace HelbreathLauncher
         private readonly TextBlock _statusLabel;
         private readonly Window _mainWindow;
 
-        public UpdateManager(Window window, ProgressBar bar, TextBlock label)
+        private readonly Button _playButton;
+
+        public UpdateManager(Window window, ProgressBar bar, TextBlock label, Button playBtn)
         {
             _mainWindow = window;
             _progressBar = bar;
             _statusLabel = label;
+            _playButton = playBtn;
             _basePath = AppDomain.CurrentDomain.BaseDirectory;
             _httpClient = new HttpClient();
             // No User-Agent needed for Raw content usually, but good practice
@@ -61,21 +65,35 @@ namespace HelbreathLauncher
         {
             try
             {
+                SetPlayEnabled(false);
                 UpdateStatus("Comprobando versión...", 0);
 
                 // 1. Check Remote Version
                 string remoteVersionStr = await DownloadString(VERSION_FILE);
                 if (string.IsNullOrEmpty(remoteVersionStr))
                 {
-                    UpdateStatus("Error comprobando versión.", 0);
+                    UpdateStatus("Error comprobando versión (No internet?).", 0);
                     await Task.Delay(2000);
+                    // Decide if we enable play on error. User requested strictness.
+                    // But if version.txt is unreachble, maybe we allow play if Game.exe exists?
+                    // "Si falta algun archivo... inutilizable".
+                    // Let's keep it disabled if we cannot verify. Safer for "auto-update required" policy.
+                    // Or we check if Game.exe exists at least.
+                    if (File.Exists(Path.Combine(_basePath, "Game.exe")))
+                    {
+                         // Warning but allow?
+                         // User said: "Si el Launcher no esta actualizado... inutilizado".
+                         // If we can't check, we don't know. 
+                         // I will leave it DISABLED to force user to fix connection, as requested ("inutilizable hasta que este actualizado").
+                         HideUI(); 
+                         return; 
+                    }
                     HideUI();
                     return;
                 }
 
                 if (!int.TryParse(remoteVersionStr.Trim(), out int remoteVersion))
                 {
-                    // If version.txt is not an int, maybe it's empty or text. Assume 0.
                     remoteVersion = 0; 
                 }
 
@@ -85,9 +103,16 @@ namespace HelbreathLauncher
                 // 3. Compare
                 if (localVersion >= remoteVersion)
                 {
-                    UpdateStatus("Cliente actualizado.", 100);
-                    await Task.Delay(1000);
+                    // Even if versions match, we should do a quick check of Game.exe existence?
+                    // "Si falta algun archivo...". 
+                    // Let's assume version match implies files OK for now, OR we can run the Manifest check anyway?
+                    // Running Manifest check every time is slow. The version.txt is the flag.
+                    // We trust version.txt.
+                    
+                    UpdateStatus($"Versión: {localVersion}", 100);
+                    await Task.Delay(500);
                     HideUI();
+                    SetPlayEnabled(true);
                     return;
                 }
 
@@ -116,9 +141,10 @@ namespace HelbreathLauncher
                 if (remoteFiles == null || remoteFiles.Count == 0)
                 {
                     UpdateStatus("Lista de archivos vacía.", 100);
-                    SetLocalVersion(remoteVersion); // Assume updated if empty? Or error.
+                    SetLocalVersion(remoteVersion); 
                     await Task.Delay(1000);
                     HideUI();
+                    SetPlayEnabled(true);
                     return;
                 }
 
@@ -146,10 +172,11 @@ namespace HelbreathLauncher
 
                 if (filesToUpdate.Count == 0)
                 {
-                    UpdateStatus("Archivos verificados. Actualizando versión...", 100);
+                    UpdateStatus($"Versión: {remoteVersion}", 100);
                     SetLocalVersion(remoteVersion);
                     await Task.Delay(1000);
                     HideUI();
+                    SetPlayEnabled(true);
                     return;
                 }
 
@@ -174,7 +201,7 @@ namespace HelbreathLauncher
 
                 // 7. Finish
                 SetLocalVersion(remoteVersion);
-                UpdateStatus("Actualización completada.", 100);
+                UpdateStatus($"Versión: {remoteVersion}", 100); // FIXED: Show Version
                 await Task.Delay(1000);
 
                 if (selfUpdate)
@@ -184,6 +211,7 @@ namespace HelbreathLauncher
                 else
                 {
                     HideUI();
+                    SetPlayEnabled(true);
                 }
 
             }
@@ -192,7 +220,16 @@ namespace HelbreathLauncher
                 UpdateStatus($"Error: {ex.Message}", 0);
                 await Task.Delay(3000);
                 HideUI();
+                // Keep Disabled on exception
             }
+        }
+        
+        private void SetPlayEnabled(bool enabled)
+        {
+            Application.Current.Dispatcher.Invoke(() =>
+            {
+                if (_playButton != null) _playButton.IsEnabled = enabled;
+            });
         }
 
         private async Task<string> DownloadString(string relativeUrl)
@@ -212,7 +249,9 @@ namespace HelbreathLauncher
 
         private bool NeedsUpdate(ManifestEntry entry)
         {
-            string localPath = Path.Combine(_basePath, entry.Path.Replace("/", "\\"));
+            // Fix: Use CleanPath
+            string cleanPath = CleanPath(entry.Path);
+            string localPath = Path.Combine(_basePath, cleanPath.Replace("/", "\\"));
             
             if (!File.Exists(localPath)) return true;
 
@@ -221,10 +260,6 @@ namespace HelbreathLauncher
             if (info.Length != entry.Size) return true;
 
             // Hash check (slower but accurate)
-            // Only strictly needed if size matches but content changed. 
-            // For now, let's assume if size matches it's OK to save time, 
-            // OR fully check hash if you want 100% safety.
-            // Let's do Hash check to be safe.
             string localHash = ComputeSha256(localPath);
             return !string.Equals(localHash, entry.Hash, StringComparison.OrdinalIgnoreCase);
         }
@@ -248,14 +283,16 @@ namespace HelbreathLauncher
 
         private async Task DownloadFile(ManifestEntry entry)
         {
-            string localPath = Path.Combine(_basePath, entry.Path.Replace("/", "\\"));
-            string url = BASE_URL + entry.Path; // Raw file URL
+            // Fix: Use CleanPath
+            string cleanPath = CleanPath(entry.Path);
+            string localPath = Path.Combine(_basePath, cleanPath.Replace("/", "\\"));
+            string url = BASE_URL + entry.Path; // Raw file URL (Needs full repo path)
 
             string dir = Path.GetDirectoryName(localPath);
             if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
 
             // Handle Self-Update specially
-            bool isSelfUpdate = entry.Path.EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase);
+            bool isSelfUpdate = cleanPath.EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase);
             if (isSelfUpdate) localPath += ".tmp";
 
             using (var response = await _httpClient.GetAsync(url))
@@ -342,6 +379,17 @@ namespace HelbreathLauncher
                 _progressBar.Visibility = Visibility.Collapsed;
                 _statusLabel.Visibility = Visibility.Collapsed;
             });
+        }
+
+        private string CleanPath(string repoPath)
+        {
+            // If the repo path starts with "Helbreath/", we strip it because 
+            // the Launcher is running INSIDE that folder.
+            if (repoPath.StartsWith("Helbreath/", StringComparison.OrdinalIgnoreCase))
+            {
+                return repoPath.Substring("Helbreath/".Length);
+            }
+            return repoPath;
         }
     }
 

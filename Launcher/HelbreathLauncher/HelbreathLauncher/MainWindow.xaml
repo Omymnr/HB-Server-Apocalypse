@@ -29,6 +29,14 @@
                 </StackPanel>
             </Grid>
 
+            <StackPanel Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="15,10,0,0" Panel.ZIndex="10">
+                <TextBlock Text="IDIOMA / LANGUAGE" Foreground="White" FontSize="9" FontWeight="Bold" Margin="0,0,0,2"/>
+                <ComboBox x:Name="CmbLang" Width="55" Height="20" FontSize="10" SelectedIndex="0" SelectionChanged="CmbLang_SelectionChanged" Background="#252525" Foreground="Black">
+                    <ComboBoxItem Content="ES"/>
+                    <ComboBoxItem Content="EN"/>
+                </ComboBox>
+            </StackPanel>
+
             <Grid Grid.Row="1" Margin="20">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
@@ -39,14 +47,8 @@
                     <ColumnDefinition Width="280"/>
                 </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,10,0,0">
-                    <TextBlock Text="IDIOMA / LANGUAGE" Foreground="White" FontSize="10" FontWeight="Bold" Margin="0,0,0,3"/>
-                    <ComboBox x:Name="CmbLang" Width="60" Height="22" FontSize="11" SelectedIndex="0" SelectionChanged="CmbLang_SelectionChanged" Background="#252525" Foreground="Black">
-                        <ComboBoxItem Content="ES"/>
-                        <ComboBoxItem Content="EN"/>
-                    </ComboBox>
-                </StackPanel>
-
+                <!-- Language Selector Removed from here -->
+ 
                 <StackPanel Grid.Column="0" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="0,0,20,0">
                     <Label x:Name="LabelServer" Content="SELECCIONAR SERVIDOR" Foreground="White" FontSize="11" FontWeight="Bold" Margin="0,0,0,0"/>
                     <ComboBox x:Name="CmbServer" Width="180" Height="25" Margin="0,0,0,0" SelectedIndex="0" SelectionChanged="CmbServer_SelectionChanged" Background="#252525" Foreground="Black" FontSize="12" VerticalContentAlignment="Center" Padding="5,0">
@@ -63,7 +65,7 @@
                         <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="#333"/>
-                                <Setter Property="Foreground" Value="Gray"/>
+                                <Setter Property="Foreground" Value="white"/>
                                 <Setter Property="Template">
                                     <Setter.Value>
                                         <ControlTemplate TargetType="Button">
