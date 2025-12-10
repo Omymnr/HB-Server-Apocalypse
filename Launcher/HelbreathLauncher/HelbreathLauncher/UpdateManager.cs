@@ -125,10 +125,15 @@ namespace HelbreathLauncher
                 UpdateVersionLabel(localVersion);
 
                 // 3. Compare
-                if (localVersion >= remoteVersion)
+                // 3. Compare checks
+                bool forceUpdate = false;
+                if (!File.Exists(Path.Combine(_basePath, "Game.exe"))) forceUpdate = true;
+                if (!File.Exists(Path.Combine(_basePath, "search.dll"))) forceUpdate = true;
+                
+                if (localVersion >= remoteVersion && !forceUpdate)
                 {
                     UpdateStatus(GetMsg("Updated"), 100);
-                    UpdateVersionLabel(localVersion); // Ensure correct
+                    UpdateVersionLabel(localVersion); 
                     await Task.Delay(500);
                     HideUI();
                     SetPlayEnabled(true);
