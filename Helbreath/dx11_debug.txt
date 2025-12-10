@@ -18628,3 +18628,3938 @@ Batch Draw
 Batch End
 EndFrame Present
 Frame End Success
+SB: Constructor. This=08E7F270, Renderer=03BC99E8
+Renderer Init Success
+SB: Constructor. This=08E7F720, Renderer=03BC99E8
+Locked BackBuffer
+Creating Dynamic Texture...
+Texture Created Successfully.
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success
+Locked BackBuffer
+Batch Begin
+Batch Draw
+Batch End
+EndFrame Present
+Frame End Success

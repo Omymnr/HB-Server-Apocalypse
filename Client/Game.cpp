@@ -8,13 +8,13 @@
 
 #include <fstream>
 void LogDebug(const char *fmt, ...) {
-  static std::ofstream logFile("dx11_debug.txt", std::ios::app);
+  // static std::ofstream logFile("dx11_debug.txt", std::ios::app);
   char buffer[1024];
   va_list args;
   va_start(args, fmt);
   vsnprintf(buffer, 1024, fmt, args);
   va_end(args);
-  logFile << buffer << std::endl;
+  // logFile << buffer << std::endl;
 }
 
 #include "lan_eng.h"

@@ -1,13 +1,13 @@
 ﻿[
     {
         "Path":  "Helbreath/HelbreathLauncher.exe",
-        "Size":  67219547,
-        "Hash":  "f959cccc66caa832a0c0578cb892d3ffa06936bc544ae9e1544de52021025926"
+        "Size":  67218523,
+        "Hash":  "44ff8a9df5442506562486fd3aa4f97461699f590ef8564a041df937a7d46e5c"
     },
     {
         "Path":  "Helbreath/Game.exe",
-        "Size":  931328,
-        "Hash":  "f762df96a57018c7b56b1ff4dc7486d58227c747c27e5b58ca714baf793ea59f"
+        "Size":  1039872,
+        "Hash":  "4068ad46e343c8e4c8a42a0de3f9dda6c1057cf33809c74b1756a557cf4127c6"
     },
     {
         "Path":  "Helbreath/search.dll",
