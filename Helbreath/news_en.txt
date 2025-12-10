@@ -1,0 +1,12 @@
+[12/10/2025] - Patch Notes v0.2
+
+NEW FEATURES:
+- Client version V 0.1. 
+- Client no longer creates log dx11_debug.txt.
+- Enhanced Auto-Update System: Client now verifies and repairs corrupt files automatically.
+- Resizable Interface: You can now resize the Launcher window. Content will scale automatically.
+- Multi-Language Support: Update status messages now respect the selected language (Spanish/English).
+- Bug Fixes: Fixed an issue where 'search.dll' was not downloading correctly.
+- Decimal Versioning: Implemented X.X versioning system for better tracking.
+
+Thanks for playing Helbreath Apocalypse!
