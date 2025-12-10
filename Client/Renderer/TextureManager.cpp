@@ -1,7 +1,7 @@
 #include "TextureManager.h"
 #include <vector>
 
-extern void LogDebug(const char *fmt, ...);
+// extern void // LogDebug(const char *fmt, ...);
 
 TextureManager::TextureManager(DX11Renderer *renderer) : m_renderer(renderer) {}
 
@@ -91,16 +91,16 @@ TextureManager::CreateTextureFromMemory(int width, int height, void *pData,
 
 void TextureManager::UpdateBackBuffer(void *pData, int srcPitch, int width,
                                       int height) {
-  // LogDebug("UpdateBackBuffer: Ptr=%p, Pitch=%d, W=%d, H=%d", pData, srcPitch,
+  // // LogDebug("UpdateBackBuffer: Ptr=%p, Pitch=%d, W=%d, H=%d", pData, srcPitch,
   // width, height);
 
   if (!m_renderer || !m_renderer->GetDevice() || !m_renderer->GetContext()) {
-    // LogDebug("ERROR: Renderer/Device/Context is NULL");
+    // // LogDebug("ERROR: Renderer/Device/Context is NULL");
     return;
   }
 
   if (!m_backBufferTexture) {
-    LogDebug("Creating Dynamic Texture...");
+    // LogDebug("Creating Dynamic Texture...");
     D3D11_TEXTURE2D_DESC textureDesc;
     ZeroMemory(&textureDesc, sizeof(textureDesc));
     textureDesc.Width = width;
@@ -118,7 +118,7 @@ void TextureManager::UpdateBackBuffer(void *pData, int srcPitch, int width,
     HRESULT result = m_renderer->GetDevice()->CreateTexture2D(
         &textureDesc, NULL, &m_backBufferTexture);
     if (FAILED(result)) {
-      LogDebug("Failed to CreateTexture2D: %x", result);
+      // LogDebug("Failed to CreateTexture2D: %x", result);
       return;
     }
 
@@ -132,10 +132,10 @@ void TextureManager::UpdateBackBuffer(void *pData, int srcPitch, int width,
     result = m_renderer->GetDevice()->CreateShaderResourceView(
         m_backBufferTexture.Get(), &srvDesc, &m_backBufferSRV);
     if (FAILED(result)) {
-      LogDebug("Failed to CreateSRV: %x", result);
+      // LogDebug("Failed to CreateSRV: %x", result);
       return;
     }
-    LogDebug("Texture Created Successfully.");
+    // LogDebug("Texture Created Successfully.");
   }
 
   // Map
@@ -144,7 +144,7 @@ void TextureManager::UpdateBackBuffer(void *pData, int srcPitch, int width,
                                                  D3D11_MAP_WRITE_DISCARD, 0,
                                                  &mappedResource);
   if (FAILED(result)) {
-    LogDebug("Failed to Map: %x", result);
+    // LogDebug("Failed to Map: %x", result);
     return;
   }
 
@@ -153,7 +153,7 @@ void TextureManager::UpdateBackBuffer(void *pData, int srcPitch, int width,
   unsigned char *dest = (unsigned char *)mappedResource.pData;
 
   if (!dest) {
-    LogDebug("ERROR: Mapped Pointer is NULL");
+    // LogDebug("ERROR: Mapped Pointer is NULL");
     m_renderer->GetContext()->Unmap(m_backBufferTexture.Get(), 0);
     return;
   }

@@ -2,16 +2,18 @@
 #include <algorithm>
 #include <d3dcompiler.h>
 
-extern void LogDebug(const char *fmt, ...);
+// extern void LogDebug(const char *fmt, ...);
 
 SpriteBatcher::SpriteBatcher(DX11Renderer *renderer)
     : m_renderer(renderer), m_currentTexture(nullptr) {
-  LogDebug("SB: Constructor. This=%p, Renderer=%p", this, renderer);
+  // LogDebug("SB: Constructor. This=%p, Renderer=%p", this, renderer);
   m_commandQueue.reserve(MAX_BATCH_SIZE);
   m_batchVertices.reserve(MAX_BATCH_SIZE * 4);
 }
 
-SpriteBatcher::~SpriteBatcher() { LogDebug("SB: Destructor. This=%p", this); }
+SpriteBatcher::~SpriteBatcher() {
+  // LogDebug("SB: Destructor. This=%p", this);
+}
 
 bool SpriteBatcher::Initialize() {
   if (!InitializeShader())
@@ -34,12 +36,12 @@ bool SpriteBatcher::InitializeShader() {
       D3D10_SHADER_ENABLE_STRICTNESS, 0, &vertexShaderBuffer, &errorMessage);
   if (FAILED(result)) {
     if (errorMessage) {
-      LogDebug("SB ERROR: VS Compile Failed: %s",
-               (char *)errorMessage->GetBufferPointer());
+      // LogDebug("SB ERROR: VS Compile Failed: %s",
+      //          (char *)errorMessage->GetBufferPointer());
       errorMessage->Release();
     } else {
-      LogDebug("SB ERROR: VS Compile Failed (No Error Message). HRESULT=%x",
-               result);
+      // LogDebug("SB ERROR: VS Compile Failed (No Error Message). HRESULT=%x",
+      //          result);
     }
     return false;
   }
@@ -50,12 +52,12 @@ bool SpriteBatcher::InitializeShader() {
       D3D10_SHADER_ENABLE_STRICTNESS, 0, &pixelShaderBuffer, &errorMessage);
   if (FAILED(result)) {
     if (errorMessage) {
-      LogDebug("SB ERROR: PS Compile Failed: %s",
-               (char *)errorMessage->GetBufferPointer());
+      // LogDebug("SB ERROR: PS Compile Failed: %s",
+      //          (char *)errorMessage->GetBufferPointer());
       errorMessage->Release();
     } else {
-      LogDebug("SB ERROR: PS Compile Failed (No Error Message). HRESULT=%x",
-               result);
+      // LogDebug("SB ERROR: PS Compile Failed (No Error Message). HRESULT=%x",
+      //          result);
     }
     return false;
   }
@@ -65,7 +67,7 @@ bool SpriteBatcher::InitializeShader() {
       vertexShaderBuffer->GetBufferPointer(),
       vertexShaderBuffer->GetBufferSize(), NULL, &m_vertexShader);
   if (FAILED(result)) {
-    LogDebug("SB ERROR: CreateVertexShader Failed %x", result);
+    // LogDebug("SB ERROR: CreateVertexShader Failed %x", result);
     return false;
   }
 
@@ -73,7 +75,7 @@ bool SpriteBatcher::InitializeShader() {
       pixelShaderBuffer->GetBufferPointer(), pixelShaderBuffer->GetBufferSize(),
       NULL, &m_pixelShader);
   if (FAILED(result)) {
-    LogDebug("SB ERROR: CreatePixelShader Failed %x", result);
+    // LogDebug("SB ERROR: CreatePixelShader Failed %x", result);
     return false;
   }
 
@@ -109,7 +111,7 @@ bool SpriteBatcher::InitializeShader() {
   vertexShaderBuffer->Release();
   pixelShaderBuffer->Release();
   if (FAILED(result)) {
-    LogDebug("SB ERROR: CreateInputLayout Failed %x", result);
+    // LogDebug("SB ERROR: CreateInputLayout Failed %x", result);
     return false;
   }
 
@@ -125,7 +127,7 @@ bool SpriteBatcher::InitializeShader() {
   result = m_renderer->GetDevice()->CreateBuffer(&matrixBufferDesc, NULL,
                                                  &m_matrixBuffer);
   if (FAILED(result)) {
-    LogDebug("SB ERROR: Create Matrix Buffer Failed %x", result);
+    // LogDebug("SB ERROR: Create Matrix Buffer Failed %x", result);
     return false;
   }
 
@@ -148,7 +150,7 @@ bool SpriteBatcher::InitializeShader() {
   result =
       m_renderer->GetDevice()->CreateSamplerState(&samplerDesc, &m_sampleState);
   if (FAILED(result)) {
-    LogDebug("SB ERROR: CreateSamplerState Failed %x", result);
+    // LogDebug("SB ERROR: CreateSamplerState Failed %x", result);
     return false;
   }
 
@@ -163,7 +165,7 @@ bool SpriteBatcher::InitializeShader() {
   result = m_renderer->GetDevice()->CreateRasterizerState(&rasterDesc,
                                                           &m_rasterState);
   if (FAILED(result)) {
-    LogDebug("SB ERROR: CreateRasterizerState Failed %x", result);
+    // LogDebug("SB ERROR: CreateRasterizerState Failed %x", result);
     return false;
   }
 
@@ -182,7 +184,7 @@ bool SpriteBatcher::InitializeShader() {
 
   result = m_renderer->GetDevice()->CreateBlendState(&blendDesc, &m_blendState);
   if (FAILED(result)) {
-    LogDebug("SB ERROR: CreateBlendState Failed %x", result);
+    // LogDebug("SB ERROR: CreateBlendState Failed %x", result);
     return false;
   }
 
@@ -203,7 +205,7 @@ bool SpriteBatcher::InitializeBuffers() {
   HRESULT result = m_renderer->GetDevice()->CreateBuffer(&vertexBufferDesc,
                                                          NULL, &m_vertexBuffer);
   if (FAILED(result)) {
-    LogDebug("SB ERROR: Create Vertex Buffer Failed %x", result);
+    // LogDebug("SB ERROR: Create Vertex Buffer Failed %x", result);
     return false;
   }
 
@@ -237,7 +239,7 @@ bool SpriteBatcher::InitializeBuffers() {
                                                  &m_indexBuffer);
   delete[] indices;
   if (FAILED(result)) {
-    LogDebug("SB ERROR: Create Index Buffer Failed %x", result);
+    // LogDebug("SB ERROR: Create Index Buffer Failed %x", result);
     return false;
   }
 

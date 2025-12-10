@@ -6,16 +6,17 @@
 #include "GameCursorIntegration.h"
 #include "GameCursorMacro.h"
 
-#include <fstream>
-void LogDebug(const char *fmt, ...) {
-  // static std::ofstream logFile("dx11_debug.txt", std::ios::app);
-  char buffer[1024];
-  va_list args;
-  va_start(args, fmt);
-  vsnprintf(buffer, 1024, fmt, args);
-  va_end(args);
-  // logFile << buffer << std::endl;
-}
+// #include <fstream>
+// void // LogDebug(const char *fmt, ...) {
+//   // Disabled logging to prevent dx11_debug.txt creation
+//   // static std::ofstream logFile("dx11_debug.txt", std::ios::app);
+//   // char buffer[1024];
+//   // va_list args;
+//   // va_start(args, fmt);
+//   // vsnprintf(buffer, 1024, fmt, args);
+//   // va_end(args);
+//   // logFile << buffer << std::endl;
+// }
 
 #include "lan_eng.h"
 
@@ -755,10 +756,10 @@ bool CGame::bInit(HWND hWnd, HINSTANCE hInst, char *pCmdLine) {
 
   m_Renderer = new DX11Renderer();
   if (!m_Renderer->Initialize(m_hWnd, 800, 600, true)) {
-    LogDebug("Renderer Init Failed");
+    // // LogDebug("Renderer Init Failed");
     return false;
   } else {
-    LogDebug("Renderer Init Success");
+    // // LogDebug("Renderer Init Success");
   }
   m_SpriteBatch = new SpriteBatcher(m_Renderer);
   m_SpriteBatch->Initialize();
@@ -3798,28 +3799,28 @@ void CGame::UpdateScreen_OnMainMenu() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -4918,13 +4919,13 @@ void CGame::UpdateScreen_OnLoading(bool bActive) {
 /*********************************************************************************************************************
 ** 	void CGame::UpdateScreen_OnLoading_Progress()
 {
-    // LogDebug("Loading Progress: %d", m_cLoading);
+    // // LogDebug("Loading Progress: %d", m_cLoading);
 **
 **  description			:: loading becomes progressbar
 **
 **********************************************************************************************************************/
 void CGame::UpdateScreen_OnLoading_Progress() {
-  // LogDebug("Loading Progress: %d", m_cLoading);
+  // // LogDebug("Loading Progress: %d", m_cLoading);
 
   // [DX11 Integration] Frame Start
   if (m_Renderer)
@@ -18541,28 +18542,28 @@ void CGame::UpdateScreen_OnMsg() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -25894,28 +25895,28 @@ void CGame::UpdateScreen_OnSelectCharacter() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -29928,28 +29929,28 @@ void CGame::UpdateScreen_OnConnecting() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -30018,28 +30019,28 @@ void CGame::UpdateScreen_OnWaitInitData() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -30084,28 +30085,28 @@ void CGame::UpdateScreen_OnConnectionLost() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -30847,28 +30848,28 @@ void CGame::UpdateScreen_OnCreateNewCharacter() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -31059,28 +31060,28 @@ void CGame::UpdateScreen_OnAgreement() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -31589,28 +31590,28 @@ void CGame::UpdateScreen_OnCreateNewAccount() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -31802,28 +31803,28 @@ void CGame::UpdateScreen_OnLogin() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -31987,28 +31988,28 @@ void CGame::UpdateScreen_OnSelectServer() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -32787,28 +32788,28 @@ void CGame::UpdateScreen_OnQuit() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -32932,28 +32933,28 @@ void CGame::UpdateScreen_OnQueryForceLogin() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -33321,28 +33322,28 @@ void CGame::UpdateScreen_OnWaitingResponse() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -33474,28 +33475,28 @@ void CGame::UpdateScreen_OnQueryDeleteCharacter() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -35901,28 +35902,28 @@ void CGame::UpdateScreen_OnLogResMsg() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -36930,28 +36931,28 @@ void CGame::UpdateScreen_OnChangePassword() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -37454,28 +37455,28 @@ void CGame::UpdateScreen_OnVersionNotMatch() {
     ddsd.dwSize = sizeof(ddsd);
     // Lock BackBuffer safely
     if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-      LogDebug("Locked BackBuffer");
+      // LogDebug("Locked BackBuffer");
       // Update with valid pointer and pitch (pixels)
       m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                          600);
       m_DDraw.m_lpBackB4->Unlock(NULL);
     } else {
-      LogDebug("Failed to Lock BackBuffer");
+      // LogDebug("Failed to Lock BackBuffer");
     }
 
-    LogDebug("Batch Begin");
+    // LogDebug("Batch Begin");
     m_SpriteBatch->Begin();
 
-    LogDebug("Batch Draw");
+    // LogDebug("Batch Draw");
     m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-    LogDebug("Batch End");
+    // LogDebug("Batch End");
     m_SpriteBatch->End();
 
-    LogDebug("EndFrame Present");
+    // LogDebug("EndFrame Present");
     m_Renderer->EndFrame();
-    LogDebug("Frame End Success");
-    // LogDebug("Frame End Present");
+    // LogDebug("Frame End Success");
+    // // LogDebug("Frame End Present");
   }
   // Legacy Flip disabled
   // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
@@ -39561,28 +39562,28 @@ void CGame::UpdateScreen_OnGame() {
       ddsd.dwSize = sizeof(ddsd);
       // Lock BackBuffer safely
       if (m_DDraw.m_lpBackB4->Lock(NULL, &ddsd, DDLOCK_WAIT, NULL) == DD_OK) {
-        LogDebug("Locked BackBuffer");
+        // LogDebug("Locked BackBuffer");
         // Update with valid pointer and pitch (pixels)
         m_TextureManager->UpdateBackBuffer(ddsd.lpSurface, ddsd.lPitch / 2, 800,
                                            600);
         m_DDraw.m_lpBackB4->Unlock(NULL);
       } else {
-        LogDebug("Failed to Lock BackBuffer");
+        // LogDebug("Failed to Lock BackBuffer");
       }
 
-      LogDebug("Batch Begin");
+      // LogDebug("Batch Begin");
       m_SpriteBatch->Begin();
 
-      LogDebug("Batch Draw");
+      // LogDebug("Batch Draw");
       m_SpriteBatch->Draw(m_TextureManager->GetBackBufferSRV(), 0, 0, 800, 600);
 
-      LogDebug("Batch End");
+      // LogDebug("Batch End");
       m_SpriteBatch->End();
 
-      LogDebug("EndFrame Present");
+      // LogDebug("EndFrame Present");
       m_Renderer->EndFrame();
-      LogDebug("Frame End Success");
-      // LogDebug("Frame End Present");
+      // LogDebug("Frame End Success");
+      // // LogDebug("Frame End Present");
     }
     // Legacy Flip disabled
     // if (m_DDraw.iFlip() == DDERR_SURFACELOST) RestoreSprites();
