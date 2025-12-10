@@ -341,3 +341,286 @@ footer {
 .status-offline .status-dot { background-color: #c0392b; box-shadow: 0 0 5px #c0392b; animation: pulse-red 2s infinite; }
 @keyframes pulse-green { 0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.7); } 70% { box-shadow: 0 0 0 6px rgba(46, 204, 113, 0); } 100% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0); } }
 @keyframes pulse-red { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+
+/* --- ESTILOS DEL FORO (Añadir al final de style.css) --- */
+
+.forum-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.small-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+}
+
+.small-btn.outline {
+    background: transparent;
+    border: 1px solid var(--primary-gold);
+}
+
+.forum-category {
+    background-color: rgba(18, 18, 18, 0.95);
+    border: 1px solid #333;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.f-cat-header {
+    background-color: rgba(10, 10, 10, 1);
+    color: var(--primary-gold);
+    padding: 1rem 1.5rem;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    border-bottom: 2px solid var(--primary-gold);
+    text-transform: uppercase;
+}
+
+.f-row {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #333;
+    transition: background 0.3s;
+}
+
+.f-row:last-child {
+    border-bottom: none;
+}
+
+.f-row:hover {
+    background-color: rgba(197, 160, 89, 0.05); /* Brillo dorado suave al pasar mouse */
+}
+
+.f-icon {
+    font-size: 2rem;
+    color: var(--text-muted);
+    width: 60px;
+    text-align: center;
+}
+
+.f-row:hover .f-icon {
+    color: var(--primary-gold);
+}
+
+.f-info {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.f-info h4 {
+    margin-bottom: 0.3rem;
+    font-family: 'Roboto', sans-serif; /* Para leer mejor los títulos */
+    font-size: 1.2rem;
+}
+
+.f-info h4 a {
+    color: var(--text-light);
+}
+
+.f-info h4 a:hover {
+    color: var(--primary-gold);
+    text-decoration: underline;
+}
+
+.f-info p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.f-stats {
+    width: 150px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.f-last-post {
+    width: 200px;
+    padding-left: 1.5rem;
+    font-size: 0.85rem;
+    text-align: right;
+}
+
+.f-author {
+    display: block;
+    color: var(--secondary-red);
+    font-weight: bold;
+}
+
+.f-date {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+
+/* Responsive para el foro */
+@media (max-width: 768px) {
+    .f-stats, .f-last-post, .f-icon {
+        display: none; /* Ocultar detalles en móvil */
+    }
+    .f-row {
+        padding: 1rem;
+    }
+}
+
+/* --- FORMULARIOS DE LOGIN / REGISTRO --- */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.auth-box {
+    background-color: rgba(18, 18, 18, 0.95);
+    border: 1px solid var(--primary-gold);
+    padding: 3rem;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+    text-align: center;
+}
+
+.auth-box h2 {
+    color: var(--primary-gold);
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    background-color: #0a0a0a;
+    border: 1px solid #333;
+    color: var(--text-light);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.form-input:focus {
+    border-color: var(--primary-gold);
+    outline: none;
+    box-shadow: 0 0 10px rgba(197, 160, 89, 0.2);
+}
+
+.msg-box {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.error { background: rgba(138, 28, 28, 0.3); border: 1px solid var(--secondary-red); color: #ffadad; }
+.success { background: rgba(46, 204, 113, 0.2); border: 1px solid #2ecc71; color: #2ecc71; }
+
+/* --- PERFIL DE USUARIO --- */
+.profile-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    align-items: start;
+    margin-top: 2rem;
+}
+
+.profile-card {
+    background: rgba(18, 18, 18, 0.95);
+    border: 1px solid var(--primary-gold);
+    padding: 2rem;
+    text-align: center;
+}
+
+.current-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid var(--primary-gold);
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 15px rgba(197, 160, 89, 0.3);
+}
+
+.profile-forms {
+    background: rgba(18, 18, 18, 0.95);
+    border: 1px solid #333;
+    padding: 2rem;
+}
+
+.profile-section-title {
+    color: var(--primary-gold);
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+}
+
+/* --- AVATARES EN EL FORO (VIEW TOPIC) --- */
+.post-sidebar img.avatar-small {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Redondo */
+    border: 2px solid #333;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .profile-grid { grid-template-columns: 1fr; }
+}
+
+/* --- FIRMA EN LOS POSTS --- */
+.post-signature {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #333; /* Línea separadora */
+    color: #888; /* Color gris para diferenciarlo del texto normal */
+    font-size: 0.9rem;
+    font-style: italic;
+    word-wrap: break-word; /* Evita que textos largos rompan el diseño */
+}
+
+/* --- ETIQUETA DE POST NUEVO --- */
+.badge-new {
+    background-color: #ff4d4d; /* Rojo brillante */
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 8px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0 0 5px rgba(255, 77, 77, 0.5);
+    animation: pulse-red 2s infinite;
+}
+
+/* Animación suave para que destaque */
+@keyframes pulse-red {
+    0% { box-shadow: 0 0 0 0 rgba(255, 77, 77, 0.7); }
+    70% { box-shadow: 0 0 0 5px rgba(255, 77, 77, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 77, 77, 0); }
+}

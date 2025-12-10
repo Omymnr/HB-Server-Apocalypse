@@ -1,9 +1,5 @@
 <?php
 // 1. CONFIGURACIÓN
-$serverIP = '89.7.69.125'; $serverPort = 9907;
-$conn = @fsockopen($serverIP, $serverPort, $errno, $errstr, 1);
-$isOnline = (bool)$conn; if($conn) fclose($conn);
-
 $lang = isset($_GET['lang']) ? $_GET['lang'] : 'es';
 $lParam = ($lang == 'es') ? 'en' : 'es';
 $lBtnText = ($lang == 'es') ? 'ENGLISH' : 'ESPAÑOL';
@@ -11,14 +7,14 @@ $lBtnText = ($lang == 'es') ? 'ENGLISH' : 'ESPAÑOL';
 // 2. TRADUCCIONES
 $txt = [
     'es' => [
-        'menu_home' => 'Inicio', 'menu_down' => 'Descargas', 'menu_news' => 'Noticias', 'menu_rank' => 'Rankings', 'menu_info' => 'Info Servidor', 'menu_forum' => 'Foro', 'status_on' => 'ONLINE', 'status_off' => 'OFFLINE',
+        'menu_home' => 'Inicio', 'menu_down' => 'Descargas', 'menu_news' => 'Noticias', 'menu_rank' => 'Rankings', 'menu_info' => 'Info Servidor', 'menu_forum' => 'Foro',
         'sub_build' => 'Simulador PJ', 'sub_best' => 'Bestiario (Mobs)', 'sub_atlas' => 'Atlas (Mapas)', 'sub_item' => 'Base de Objetos', 'sub_spell' => 'Magias y Skills', 'sub_event' => 'Eventos', 'sub_rules' => 'Reglas',
         'title' => 'Descargar Cliente', 'desc' => 'Obtén el cliente completo para jugar Helbreath Apocalypse.',
         'note' => '<strong>HelbreathLauncher.exe</strong> actualizará automáticamente tus archivos.',
         'req_title' => 'Requisitos del Sistema', 'min' => 'Mínimos', 'rec' => 'Recomendados'
     ],
     'en' => [
-        'menu_home' => 'Home', 'menu_down' => 'Downloads', 'menu_news' => 'News', 'menu_rank' => 'Rankings', 'menu_info' => 'Server Info', 'menu_forum' => 'Forum', 'status_on' => 'ONLINE', 'status_off' => 'OFFLINE',
+        'menu_home' => 'Home', 'menu_down' => 'Downloads', 'menu_news' => 'News', 'menu_rank' => 'Rankings', 'menu_info' => 'Server Info', 'menu_forum' => 'Forum',
         'sub_build' => 'Character Builder', 'sub_best' => 'Bestiary (Mobs)', 'sub_atlas' => 'Atlas (Maps)', 'sub_item' => 'Items Database', 'sub_spell' => 'Spells & Skills', 'sub_event' => 'Events', 'sub_rules' => 'Rules',
         'title' => 'Download Client', 'desc' => 'Get the full client to start playing Helbreath Apocalypse.',
         'note' => '<strong>HelbreathLauncher.exe</strong> will automatically update your game files.',
@@ -26,8 +22,6 @@ $txt = [
     ]
 ];
 $t = $txt[$lang];
-$stClass = $isOnline ? 'status-online' : 'status-offline';
-$stText = $isOnline ? $t['status_on'] : $t['status_off'];
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang; ?>">
@@ -71,7 +65,7 @@ $stText = $isOnline ? $t['status_on'] : $t['status_off'];
                         <li><a href="#"><i class="fas fa-book"></i> &nbsp; <?php echo $t['sub_rules']; ?></a></li>
                     </ul>
                 </li>
-                <li><a href="https://discord.gg/tuserver" target="_blank"><?php echo $t['menu_forum']; ?></a></li>
+                <li><a href="forum.php?lang=<?php echo $lang; ?>"><?php echo $t['menu_forum']; ?></a></li>
             </ul>
         </nav>
         <div class="server-status-display <?php echo $stClass; ?>">

@@ -2,9 +2,6 @@
 // rankings.php - INTEGRADO
 
 // 1. CONFIGURACIÓN SERVIDOR
-$serverIP = '89.7.69.125'; $serverPort = 9907;
-$conn = @fsockopen($serverIP, $serverPort, $errno, $errstr, 1);
-$isOnline = (bool)$conn; if($conn) fclose($conn);
 
 // 2. SISTEMA DE RANKINGS
 $cacheFile = "rankings_cache.json";
@@ -32,19 +29,17 @@ $lBtnText = ($lang == 'es') ? 'ENGLISH' : 'ESPAÑOL';
 
 $txt = [
     'es' => [
-        'menu_home' => 'Inicio', 'menu_down' => 'Descargas', 'menu_news' => 'Noticias', 'menu_rank' => 'Rankings', 'menu_info' => 'Info Servidor', 'menu_forum' => 'Foro', 'status_on' => 'ONLINE', 'status_off' => 'OFFLINE',
+        'menu_home' => 'Inicio', 'menu_down' => 'Descargas', 'menu_news' => 'Noticias', 'menu_rank' => 'Rankings', 'menu_info' => 'Info Servidor', 'menu_forum' => 'Foro',
         'sub_build' => 'Simulador PJ', 'sub_best' => 'Bestiario (Mobs)', 'sub_atlas' => 'Atlas (Mapas)', 'sub_item' => 'Base de Objetos', 'sub_spell' => 'Magias y Skills', 'sub_event' => 'Eventos', 'sub_rules' => 'Reglas',
         'title' => 'Rankings del Apocalipsis', 'tab_level' => 'Nivel', 'tab_eks' => 'Asesinatos', 'tab_contrib' => 'Contribución', 'col_rank' => 'Puesto', 'col_name' => 'Personaje', 'updated' => 'Última actualización:'
     ],
     'en' => [
-        'menu_home' => 'Home', 'menu_down' => 'Downloads', 'menu_news' => 'News', 'menu_rank' => 'Rankings', 'menu_info' => 'Server Info', 'menu_forum' => 'Forum', 'status_on' => 'ONLINE', 'status_off' => 'OFFLINE',
+        'menu_home' => 'Home', 'menu_down' => 'Downloads', 'menu_news' => 'News', 'menu_rank' => 'Rankings', 'menu_info' => 'Server Info', 'menu_forum' => 'Forum',
         'sub_build' => 'Character Builder', 'sub_best' => 'Bestiary (Mobs)', 'sub_atlas' => 'Atlas (Maps)', 'sub_item' => 'Items Database', 'sub_spell' => 'Spells & Skills', 'sub_event' => 'Events', 'sub_rules' => 'Rules',
         'title' => 'Apocalypse Rankings', 'tab_level' => 'Level', 'tab_eks' => 'Enemy Kills', 'tab_contrib' => 'Contribution', 'col_rank' => 'Rank', 'col_name' => 'Character', 'updated' => 'Last updated:'
     ]
 ];
 $t = $txt[$lang];
-$stClass = $isOnline ? 'status-online' : 'status-offline';
-$stText = $isOnline ? $t['status_on'] : $t['status_off'];
 
 function renderRows($list, $valueKey) {
     $html = ''; $rank = 1;
@@ -114,12 +109,9 @@ function renderRows($list, $valueKey) {
                         <li><a href="#"><i class="fas fa-book"></i> &nbsp; <?php echo $t['sub_rules']; ?></a></li>
                     </ul>
                 </li>
-                <li><a href="https://discord.gg/tuserver" target="_blank"><?php echo $t['menu_forum']; ?></a></li>
+                <li><a href="forum.php?lang=<?php echo $lang; ?>"><?php echo $t['menu_forum']; ?></a></li>
             </ul>
         </nav>
-        <div class="server-status-display <?php echo $stClass; ?>">
-            <span class="status-dot"></span> <?php echo $stText; ?>
-        </div>
         <a href="?lang=<?php echo $lParam; ?>" class="lang-btn" style="text-decoration:none; display:inline-block; padding:10px 20px; border:1px solid #555; color:white;">
             <?php echo $lBtnText; ?>
         </a>
