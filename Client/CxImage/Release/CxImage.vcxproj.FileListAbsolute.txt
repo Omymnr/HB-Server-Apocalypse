@@ -1,3 +1,3 @@
 C:\Users\suare\Desktop\Server Limpio\Client\CxImage\Release\CxImage.lib
 C:\Users\suare\Desktop\Server Limpio - copia\Client\CxImage\Release\CxImage.lib
-d:\HB-Server-Apocalypse\Client\CxImage\Release\CxImage.lib
+D:\HB-Server-Apocalypse\Client\CxImage\Release\CxImage.lib

@@ -56,23 +56,35 @@ namespace HelbreathLauncher
             _ = UpdateServerStatus();
         }
 
-        // Cambio de Idioma
-        private void CmbLang_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            if (CmbLang == null || BtnPlay == null) return; // Load check
+        // Campo de Idioma
+        private bool _isSpanish = true;
 
-            if (CmbLang.SelectedIndex == 0) // ES
+        // Click en ESP
+        private void BtnLangESP_Click(object sender, MouseButtonEventArgs e) => SetLanguage(true);
+        
+        // Click en ENG
+        private void BtnLangENG_Click(object sender, MouseButtonEventArgs e) => SetLanguage(false);
+
+        private void SetLanguage(bool isSpanish)
+        {
+            _isSpanish = isSpanish;
+
+            // Update UI Styles (Active Language = White, Inactive = Gray)
+            BtnLangESP.Foreground = isSpanish ? Brushes.White : new SolidColorBrush(Color.FromRgb(102, 102, 102));
+            BtnLangENG.Foreground = !isSpanish ? Brushes.White : new SolidColorBrush(Color.FromRgb(102, 102, 102));
+
+            if (isSpanish)
             {
                 LabelServer.Content = "SELECCIONAR SERVIDOR";
                 BtnRegister.Content = "CREAR CUENTA";
-                BtnPlay.Content = "JUGAR AHORA";
+                if (BtnPlay.IsEnabled) BtnPlay.Content = "JUGAR AHORA"; // Only update if not disabled (updating)
                 if (_updater != null) _updater.SetLanguage("ES");
             }
-            else // EN
+            else
             {
                 LabelServer.Content = "SELECT SERVER";
                 BtnRegister.Content = "CREATE ACCOUNT";
-                BtnPlay.Content = "PLAY NOW";
+                if (BtnPlay.IsEnabled) BtnPlay.Content = "PLAY NOW";
                 if (_updater != null) _updater.SetLanguage("EN");
             }
             
@@ -245,13 +257,12 @@ namespace HelbreathLauncher
                 _updater = new UpdateManager(this, ProgBarUpdate, TxtUpdateStatus, BtnPlay, TxtVersion);
 
                 // Initial Language
-                if (CmbLang.SelectedIndex == 1) _updater.SetLanguage("EN");
-                else _updater.SetLanguage("ES");
+                SetLanguage(true); // Default ES
                 
                 // Start Update Check
                 await _updater.CheckAndApplyUpdates();
                 
-                // Reload news after update (in case they changed or were downloaded)
+                // Reload news after update
                 LoadNews();
             }
             catch (Exception ex)
@@ -264,26 +275,19 @@ namespace HelbreathLauncher
         {
             try
             {
-                if (CmbLang == null || BtnNews == null || TxtNewsContent == null) return;
+                if (BtnNews == null || TxtNewsContent == null) return;
 
-                bool isEs = CmbLang.SelectedIndex == 0;
-                
                 // Update Button Text
-                BtnNews.Content = isEs ? "NOTICIAS" : "NEWS";
+                BtnNews.Content = _isSpanish ? "NOTICIAS" : "NEWS";
                 
                 // Update Overlay Title
-                if (LabelNewsOverlay != null) LabelNewsOverlay.Text = isEs ? "NOTICIAS" : "NEWS";
+                if (LabelNewsOverlay != null) LabelNewsOverlay.Text = _isSpanish ? "NOTICIAS" : "NEWS";
 
-                TxtNewsContent.Text = isEs ? "Cargando..." : "Loading...";
+                TxtNewsContent.Text = _isSpanish ? "Cargando..." : "Loading...";
 
-                string filename = isEs ? "news_es.txt" : "news_en.txt";
-                // GitHub Raw URL (Hardcoded for simplicity or constants)
+                string filename = _isSpanish ? "news_es.txt" : "news_en.txt";
+                // GitHub Raw URL
                 string url = $"https://raw.githubusercontent.com/Omymnr/HB-Server-Apocalypse/main/Helbreath/{filename}?t=" + DateTime.Now.Ticks;
-                
-                // Wait. The user puts news_es.txt in Root or Helbreath?
-                // Step 768: I wrote to `D:\HB-Server-Apocalypse\Helbreath\news_es.txt`.
-                // So it is inside `Helbreath/`.
-                // So URL: `.../main/Helbreath/news_es.txt`.
                 
                 using (var client = new HttpClient())
                 {
@@ -293,7 +297,7 @@ namespace HelbreathLauncher
             }
             catch 
             {
-                TxtNewsContent.Text = (CmbLang.SelectedIndex == 0) ? "No hay noticias disponibles." : "No news available.";
+                TxtNewsContent.Text = _isSpanish ? "No hay noticias disponibles." : "No news available.";
             }
         }
 

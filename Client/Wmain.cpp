@@ -242,7 +242,7 @@ BOOL InitApplication(HINSTANCE hInstance) {
   wc.cbClsExtra = 0;
   wc.cbWndExtra = sizeof(int);
   wc.hInstance = hInstance;
-  wc.hIcon = 0;
+  wc.hIcon = LoadIcon(hInstance, MAKEINTRESOURCE(IDI_ICON1));
   wc.hCursor = LoadCursor(0, IDC_ARROW);
   wc.hbrBackground = (HBRUSH)(COLOR_WINDOW + 1);
   wc.lpszMenuName = 0;

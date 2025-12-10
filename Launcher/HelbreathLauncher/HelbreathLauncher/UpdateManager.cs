@@ -86,8 +86,18 @@ namespace HelbreathLauncher
                 case "Finished": return isEs ? "Actualización completada." : "Update finished.";
                 case "Error": return "Error: ";
                 case "Vers": return isEs ? "Versión" : "Version";
+                case "UpdatingButton": return isEs ? "ACTUALIZANDO..." : "UPDATING...";
+                case "PlayButton": return isEs ? "JUGAR AHORA" : "PLAY NOW";
                 default: return key;
             }
+        }
+        
+        private void UpdatePlayButtonText(string key)
+        {
+             Application.Current.Dispatcher.Invoke(() =>
+            {
+                if (_playButton != null) _playButton.Content = GetMsg(key);
+            });
         }
 
         public async Task CheckAndApplyUpdates()
@@ -95,6 +105,7 @@ namespace HelbreathLauncher
             try
             {
                 SetPlayEnabled(false);
+                UpdatePlayButtonText("UpdatingButton");
                 UpdateStatus(GetMsg("Checking"), 0);
 
                 // 1. Check Remote Version
@@ -262,7 +273,11 @@ namespace HelbreathLauncher
         {
             Application.Current.Dispatcher.Invoke(() =>
             {
-                if (_playButton != null) _playButton.IsEnabled = enabled;
+                if (_playButton != null) 
+                {
+                    _playButton.IsEnabled = enabled;
+                    if (enabled) _playButton.Content = GetMsg("PlayButton");
+                }
             });
         }
 
