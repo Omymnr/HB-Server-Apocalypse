@@ -1,33 +1,36 @@
 
-# Visual Studio
+# User specified exclusions (Root folders)
+/CONTENTS/
+/Sprites Modificados/
+/SPRITES/
+/Tools/
+/Files/
+/HGServer/
+Helbreath2.rar
+
+# Visual Studio & Build artifacts
 .vs/
 *.ipch
 *.user
 *.suo
-x64/
-x86/
 [Bb]in/
 [Oo]bj/
+*.pdb
 *.tlog
 *.idb
-*.pdb
+*.iobj
+*.ipdb
 
-# Large Archives and Binaries
-*.rar
-*.zip
-*.7z
+# Large Binaries and Archives
 *.exe
 *.dll
 *.lib
+*.rar
+*.zip
+*.7z
 
-# Exceptions (if specific binaries are needed and small)
-!Helbreath/Settings.exe
-# Add other exceptions here if needed, but be careful of size > 100MB
-
-# Specific large files observed
+# Specific large files
 Helbreath/HelbreathLauncher.exe
-Helbreath2.rar
-Launcher/HelbreathLauncher/HelbreathLauncher/bin/Release/net8.0-windows/win-x86/publish/HelbreathLauncher.exe
 
 # Temporary
 *.log

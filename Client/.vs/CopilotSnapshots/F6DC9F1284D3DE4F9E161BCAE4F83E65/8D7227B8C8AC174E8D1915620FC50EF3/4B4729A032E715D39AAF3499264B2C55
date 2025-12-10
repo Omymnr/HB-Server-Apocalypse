@@ -1,8 +1,0 @@
-﻿[CONFIG]
-
-log-server-address  = 192.168.0.15
-log-server-port     = 2500
-game-server-mode 	  = LAN
-// LAN: forces router compatibility, but no more multi-host possible.
-// INTERNET: standard mode.
-// IP & port here overide IP/Ports coded in client.
