@@ -11,35 +11,40 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Net.Http;
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+
 namespace HelbreathLauncher
 {
     public class UpdateManager
     {
+        // CONFIG
         private const string REPO_OWNER = "Omymnr";
         private const string REPO_NAME = "HB-Server-Apocalypse";
         private const string BRANCH = "main";
-        private const string API_TREE_URL = $"https://api.github.com/repos/{REPO_OWNER}/{REPO_NAME}/git/trees/{BRANCH}?recursive=1";
-        private const string RAW_BASE_URL = $"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/";
-        private const string CACHE_FILE = "release_cache.json";
-
-        private static readonly HashSet<string> TARGET_FOLDERS = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
-        {
-            "CONTENTS", "SPRITES", "SOUNDS", "MAPDATA", "MUSIC", "FONTS", "RENDER"
-        };
         
-        private static readonly HashSet<string> TARGET_FILES = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
-        {
-            "Game.exe", "HelbreathLauncher.exe" 
-        };
+        // Base URL for RAW files (We will look inside 'Helbreath' folder in the repo)
+        private const string BASE_URL = $"https://raw.githubusercontent.com/{REPO_OWNER}/{REPO_NAME}/{BRANCH}/Helbreath/";
+        
+        private const string VERSION_FILE = "version.txt";
+        private const string MANIFEST_FILE = "files.json";
+        private const string LOCAL_VERSION_FILE = "version.dat";
 
         private readonly HttpClient _httpClient;
         private readonly string _basePath;
         private readonly ProgressBar _progressBar;
         private readonly TextBlock _statusLabel;
         private readonly Window _mainWindow;
-        
-        // Local Cache: Path -> { LastWriteTime, SHA1 }
-        private Dictionary<string, FileCacheEntry> _fileCache;
 
         public UpdateManager(Window window, ProgressBar bar, TextBlock label)
         {
@@ -48,95 +53,131 @@ namespace HelbreathLauncher
             _statusLabel = label;
             _basePath = AppDomain.CurrentDomain.BaseDirectory;
             _httpClient = new HttpClient();
-            _httpClient.DefaultRequestHeaders.Add("User-Agent", "HelbreathLauncher-Updater");
-            _fileCache = LoadCache();
+            // No User-Agent needed for Raw content usually, but good practice
+            _httpClient.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", "HelbreathLauncher-Updater");
         }
 
         public async Task CheckAndApplyUpdates()
         {
             try
             {
-                UpdateStatus("Conectando con el servidor...", 0);
-                
-                var remoteFiles = await GetGitHubFiles();
-                if (remoteFiles == null) 
+                UpdateStatus("Comprobando versión...", 0);
+
+                // 1. Check Remote Version
+                string remoteVersionStr = await DownloadString(VERSION_FILE);
+                if (string.IsNullOrEmpty(remoteVersionStr))
                 {
-                    UpdateStatus("Error de conexión. Iniciando...", 100);
+                    UpdateStatus("Error comprobando versión.", 0);
                     await Task.Delay(2000);
                     HideUI();
                     return;
                 }
 
-                // Filter files
-                var filesToUpdate = new List<GitHubFile>();
-                var targetFiles = remoteFiles.Where(f => f.type == "blob" && IsTargetFile(f.path)).ToList();
-
-                int checkedCount = 0;
-                int totalToCheck = targetFiles.Count;
-
-                // Check dependencies (Calculate hashes if needed)
-                // We use Task.Run for heavy hashing to not freeze UI, but here we do it sequentially or batched
-                await Task.Run(() => 
+                if (!int.TryParse(remoteVersionStr.Trim(), out int remoteVersion))
                 {
-                    foreach (var file in targetFiles)
+                    // If version.txt is not an int, maybe it's empty or text. Assume 0.
+                    remoteVersion = 0; 
+                }
+
+                // 2. Check Local Version
+                int localVersion = GetLocalVersion();
+
+                // 3. Compare
+                if (localVersion >= remoteVersion)
+                {
+                    UpdateStatus("Cliente actualizado.", 100);
+                    await Task.Delay(1000);
+                    HideUI();
+                    return;
+                }
+
+                UpdateStatus($"Nueva versión detectada ({localVersion} -> {remoteVersion})...", 5);
+
+                // 4. Download Manifest
+                string manifestJson = await DownloadString(MANIFEST_FILE);
+                if (string.IsNullOrEmpty(manifestJson))
+                {
+                    UpdateStatus("Error descargando lista de archivos.", 0);
+                    await Task.Delay(2000);
+                    HideUI();
+                    return;
+                }
+
+                List<ManifestEntry> remoteFiles;
+                try
+                {
+                    remoteFiles = JsonSerializer.Deserialize<List<ManifestEntry>>(manifestJson);
+                }
+                catch
+                {
+                    remoteFiles = new List<ManifestEntry>();
+                }
+
+                if (remoteFiles == null || remoteFiles.Count == 0)
+                {
+                    UpdateStatus("Lista de archivos vacía.", 100);
+                    SetLocalVersion(remoteVersion); // Assume updated if empty? Or error.
+                    await Task.Delay(1000);
+                    HideUI();
+                    return;
+                }
+
+                // 5. Verify Files
+                var filesToUpdate = new List<ManifestEntry>();
+                int checkedCount = 0;
+                
+                await Task.Run(() =>
+                {
+                    foreach (var entry in remoteFiles)
                     {
                         checkedCount++;
-                        // Report checking progress if it takes long (e.g. cold start)
-                        if (totalToCheck > 100 && checkedCount % 10 == 0)
+                        if (checkedCount % 5 == 0)
                         {
-                            UpdateStatus($"Verificando archivos ({checkedCount}/{totalToCheck})...", (double)checkedCount/totalToCheck * 50); // First 50% is checking
+                            UpdateStatus($"Verificando archivos ({checkedCount}/{remoteFiles.Count})...", 
+                                5 + ((double)checkedCount / remoteFiles.Count * 20)); // 5% -> 25%
                         }
 
-                        if (NeedsUpdate(file))
+                        if (NeedsUpdate(entry))
                         {
-                            filesToUpdate.Add(file);
+                            filesToUpdate.Add(entry);
                         }
                     }
                 });
 
                 if (filesToUpdate.Count == 0)
                 {
-                    UpdateStatus("Cliente actualizado.", 100);
-                    SaveCache(); // Save any new hashes computed during check
-                    await Task.Delay(500);
+                    UpdateStatus("Archivos verificados. Actualizando versión...", 100);
+                    SetLocalVersion(remoteVersion);
+                    await Task.Delay(1000);
                     HideUI();
                     return;
                 }
 
-                // Download Phase
+                // 6. Download Updates
                 int total = filesToUpdate.Count;
                 int current = 0;
+                bool selfUpdate = false;
 
                 foreach (var file in filesToUpdate)
                 {
                     current++;
-                    double progress = 50 + ((double)current / total * 50); // Second 50% is downloading
-                    string cleanDisplayPath = CleanPath(file.path);
-                    UpdateStatus($"Descargando ({current}/{total}): {cleanDisplayPath}", progress);
+                    double progress = 25 + ((double)current / total * 75); // 25% -> 100%
+                    UpdateStatus($"Descargando ({current}/{total}): {file.Path}", progress);
 
                     await DownloadFile(file);
-                    
-                    // Update cache for the new file immediately
-                    string cleanPath = CleanPath(file.path);
-                    string localPath = Path.Combine(_basePath, cleanPath.Replace("/", "\\"));
-                    
-                    if (File.Exists(localPath))
+
+                    if (file.Path.EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase))
                     {
-                        var info = new FileInfo(localPath);
-                        _fileCache[file.path] = new FileCacheEntry 
-                        { 
-                            LastWriteTime = info.LastWriteTimeUtc.Ticks,
-                            Hash = file.sha // We trust the downloaded SHA matches
-                        };
+                        selfUpdate = true;
                     }
                 }
 
-                SaveCache(); // Final save
+                // 7. Finish
+                SetLocalVersion(remoteVersion);
                 UpdateStatus("Actualización completada.", 100);
                 await Task.Delay(1000);
-                
-                // Check if we updated the launcher itself
-                if (filesToUpdate.Any(f => CleanPath(f.path).EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase)))
+
+                if (selfUpdate)
                 {
                     PerformSelfUpdateRestart();
                 }
@@ -144,6 +185,7 @@ namespace HelbreathLauncher
                 {
                     HideUI();
                 }
+
             }
             catch (Exception ex)
             {
@@ -153,106 +195,70 @@ namespace HelbreathLauncher
             }
         }
 
-        private bool NeedsUpdate(GitHubFile file)
-        {
-            string cleanPath = CleanPath(file.path);
-            string localPath = Path.Combine(_basePath, cleanPath.Replace("/", "\\"));
-            if (!File.Exists(localPath)) return true;
-
-            FileInfo info = new FileInfo(localPath);
-            
-            // Check Cache first
-            if (_fileCache.TryGetValue(file.path, out var cachedEntry))
-            {
-                // Verify timestamp has not changed
-                if (info.LastWriteTimeUtc.Ticks == cachedEntry.LastWriteTime)
-                {
-                    // Timestamp matches, we trust the cached hash
-                    return cachedEntry.Hash != file.sha;
-                }
-            }
-
-            // Cache miss or modified file: Compute real SHA1
-            // This is the "slow" part, but only happens once or on modified files
-            string currentHash = ComputeGitSha1(localPath);
-
-            // Update cache memory (will be saved later)
-            _fileCache[file.path] = new FileCacheEntry 
-            { 
-                LastWriteTime = info.LastWriteTimeUtc.Ticks, 
-                Hash = currentHash 
-            };
-
-            return currentHash != file.sha;
-        }
-
-        private string ComputeGitSha1(string filePath)
+        private async Task<string> DownloadString(string relativeUrl)
         {
             try
             {
-                byte[] content = File.ReadAllBytes(filePath);
-                
-                // Git header: "blob {size}\0"
-                string header = $"blob {content.Length}\0";
-                byte[] headerBytes = Encoding.ASCII.GetBytes(header);
+                // Cache busting
+                string url = BASE_URL + relativeUrl + "?t=" + DateTime.Now.Ticks;
+                return await _httpClient.GetStringAsync(url);
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"Failed to download {relativeUrl}: {ex.Message}");
+                return null;
+            }
+        }
 
-                // Combine header + content
-                byte[] combined = new byte[headerBytes.Length + content.Length];
-                Buffer.BlockCopy(headerBytes, 0, combined, 0, headerBytes.Length);
-                Buffer.BlockCopy(content, 0, combined, headerBytes.Length, content.Length);
+        private bool NeedsUpdate(ManifestEntry entry)
+        {
+            string localPath = Path.Combine(_basePath, entry.Path.Replace("/", "\\"));
+            
+            if (!File.Exists(localPath)) return true;
 
-                using (var sha1 = SHA1.Create())
+            // Size check first (fast)
+            FileInfo info = new FileInfo(localPath);
+            if (info.Length != entry.Size) return true;
+
+            // Hash check (slower but accurate)
+            // Only strictly needed if size matches but content changed. 
+            // For now, let's assume if size matches it's OK to save time, 
+            // OR fully check hash if you want 100% safety.
+            // Let's do Hash check to be safe.
+            string localHash = ComputeSha256(localPath);
+            return !string.Equals(localHash, entry.Hash, StringComparison.OrdinalIgnoreCase);
+        }
+
+        private string ComputeSha256(string filePath)
+        {
+            try
+            {
+                using (var stream = File.OpenRead(filePath))
+                using (var sha = SHA256.Create())
                 {
-                    byte[] hashBytes = sha1.ComputeHash(combined);
-                    return BitConverter.ToString(hashBytes).Replace("-", "").ToLowerInvariant();
+                    byte[] hash = sha.ComputeHash(stream);
+                    return BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant();
                 }
             }
             catch
             {
-                return ""; // Error reading file -> Force update
+                return "";
             }
         }
 
-        private Dictionary<string, FileCacheEntry> LoadCache()
+        private async Task DownloadFile(ManifestEntry entry)
         {
-            try
-            {
-                string cachePath = Path.Combine(_basePath, CACHE_FILE);
-                if (File.Exists(cachePath))
-                {
-                    string json = File.ReadAllText(cachePath);
-                    var cache = JsonSerializer.Deserialize<Dictionary<string, FileCacheEntry>>(json);
-                    return cache ?? new Dictionary<string, FileCacheEntry>();
-                }
-            }
-            catch { /* Ignore corrupted cache */ }
-            return new Dictionary<string, FileCacheEntry>();
-        }
-
-        private void SaveCache()
-        {
-            try
-            {
-                string cachePath = Path.Combine(_basePath, CACHE_FILE);
-                string json = JsonSerializer.Serialize(_fileCache);
-                File.WriteAllText(cachePath, json);
-            }
-            catch { /* Ignore save error */ }
-        }
-
-        private async Task DownloadFile(GitHubFile file)
-        {
-            string cleanPath = CleanPath(file.path);
-            string localPath = Path.Combine(_basePath, cleanPath.Replace("/", "\\"));
-            string rawUrl = RAW_BASE_URL + file.path; // RAW URL needs full path
+            string localPath = Path.Combine(_basePath, entry.Path.Replace("/", "\\"));
+            string url = BASE_URL + entry.Path; // Raw file URL
 
             string dir = Path.GetDirectoryName(localPath);
             if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
 
-            bool isSelfUpdate = cleanPath.EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase);
+            // Handle Self-Update specially
+            bool isSelfUpdate = entry.Path.EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase);
             if (isSelfUpdate) localPath += ".tmp";
 
-            using (var response = await _httpClient.GetAsync(rawUrl))
+            using (var response = await _httpClient.GetAsync(url))
             {
                 response.EnsureSuccessStatusCode();
                 using (var fs = new FileStream(localPath, FileMode.Create, FileAccess.Write, FileShare.None))
@@ -260,14 +266,33 @@ namespace HelbreathLauncher
                     await response.Content.CopyToAsync(fs);
                 }
             }
-            
-            // Fix timestamp
-            if (!isSelfUpdate)
-            {
-                 File.SetLastWriteTimeUtc(localPath, DateTime.UtcNow);
-            }
         }
-        
+
+        private int GetLocalVersion()
+        {
+            string path = Path.Combine(_basePath, LOCAL_VERSION_FILE);
+            if (File.Exists(path))
+            {
+                try
+                {
+                    string txt = File.ReadAllText(path);
+                    if (int.TryParse(txt.Trim(), out int v)) return v;
+                }
+                catch { }
+            }
+            return 0; // Default if no file
+        }
+
+        private void SetLocalVersion(int version)
+        {
+            try
+            {
+                string path = Path.Combine(_basePath, LOCAL_VERSION_FILE);
+                File.WriteAllText(path, version.ToString());
+            }
+            catch { }
+        }
+
         private void PerformSelfUpdateRestart()
         {
             string currentExe = Process.GetCurrentProcess().MainModule.FileName;
@@ -276,62 +301,23 @@ namespace HelbreathLauncher
 
             try
             {
+                // We leave the logic to the OS/Launcher restart.
+                // Simple atomic move if possible.
                 if (File.Exists(oldExe)) File.Delete(oldExe);
+                
                 if (File.Exists(newExe))
                 {
                     File.Move(currentExe, oldExe);
                     File.Move(newExe, currentExe);
-
-                    MessageBox.Show("Actualización recibida. Reiniciando...", "Helbreath Update", MessageBoxButton.OK, MessageBoxImage.Information);
-
+                    
+                    MessageBox.Show("Actualización de Launcher completada. Reiniciando...", "Helbreath", MessageBoxButton.OK, MessageBoxImage.Information);
                     Process.Start(currentExe);
                     Application.Current.Shutdown();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error actualizando Launcher: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-            }
-        }
-
-        // Helpers
-        private string CleanPath(string repoPath)
-        {
-            // If the repo path starts with "Helbreath/", we strip it because 
-            // the Launcher is running INSIDE that folder.
-            if (repoPath.StartsWith("Helbreath/", StringComparison.OrdinalIgnoreCase))
-            {
-                return repoPath.Substring("Helbreath/".Length);
-            }
-            return repoPath;
-        }
-
-        private bool IsTargetFile(string path)
-        {
-            string cleanPath = CleanPath(path);
-            cleanPath = cleanPath.Replace("/", "\\");
-            
-            string fileName = Path.GetFileName(cleanPath);
-            if (TARGET_FILES.Contains(fileName)) return true;
-            
-            string[] parts = cleanPath.Split('\\');
-            if (parts.Length > 0 && TARGET_FOLDERS.Contains(parts[0])) return true;
-            
-            return false;
-        }
-
-        private async Task<List<GitHubFile>> GetGitHubFiles()
-        {
-            try
-            {
-                string json = await _httpClient.GetStringAsync(API_TREE_URL);
-                var treeResponse = JsonSerializer.Deserialize<GitHubTreeResponse>(json);
-                return treeResponse?.tree;
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine("GitHub API Error: " + ex.Message);
-                return null;
+                MessageBox.Show($"Error al actualizar Launcher (Permisos?): {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -359,22 +345,10 @@ namespace HelbreathLauncher
         }
     }
 
-    public class GitHubTreeResponse
+    public class ManifestEntry
     {
-        public List<GitHubFile> tree { get; set; }
-    }
-
-    public class GitHubFile
-    {
-        public string path { get; set; }
-        public string type { get; set; }
-        public string sha { get; set; }
-        public long size { get; set; }
-    }
-    
-    public class FileCacheEntry
-    {
-        public long LastWriteTime { get; set; }
-        public string Hash { get; set; }
+        public string Path { get; set; }
+        public string Hash { get; set; } // SHA256
+        public long Size { get; set; }
     }
 }
