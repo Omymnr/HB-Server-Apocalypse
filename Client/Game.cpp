@@ -228,6 +228,7 @@ CGame::CGame() {
   m_iItemDropCnt = 0;
   m_bItemDrop = false;
   m_bIsSpecial = false;
+  m_bConfigSet = false;
   m_cGameMode = DEF_GAMEMODE_ONLOADING;
   m_cWhisperIndex = DEF_MAXWHISPERMSG;
   m_cGameModeCount = 0;
@@ -56921,4 +56922,13 @@ void CGame::DlgBoxClick_RepairAll(short msX, short msY) {
           (msY >= sY + DEF_BTNPOSY) && (msY <= sY + DEF_BTNPOSY + DEF_BTNSZY))
         DisableDialogBox(52);
     }
+}
+
+void CGame::SetServerConfig(char *ip, int logPort, int gamePort, int mode) {
+  ZeroMemory(m_cLogServerAddr, sizeof(m_cLogServerAddr));
+  strcpy(m_cLogServerAddr, ip);
+  m_iLogServerPort = logPort;
+  m_iGameServerPort = gamePort;
+  m_iGameServerMode = mode;
+  m_bConfigSet = true;
 }

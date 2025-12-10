@@ -1,6 +1,6 @@
  Game
 
- Timestamp is 69390444 (Wed Dec 10 06:25:24 2025)
+ Timestamp is 69395ac0 (Wed Dec 10 12:34:24 2025)
 
  Preferred load address is 00400000
 
@@ -3763,8 +3763,8 @@
  0002:0000f2e0       ??_7XSocket@@6B@           004d12e0     XSocket.obj
  0002:0000f2e4       ??_C@_0BM@LDPIDACN@DirectSoundCreate?5error?4?4?4?6@ 004d12e4     YWSound.obj
  0002:0000f304       ??_7YWSound@@6B@           004d1304     YWSound.obj
- 0002:0000f308       __real@00000000            004d1308     Game.obj
- 0002:0000f30c       __real@3f800000            004d130c     Game.obj
+ 0002:0000f308       __real@00000000            004d1308     SpriteBatcher.obj
+ 0002:0000f30c       __real@3f800000            004d130c     SpriteBatcher.obj
  0002:0000f310       __real@3fd0000000000000    004d1310     DXC_ddraw.obj
  0002:0000f318       __real@3fd554c980000000    004d1318     Misc.obj
  0002:0000f320       __real@3fe0000000000000    004d1320     DXC_ddraw.obj

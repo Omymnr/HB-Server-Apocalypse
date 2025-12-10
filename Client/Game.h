@@ -729,6 +729,7 @@ public:
 	bool _ItemDropHistory(char * ItemName);
 	CGame();
 	virtual ~CGame();
+	void SetServerConfig(char *ip, int logPort, int gamePort, int mode);
 
 	struct {
 		short sX;
@@ -752,7 +753,7 @@ public:
 		char  cStr[32], cStr2[32], cStr3[32], cStr4[32];
 		char  cMode;
 		bool  bIsScrollSelected;
-	} m_stDialogBoxInfo[61];	 // Snoopy passé à 61 (origine 41, Alastor 60), j'ai mis +20 car plus pratique.
+	} m_stDialogBoxInfo[61];	 // Snoopy passï¿½ ï¿½ 61 (origine 41, Alastor 60), j'ai mis +20 car plus pratique.
 	char m_cDialogBoxOrder[61];
 	int m_bIsDialogEnabled[61];//was bool
 //Snoopy=>>>>>>>>>>>>>>>>>>>>>
@@ -1110,6 +1111,7 @@ public:
 	int m_iHeldenianElvineFlags;
 	bool m_bIllusionMVT;
 	int m_iGameServerMode;
+	bool m_bConfigSet;
 	bool m_bIsXmas;
 	bool m_bUsingSlate;
 
