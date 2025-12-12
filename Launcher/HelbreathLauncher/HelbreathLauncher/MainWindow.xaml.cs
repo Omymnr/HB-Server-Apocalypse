@@ -18,7 +18,7 @@ namespace HelbreathLauncher
         // ==========================================
         // CONFIGURACIÓN DE TU SERVIDOR
         // ==========================================
-        private const string RELEASE_IP = "89.7.69.125"; // Release Server (Public IP)
+        private const string RELEASE_IP = "158.179.221.34"; // Release Server (Linux VM Public IP)
         private const string TEST_IP = "192.168.0.15";   // Test Server (LAN IP)
 
         private const int GAME_PORT = 2500;   // Puerto para jugar
