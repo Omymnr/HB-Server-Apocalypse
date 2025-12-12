@@ -324,8 +324,17 @@ namespace HelbreathLauncher
 
         private bool NeedsUpdate(ManifestEntry entry)
         {
-            // Fix: Use CleanPath
+            // NEVER update the Launcher itself - it's a self-contained single-file executable
             string cleanPath = CleanPath(entry.Path);
+            if (cleanPath.EndsWith("HelbreathLauncher.exe", StringComparison.OrdinalIgnoreCase) ||
+                cleanPath.EndsWith("HelbreathLauncher.dll", StringComparison.OrdinalIgnoreCase) ||
+                cleanPath.EndsWith("HelbreathLauncher.pdb", StringComparison.OrdinalIgnoreCase) ||
+                cleanPath.EndsWith("HelbreathLauncher.deps.json", StringComparison.OrdinalIgnoreCase) ||
+                cleanPath.EndsWith("HelbreathLauncher.runtimeconfig.json", StringComparison.OrdinalIgnoreCase))
+            {
+                return false; // Always skip Launcher files
+            }
+            
             string localPath = Path.Combine(_basePath, cleanPath.Replace("/", "\\"));
             
             if (!File.Exists(localPath)) return true;

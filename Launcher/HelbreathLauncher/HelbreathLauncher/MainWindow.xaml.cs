@@ -21,7 +21,8 @@ namespace HelbreathLauncher
         private const string RELEASE_IP = "158.179.221.34"; // Release Server (Linux VM Public IP)
         private const string TEST_IP = "192.168.0.15";   // Test Server (LAN IP)
 
-        private const int GAME_PORT = 2500;   // Puerto para jugar
+        private const int STATUS_PORT = 9907;  // Puerto para verificar estado (GameServer)
+        private const int LOGIN_PORT = 2500;   // Puerto para iniciar sesión (LoginServer)
         private const int WEB_PORT = 8888;    // Puerto para registrar cuentas (Web)
 
         private string currentIp = RELEASE_IP;
@@ -109,7 +110,7 @@ namespace HelbreathLauncher
             {
                 using (var client = new TcpClient())
                 {
-                    var connectTask = client.ConnectAsync(currentIp, GAME_PORT);
+                    var connectTask = client.ConnectAsync(currentIp, STATUS_PORT);
                     var timeoutTask = Task.Delay(1500); // 1.5 segundos de espera máxima
 
                     if (await Task.WhenAny(connectTask, timeoutTask) == connectTask && client.Connected)
@@ -148,9 +149,9 @@ namespace HelbreathLauncher
 
             try
             {
-                // 1. Configurar argumentos de lanzamiento (IP y Puerto)
+                // 1. Configurar argumentos de lanzamiento (IP y Puerto de LOGIN)
                 ProcessStartInfo psi = new ProcessStartInfo();
-                psi.Arguments = $"{currentIp} {GAME_PORT}";
+                psi.Arguments = $"{currentIp} {LOGIN_PORT}";
 
                 // 2. Ejecutar el juego
                 // MessageBox.Show($"Launching Game.exe from: {gameExePath} with args: {psi.Arguments}"); // Debug visual removed
